@@ -193,7 +193,7 @@ public class ChangePwdController {
 - 비밀번호 변경 페이지 생성
 - modelAttribute<br>
   양식을 지원하는 모델 개체의 이름을 지정하는 키
-- <form:errors /><br>
+- form:errors<br>
   에러 발생시 보여줄 메시지 생성
 
 
@@ -233,7 +233,7 @@ notMatching.currentPassword=비밀번호를 잘못 입력했습니다.
 ```
 
 - message에 전달해줄 메시지 내용들 추가
-- <spring:message code="코드명" /> <br>
+- spring:message code="코드명" <br>
   코드명=[메시지 내용]
 
 ### 마무리
