@@ -4,31 +4,31 @@ author: sunghomong
 date: 2023-09-24 22:00:00 +0800
 categories: [TIL,TIL_Spring]
 tags: [TIL,Daily,Spring,loginService]
-comments : true
 ---
 
-# 스프링을 이용한 비밀번호 변경 기능 만들어보기
+# 스프링을 이용한 비밀번호 변경 기능 만들어보기 
 <br>
 
 오늘은 스프링을 이용한 비밀번호 변경 기능에 대해서 알아보자!!<br>
-변경 기능에 깊숙히 들어가기 전 여기 [링크](https://github.com/sunghomong/TIL/tree/master/Spring/ex08) 를 참고하시면 하시면 좋을 거 같습니다.<br><br>
+변경 기능에 깊숙히 들어가기 전 여기 [링크](https://github.com/sunghomong/TIL/tree/master/Spring/ex00) 를 참고하시면 하시면 좋을 거 같습니다.<br><br>
 일단 변경 기능에 대한 메서드들을 살펴보자!
 
 #### 로그인 변경 기능에 필요한 준비
 
-- vo
+- [vo](#vo)
   + ChangePwdCommand
-- service
+- [service](#service)
   + ChangePasswordService
-- validator
+- [validator](#validator)
   + ChangePwdCommandValidator
-- controllor
+- [controllor](#controllor)
   + ChangePwdController
-- jsp
+- [jsp](#jsp)
   + changePwdForm
   + changedPwd
-- Properties
-- xml
+- [Properties](#properties)
+  + label.properties
+
 
 ## VO
 
@@ -44,7 +44,6 @@ public class ChangePwdCommand {
 ```
 
 - lombok을 이용한 get,set 자동 생성
-
 
 ## service
 
@@ -219,7 +218,7 @@ public class ChangePwdController {
 
 ## Properties
 
-#### label.properties 추가
+#### label.properties
 
 ```txt
 # 비밀번호 변경

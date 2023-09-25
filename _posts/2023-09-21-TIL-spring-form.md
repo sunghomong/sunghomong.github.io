@@ -10,23 +10,24 @@ tags: [TIL,Daily,Spring,loginService]
 <br>
 오늘은 스프링을 이용한 로그인, 비밀번호 변경 기능에 대한 수업을 들었다.<br>
 배운것에 대한 정리를 해볼려고한다.<br>
+글을 읽기전 [참고 파일](https://github.com/sunghomong/TIL/tree/master/Spring/ex00)을 참고해주시면 좋을 거 같아요!
 
 #### 로그인 기능 처리를 위한 코드 준비
 
-- vo
+- [vo](#vo)
   + AuthInfo
   + LoginCommand
-- service
+- [service](#service)
   + AuthService
-- validator
+- [validator](#validator)
   + LoginCommandValidator
-- controllor
+- [controllor](#controllor)
   + LoginController
-- jsp
+- [jsp](#jsp)
   + loginForm
   + loginSuccess
-- Properties
-- xml
+- [Properties](#properties)
+- [xml](#xml)
 
 ## VO
 
