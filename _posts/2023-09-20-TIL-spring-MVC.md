@@ -4,6 +4,7 @@ author: sunghomong
 date: 2023-09-20 12:34:00 +0800
 categories: [TIL,TIL_Spring]
 tags: [TIL,Daily,Spring,]
+comments: true
 ---
 
 # TIL(2023-09-20)-Spring

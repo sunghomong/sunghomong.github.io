@@ -4,6 +4,7 @@ author: sunghomong
 date: 2023-09-19 00:34:00 +0800
 categories: [Spring, Tutorial]
 tags: [Spring,Tutorial]
+comments: true
 ---
 
 이 글은 자바 스프링의 시작을 위한 프로그램 다운을 알려주는 글입니다.   
@@ -21,7 +22,7 @@ tags: [Spring,Tutorial]
 
 1. 이클립스 화면의 help 메뉴에서 Eclipse marketplace를 선택한다.
    <br><br><br>
-   ![Eclipse marketplace](../assets/img/post_images/start-java-spring01.png){: width="300" height="500" }
+   ![Eclipse marketplace](../assets/img/post_images/start-java-spring01.png)
    <br><br>
 2. 선택한 후 marketplace에서 spring 툴즈 다운로드
    <br><br>
