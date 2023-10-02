@@ -2,8 +2,8 @@
 title: (프로그래머스) 자바 12937번 '짝수와 홀수' 문제 풀이 (LV.1)
 author: sunghomong
 date: 2023-09-24 22:00:00 +0800
-categories: [CodingTest,JAVA]
-tags: [CodingTest,JAVA]
+categories: [CodingTest,CodingTest_JAVA]
+tags: [CodingTest,CodingTest_JAVA]
 tok: true
 comments: true
 ---
