@@ -39,7 +39,7 @@ https://start.spring.io/ 에 들어가서 Spring Initializr를 통해 필요한 
 ## static or templates
 
 - 폴더 중 src/main/resources에 보면 static 과 templates가 보일 것이다.
-  ![Alt text](image-2.png)
+  ![image](https://ibb.co/Wnn6pcm)
 
 - templates : 스프링이 계속 버전이 올라가면서 view 엔진이 JSP 대신 thymeleaf로 바뀌었습니다.templates폴더는 thymeleaf의 파일들을 두는 곳입니다.
 - static : content들을 두는 곳입니다. 보통 css나 js를 두곤합니다./static 을 이용해서 웹에서 호출할 수도 있습니다.
