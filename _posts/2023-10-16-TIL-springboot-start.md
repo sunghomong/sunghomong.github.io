@@ -39,7 +39,7 @@ https://start.spring.io/ 에 들어가서 Spring Initializr를 통해 필요한 
 ## static or templates
 
 - 폴더 중 src/main/resources에 보면 static 과 templates가 보일 것이다.
-  ![image](https://ibb.co/Wnn6pcm)
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/H77Vpr5/image-2.png" alt="image-2"></a>
 
 - templates : 스프링이 계속 버전이 올라가면서 view 엔진이 JSP 대신 thymeleaf로 바뀌었습니다.templates폴더는 thymeleaf의 파일들을 두는 곳입니다.
 - static : content들을 두는 곳입니다. 보통 css나 js를 두곤합니다./static 을 이용해서 웹에서 호출할 수도 있습니다.
@@ -65,7 +65,7 @@ Hello World!!
 
 - 페이지를 만들었다면 서버를 실행 시켜서 정상적으로 나오는지 확인해보자!
 - 아래의 이미지와 같이 HelloSpringApplication 우클릭 후 서버를 run 해주면 필요한 라이브러르들을 자동으로 다운 받고 서버가 실행될 것 이다.
-![image.png](https://github.com/sunghomong/sunghomong.github.io/blob/main/_posts/image.png)
+<a href="https://ibb.co/YbLsZ8G"><img src="https://i.ibb.co/Pt6HQ48/image.png" alt="image" border="0"></a>
 - 이후 서버가 정상적으로 열린다면 localhost:8080(당신이 설정한 호스트 주소)를 검색창에 검색한다면 정상적으로 ``Hello World``가 출력될 것이다.
 
 ## 마무리
