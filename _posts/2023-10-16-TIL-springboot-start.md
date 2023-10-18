@@ -64,7 +64,7 @@ Hello World!!
 
 - 페이지를 만들었다면 서버를 실행 시켜서 정상적으로 나오는지 확인해보자!
 - 아래의 이미지와 같이 HelloSpringApplication 우클릭 후 서버를 run 해주면 필요한 라이브러르들을 자동으로 다운 받고 서버가 실행될 것 이다.
-<a href="https://ibb.co/YbLsZ8G"><img src="https://i.ibb.co/Pt6HQ48/image.png" alt="image" border="0"></a>
+<img src="https://i.ibb.co/Pt6HQ48/image.png" alt="image" border="0">
 - 이후 서버가 정상적으로 열린다면 localhost:8080(당신이 설정한 호스트 주소)를 검색창에 검색한다면 정상적으로 ``Hello World``가 출력될 것이다.
 
 ## 마무리
