@@ -1,7 +1,7 @@
 ---
 title: (SpringBoot) DispatcherServlet 오류 문제 해결 
 author: sunghomong
-date: 2023-10-18 22:00:00 +0800
+date: 2023-10-18 16:00:00 +0800
 categories: [문제 해결 능력,SpringBoot_resolveProblem]
 tags: [resolveProblem,SpringBoot]
 ---
