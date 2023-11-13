@@ -13,13 +13,6 @@ order: 4
 <h1 style="color: #4a779c;"> <center> About Me </center> <br> </h1>
 <hr style="color: white;">
 
-<center> 
-
-```txt
-반갑습니다, 저는 조성호입니다.
-``` 
-
-</center><br>
 
 |||
 |--:|:--|
@@ -117,9 +110,10 @@ order: 4
 
 <br>
 
-<h1 style="color: #4a779c;"> <center>skills</center> <br> </h1>
+<h1 style="color: #4a779c;"> <center>skills<center><br> </h1>
 
 <hr style="color: white;"><br>
+
 제가 배우고 사용했던 기술들 입니다.
 
 ## Language
