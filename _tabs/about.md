@@ -11,9 +11,8 @@ order: 4
 ``소통``을 중심으로 다가가는 개발자가 되고 싶습니다. <br><br>
 
 
-<center> <h1 style="color: #4a779c;">About Me </h1> </center>
-<hr style="color: white;">
-
+<h1 style="color: #4a779c; text-align: center;"> About Me </h1>
+<br>
 
 |||
 |--:|:--|
@@ -31,11 +30,12 @@ order: 4
 
 <br>
 
-<center> <h1 style="color: #4a779c;">Experiences </h1> </center>
+<h1 style="color: #4a779c; text-align: center;"> Experiences </h1>
+
+<br>
 
 ## Diary
 
-<hr style="color: white;">
 
 |||
 |--:|:--|
@@ -57,7 +57,6 @@ order: 4
 
 ## Project <br>
 
-<hr style="color: white;"> <br>
 
 |||
 |--:|:--|
@@ -80,9 +79,10 @@ order: 4
 
 <br>
 
-<center> <h1 style="color: #4a779c;">Education </h1> </center>
-<hr style="color: white;"><br>
 
+<h1 style="color: #4a779c; text-align: center;"> Education </h1>
+
+<br>
 
 |||
 |--:|:--|
@@ -112,12 +112,9 @@ order: 4
 
 <br>
 
-<center> <h1 style="color: #4a779c;">skills </h1> </center>
+<h1 style="color: #4a779c; text-align: center;"> skills </h1>
 
-
-<hr style="color: white;"><br>
-
-
+<br>
 제가 배우고 사용했던 기술들 입니다.
 
 ## Language
