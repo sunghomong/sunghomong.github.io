@@ -10,12 +10,14 @@ order: 4
 
 ``소통``을 중심으로 다가가는 개발자가 되고 싶습니다. <br><br>
 
-## <center> About Me </center> <br>
-<hr>
+<h1 style="color: #4a779c;"> <center> About Me </center> <br> </h1>
+<hr style="color: white;">
 
 <center> 
 
-``반갑습니다, 저는 조성호입니다.`` 
+```txt
+반갑습니다, 저는 조성호입니다.
+``` 
 
 </center><br>
 
@@ -27,19 +29,19 @@ order: 4
 
 ### introduce
 
-
-
-> 안녕하세요 신입 개발자 조성호라고 합니다.<br>
-올바른 소통으로서 더 나은 서비스를 제공하는 개발자가 되고 싶습니다. <br>
+```
+안녕하세요 신입 개발자 조성호라고 합니다.
+올바른 소통으로서 더 나은 서비스를 제공하는 개발자가 되고 싶습니다.
 더 나아가 그러한 서비스를 위해 자신을 먼저 개발하는 개발자가 되고 싶습니다. 
+```
 
-<br><br>
+<br>
 
-# <center>Experiences</center><br>
+<h1 style="color: #4a779c;"> <center>Experiences</center><br> </h1>
 
 ## Diary
 
-<hr>
+<hr style="color: white;">
 
 |||
 |--:|:--|
@@ -59,9 +61,9 @@ order: 4
 
 <br>
 
-## Project <br><br>
+## Project <br>
 
-<hr>
+<hr style="color: white;"> <br>
 
 |||
 |--:|:--|
@@ -82,10 +84,10 @@ order: 4
 - 1:1 문의 사항 관리자 댓글 서비스 구현
 - 일정 관리    [https://www.notion.so](https://www.notion.so/7743ef79a10f49899ababf96c40c3915?v=7634441cbd0a45bdaaf5e6ca66a28701&pvs=4)
 
-<br><br>
+<br>
 
-# <center>Education<center><br>
-<hr><br>
+<h1 style="color: #4a779c;"> <center>Education<center><br> </h1>
+<hr style="color: white;"><br>
 
 |||
 |--:|:--|
@@ -113,9 +115,9 @@ order: 4
 - 1:1 문의 사항 관리자 댓글 서비스 구현
 - 일정 관리    [https://www.notion.so](https://www.notion.so/7743ef79a10f49899ababf96c40c3915?v=7634441cbd0a45bdaaf5e6ca66a28701&pvs=4)
 
-<br><br>
+<br>
 
-# <center>skills</center> <br>
+<h1 style="color: #4a779c;"> <center>skills</center> <br> </h1>
 <hr><br>
 제가 배우고 사용했던 기술들 입니다.
 
