@@ -1,5 +1,5 @@
 ---
-title: 팀 프로젝트 회고록 첫 웹 개발 프로젝트를 마치고...
+title: (팀 프로젝트 회고록) 첫 웹 개발 프로젝트를 마치고...
 author: sunghomong
 date: 2023-11-16 16:00:00 +0800
 categories: [Project,TeamProject]
