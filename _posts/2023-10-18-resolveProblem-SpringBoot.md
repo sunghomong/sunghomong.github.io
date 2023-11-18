@@ -11,7 +11,9 @@ tags: [resolveProblem,SpringBoot]
 ## nio-(host)-exec-1 o.a.c.c.C.Tomcat.localhost./ : Initializing Spring DispatcherServlet 'dispatcherServlet' 오류
 
 프로젝트 하는 도중 404 SpringBoot의 기본적인 메핑 문제에 계속 시달렸다... 나중에 또 이런 문제를 방지하기 위해서 기록을 해보려고 한다.
-<img src="https://i.ibb.co/8KNDVRz/spring-Boot-dispatcher-Servlet-problem1.png" alt="spring-Boot-dispatcher-Servlet-problem1">
+<br>
+
+<img src="https://i.ibb.co/7Wx54T3/2023-11-16-182629.png" alt="2023-11-16-182629">
 
 <img src="https://i.ibb.co/qYqCLVm/spring-Boot-dispatcher-Servlet-problem2.png" alt="spring-Boot-dispatcher-Servlet-problem2">
 
