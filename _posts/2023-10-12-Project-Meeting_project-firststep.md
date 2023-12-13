@@ -100,3 +100,7 @@ tags: [Project,meeting_site_project,Daily]
 기초안은 작성을 완료 했다. 처음이라 미흡한게 많은 것 같다 ㅜㅜ... 추후에 수정할 사항이 있으면 수정을 해야될 것 같다.
 
 현재 이 페이지도 project 하면서 중간중간 남기는 부분이라 미흡한 점이 많을 것 같다. 추후에 수정을 해야될 것 같다...!
+<br><br>
+
+[sunghomong 의 깃 허브](https://github.com/sunghomong) <br>
+[sunghomong 의 블로그](https://sunghomong.github.io/)
