@@ -39,9 +39,10 @@ node.js 설치하는 이유는 소프트웨어 플랫폼으로서 리액트를 H
 ``` bash
 npx create-react-app (프로젝트명)
 ```
+- 위의 프로젝트명은 본인이 원하는 프로젝트명을 작성하면 된다. 위의 명령어는 `node.js를 활용`해 react에 필요한 라이브러리를 패키지 자체로 다운을 받아주는 역할을 한다. 생성이 완료됐다면 npm 관련된 명령어들이 나오면서 완료됐다는 걸 확인할 수 있을 것이다.
+
 <img src="https://i.ibb.co/47jM3xG/react-problem-resolve.png" alt="react-problem-resolve">
 
-- 위의 프로젝트명은 본인이 원하는 프로젝트명을 작성하면 된다. 생성이 완료됐다면 npm 관련된 명령어들이 나오면서 완료됐다는 걸 확인할 수 있을 것이다.
 4. 해당 폴더 vs code 열고 난 후 터미널에 `npm start` 입력
 
 <img src="https://i.ibb.co/4Pz9JRk/react-start-main.png" alt="react-start-main">
