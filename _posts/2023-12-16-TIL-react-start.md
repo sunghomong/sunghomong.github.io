@@ -1,5 +1,5 @@
 ---
-title: (TIL_React) 리엑트 설치부터 실행까지
+title: (TIL_React) 리액트 설치부터 실행까지
 author: sunghomong
 date: 2023-12-16 15:00:00 +0800
 categories: [TIL,TIL_React]
