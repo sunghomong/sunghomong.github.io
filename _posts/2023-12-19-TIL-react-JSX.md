@@ -78,7 +78,10 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h4 style={{color : 'red' , fontSize : '16px'}}>블로그</h4>
+        <h4 style={{color : 'red' , fontSize : '16px'}} >
+          블로그
+        </h4>
+        {/* style={{color : 'red' , fontSize : '16px'}} */}
       </div>
       <h4>블로그 글 제목</h4> 
     </div>
