@@ -18,7 +18,7 @@ tags: [TIL,Daily,React,JSX]
 
 ## className
 
-```js
+```jsx
 import logo from './logo.svg';
 import './App.css';
 
@@ -41,7 +41,7 @@ export default App;
 
 ## {변수명}
 
-```js
+```jsx
 import logo from './logo.svg';
 import './App.css';
 
@@ -69,7 +69,7 @@ export default App;
 
 ## style = { {이름:'값'} }
 
-```js
+```jsx
 import logo from './logo.svg';
 import './App.css';
 
@@ -78,7 +78,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h4 style = {{color : 'red' , fontSize : '16px'}}>블로그</h4>
+        <h4 style={{color : 'red' , fontSize : '16px'}}>블로그</h4>
       </div>
       <h4>블로그 글 제목</h4> 
     </div>
