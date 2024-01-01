@@ -1,7 +1,7 @@
 ---
 title: (TIL_React) 리액트에서 state를 사용하는 이유
 author: sunghomong
-date: 2023-12-19 15:00:00 +0800
+date: 2023-12-20 15:00:00 +0800
 categories: [TIL,TIL_React]
 tags: [TIL,Daily,React]
 ---
