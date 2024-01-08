@@ -58,7 +58,10 @@ tags: [GitHub,README]
 [capsule-render.vercel.app](https://capsule-render.vercel.app/) <br>
 [readme-typing-svg.demolab.com](https://readme-typing-svg.demolab.com/demo/) <br><br>
 이 두 개의 사이트에서 원하는 부분을 스타일 해서 코드를 복사해 가져올 수 있습니다. 저 같은 경우에는 이렇게 표현했습니다.<br><br>
-<img src="https://i.ibb.co/pQsJF2F/google-search-service3.png" alt="google-search-service3">
+
+![wave](https://capsule-render.vercel.app/api?type=waving&color=6994CDEE&text=&animation=twinkling&height=100)
+
+[![Typing](https://readme-typing-svg.demolab.com?font=Alkatra&weight=500&size=45&duration=4000&pause=3&color=6994CDEE&center=false&vCenter=false&multiline=true&repeat=true&width=1000&height=100&lines=Welcome+to+sunghomong's+GitHub!+👋)](https://git.io/typing-svg)
 
 ```html
 ![wave](https://capsule-render.vercel.app/api?type=waving&color=6994CDEE&text=&animation=twinkling&height=100)
