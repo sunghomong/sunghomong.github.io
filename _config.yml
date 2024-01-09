@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   개발자로서 자신의 기록을 해보려고 합니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://sunghomong.github.io/"
+url: "https://sunghomong.github.io"
 
 github:
   username: sunghomong # change to your github username
@@ -74,7 +74,7 @@ theme_mode: [dark] # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://sunghomong.github.io/
+img_cdn: https://sunghomong.github.io
 
 # the avatar on sidebar, support local or CORS resources
 avatar: assets/img/favicons/android-chrome-512x512.png
