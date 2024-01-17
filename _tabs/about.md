@@ -10,6 +10,11 @@ order: 4
 
 <h1 style="color: #4a779c; text-align: center;"> 👉 About Me 👈 </h1>
 
+<br>
+<img src="https://i.ibb.co/2tZXvJc/DSC05027-1.jpg" alt="DSC05027-1" style="display: block; margin: 0 auto; height:200px;">
+
+<br>
+
 
 <br>
 
@@ -17,7 +22,12 @@ order: 4
 
 <br>
 
+
 <center>
+
+**조성호**
+
+**Backend Developer**
 
 |||
 |--:|:--|
