@@ -10,10 +10,12 @@ order: 4
 
 <h1 style="color: #4a779c; text-align: center;"> 👉 About Me 👈 </h1>
 
+
+<br>
 <div style="text-align:center; max-height:200px;">
     <img src="https://i.ibb.co/ck3xPR0/DSC05027-2.jpg">
 </div>
-
+<br>
 
 <center>
 
