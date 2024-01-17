@@ -12,10 +12,10 @@ order: 4
 
 
 <br>
-<div style="text-align:center; max-height:200px;">
-    <img src="https://i.ibb.co/ck3xPR0/DSC05027-2.jpg">
-</div>
-<br><br>
+
+<img src="https://i.ibb.co/ck3xPR0/DSC05027-2.jpg" style="display: block; margin: 0 auto; height:200px;">
+
+<br>
 
 <center>
 
