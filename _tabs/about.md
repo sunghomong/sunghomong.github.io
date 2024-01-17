@@ -14,26 +14,24 @@ order: 4
 <img src="https://i.ibb.co/2tZXvJc/DSC05027-1.jpg" alt="DSC05027-1" style="display: block; margin: 0 auto; height:200px;">
 
 <br>
-
-
-<br>
-
-<img src="https://i.ibb.co/ck3xPR0/DSC05027-2.jpg" style="display: block; margin: 0 auto; height:200px;">
-
-<br>
-
+<p style ="text-align:center;">
+    <strong>
+        조성호
+    </strong>
+    <br><br>
+    <strong>
+        Backend Developer
+    </strong>
+</p>
 
 <center>
-
-**조성호**
-
-**Backend Developer**
 
 |||
 |--:|:--|
 |Contact|kidcojsh@gmail.com|
 |GitHub|[https://github.com/sunghomong](https://github.com/sunghomong)|
 |Blog| [https://sunghomong.github.io/](https://sunghomong.github.io/)|
+
 </center>
 
 
