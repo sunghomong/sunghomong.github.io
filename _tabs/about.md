@@ -10,9 +10,10 @@ order: 4
 
 <h1 style="color: #4a779c; text-align: center;"> 👉 About Me 👈 </h1>
 
-<div style="text-align:center; height:200px;">
+<div style="text-align:center;">
     <img src="https://i.ibb.co/2tZXvJc/DSC05027-1.jpg" style="height:200px;">
 </div>
+
 
 <center>
 
@@ -23,6 +24,7 @@ order: 4
 |Blog| [https://sunghomong.github.io/](https://sunghomong.github.io/)|
 
 </center>
+
 
 ### Introduce
 
