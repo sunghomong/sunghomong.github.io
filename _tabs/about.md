@@ -4,16 +4,28 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=6994CDEE&text=&animation=twinkling&height=100)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Alkatra&weight=500&size=45&duration=4000&pause=3&color=6994CDEE&center=false&vCenter=false&multiline=true&repeat=true&width=1000&height=100&lines=Welcome+to+sunghomong's+Blog!+👋)](https://git.io/typing-svg)
-
 # 조성호 (Cho Sung Ho) | 소통을 연구하는 개발자 😤
 
 <br>
 
 <h1 style="color: #4a779c; text-align: center;"> 👉 About Me 👈 </h1>
 <br>
+<table>
+  <tr>
+    <td max-width="500px" max-height="500px">
+      <img src="https://i.ibb.co/2tZXvJc/DSC05027-1.jpg" alt="DSC05027-1" >
+    </td>
+    <td>
+
+|||
+|--:|:--|
+|Contact|kidcojsh@gmail.com|
+|GitHub|[https://github.com/sunghomong](https://github.com/sunghomong)|
+|Blog| [https://sunghomong.github.io/](https://sunghomong.github.io/)| 
+
+    
+  </tr>
+</table>
 
 |||
 |--:|:--|
@@ -24,7 +36,9 @@ order: 4
 ### Introduce
 
 ```
-웹 서비스의 A-Z 까지 구현하는 창의적이고 협조적인 백엔드 개발자입니다. 비즈니스 성장에 기여하는것을 좋아합니다.좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다.
+웹 서비스의 A-Z 까지 구현하는 창의적이고 협조적인 백엔드 개발자입니다.
+비즈니스 성장에 기여하는것을 좋아합니다.
+좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다.
 ```
 
 <br>
@@ -173,8 +187,7 @@ order: 4
         <img src="https://img.shields.io/badge/ERD Cloud-gray?style=flat-square&logo=staruml&logoColor=white">
         <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white">
     </div>
-  </div><br>
-</div>
+</div><br>
 
 ## Communication
 
