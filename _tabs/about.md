@@ -11,19 +11,15 @@ order: 4
 <h1 style="color: #4a779c; text-align: center;"> 👉 About Me 👈 </h1>
 
 <br>
-<img src="https://i.ibb.co/2tZXvJc/DSC05027-1.jpg" alt="DSC05027-1" style="display: block; margin: 0 auto; height:200px;">
-
-<br>
-
-<p style ="text-align:center;">
-    <strong>
-        조성호
-    </strong>
-    <br><br>
-    <strong>
-        Backend Developer
-    </strong>
-</p>
+<div style="text-align: center;">
+    <img src="https://i.ibb.co/2tZXvJc/DSC05027-1.jpg" alt="DSC05027-1" style="display: block; margin: 0 auto; height:200px;">
+    <br>
+    <p>
+        <strong>조성호</strong>
+        <br><br>
+        <strong>Backend Developer</strong>
+    </p>
+</div>
 
 <center>
 
@@ -34,6 +30,7 @@ order: 4
 |Blog| [https://sunghomong.github.io/](https://sunghomong.github.io/)|
 
 </center>
+
 
 
 ### Introduce
