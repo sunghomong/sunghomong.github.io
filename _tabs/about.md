@@ -15,7 +15,7 @@ order: 4
 <div style="text-align:center; max-height:200px;">
     <img src="https://i.ibb.co/ck3xPR0/DSC05027-2.jpg">
 </div>
-<br>
+<br><br>
 
 <center>
 
@@ -24,7 +24,6 @@ order: 4
 |Contact|kidcojsh@gmail.com|
 |GitHub|[https://github.com/sunghomong](https://github.com/sunghomong)|
 |Blog| [https://sunghomong.github.io/](https://sunghomong.github.io/)|
-
 </center>
 
 
@@ -33,7 +32,8 @@ order: 4
 ```
 웹 서비스의 A-Z 까지 구현하는 창의적이고 협조적인 백엔드 개발자입니다.
 비즈니스 성장에 기여하는것을 좋아합니다.
-좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다.
+좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어
+나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다.
 ```
 
 <br>
