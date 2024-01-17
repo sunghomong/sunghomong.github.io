@@ -83,7 +83,7 @@ order: 4
 |period|2024.01~current (진행 중)|
 |title|Public Scedule|
 |OpenSource|준비 중|
-|Intro|개인 및 팀 일정 관리를 더욱 편리하게 제공하는 서비스|
+|Intro|개인 일정, 팀 간의 일정을 효율적으로 관리할 수 있는 스케쥴 웹 서비스|
 
 ### 📘 Public Scedule
 
