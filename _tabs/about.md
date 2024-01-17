@@ -9,29 +9,20 @@ order: 4
 <br>
 
 <h1 style="color: #4a779c; text-align: center;"> 👉 About Me 👈 </h1>
-<br>
-<table>
-  <tr>
-    <td max-width="500px" max-height="500px">
-      <img src="https://i.ibb.co/2tZXvJc/DSC05027-1.jpg" alt="DSC05027-1" >
-    </td>
-    <td>
 
-|||
-|--:|:--|
-|Contact|kidcojsh@gmail.com|
-|GitHub|[https://github.com/sunghomong](https://github.com/sunghomong)|
-|Blog| [https://sunghomong.github.io/](https://sunghomong.github.io/)| 
+<div style="text-align:center; height:200px;">
+    <img src="https://i.ibb.co/2tZXvJc/DSC05027-1.jpg">
+</div>
 
-    
-  </tr>
-</table>
+<center>
 
 |||
 |--:|:--|
 |Contact|kidcojsh@gmail.com|
 |GitHub|[https://github.com/sunghomong](https://github.com/sunghomong)|
 |Blog| [https://sunghomong.github.io/](https://sunghomong.github.io/)|
+
+</center>
 
 ### Introduce
 
