@@ -21,16 +21,22 @@ order: 4
     </p>
 </div>
 
-<center>
-
-|||
-|--:|:--|
-|Contact|kidcojsh@gmail.com|
-|GitHub|[https://github.com/sunghomong](https://github.com/sunghomong)|
-|Blog| [https://sunghomong.github.io/](https://sunghomong.github.io/)|
-
-</center>
-
+<div style="margin: 0 auto; text-align: center;">
+    <table style="margin: 0 auto;">
+        <tr>
+            <th>Contact</th>
+            <td>kidcojsh@gmail.com</td>
+        </tr>
+        <tr>
+            <th>GitHub</th>
+            <td><a href="https://github.com/sunghomong">https://github.com/sunghomong</a></td>
+        </tr>
+        <tr>
+            <th>Blog</th>
+            <td><a href="https://sunghomong.github.io/">https://sunghomong.github.io/</a></td>
+        </tr>
+    </table>
+</div>
 
 
 ### Introduce
