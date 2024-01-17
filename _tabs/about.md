@@ -21,23 +21,23 @@ order: 4
     </p>
 </div>
 
-<div style="margin: 0 auto; text-align: center;">
-    <table style="margin: 0 auto;">
-        <tr>
-            <th>Contact</th>
-            <td>kidcojsh@gmail.com</td>
-        </tr>
-        <tr>
-            <th>GitHub</th>
-            <td><a href="https://github.com/sunghomong">https://github.com/sunghomong</a></td>
-        </tr>
-        <tr>
-            <th>Blog</th>
-            <td><a href="https://sunghomong.github.io/">https://sunghomong.github.io/</a></td>
-        </tr>
-    </table>
-</div>
 
+<table style="margin: 0 auto; text-align: center;">
+    <tr>
+        <th>Contact</th>
+        <td>kidcojsh@gmail.com</td>
+    </tr>
+    <tr>
+        <th>GitHub</th>
+        <td><a href="https://github.com/sunghomong">https://github.com/sunghomong</a></td>
+    </tr>
+    <tr>
+        <th>Blog</th>
+        <td><a href="https://sunghomong.github.io/">https://sunghomong.github.io/</a></td>
+    </tr>
+</table>
+
+<br>
 
 
 ### Introduce
