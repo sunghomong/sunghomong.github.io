@@ -24,16 +24,16 @@ order: 4
 
 <table style="margin: 0 auto; text-align: center;">
     <tr>
-        <th>Contact</th>
-        <td>kidcojsh@gmail.com</td>
+        <th style="text-align:right;">Contact</th>
+        <td style="text-align:left;">kidcojsh@gmail.com</td>
     </tr>
     <tr>
-        <th>GitHub</th>
-        <td><a href="https://github.com/sunghomong">https://github.com/sunghomong</a></td>
+        <th style="text-align:right;">GitHub</th>
+        <td style="text-align:left;"><a href="https://github.com/sunghomong">https://github.com/sunghomong</a></td>
     </tr>
     <tr>
-        <th>Blog</th>
-        <td><a href="https://sunghomong.github.io/">https://sunghomong.github.io/</a></td>
+        <th style="text-align:right;" >Blog</th>
+        <td style="text-align:left;"><a href="https://sunghomong.github.io/">https://sunghomong.github.io/</a></td>
     </tr>
 </table>
 
