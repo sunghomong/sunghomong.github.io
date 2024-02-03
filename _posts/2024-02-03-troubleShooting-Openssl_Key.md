@@ -9,11 +9,11 @@ tok: true
 
 # ⛔ 문제 상황
 
-![Key 길이 문제](<post_images/key 길이 문제 발생.png>)
+![Key 길이 문제](</_posts/post_images/key 길이 문제 발생.png>)
 
 key 설정을 하고 실행하려니 key길이 문제 발생
 
-```linux
+```bash
 ssl.SSLError: [SSL: EE_KEY_TOO_SMALL] ee key too small (_ssl.c:3900)
 ```
 
@@ -36,13 +36,13 @@ ubuntu 20버전 이후로 부터 보안 레벨값(default)이 올라간거 같�
 
 ## 기존에 만들었던 키 삭제
 
-```linux
+```bash
 cd ssl/
 ```
 
 - key를 생성한 폴더로 이동
 
-```linux
+```bash
 rm cert.key
 rm cert.pem
 ```
@@ -51,7 +51,7 @@ rm cert.pem
 
 ## 키 생성
 
-```linux
+```bash
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout "cert2048.key" -out "cert2048.pem" -batch
 ```
 
