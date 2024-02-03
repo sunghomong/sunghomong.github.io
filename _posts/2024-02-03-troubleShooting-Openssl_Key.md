@@ -1,7 +1,7 @@
 ---
 title: Ubuntu openssl Key 길이 문제 해결 과정
 author: sunghomong
-date: 2024-01-31 22:00:00 +0800
+date: 2024-02-03 14:00:00 +0800
 categories: [trouble shooting,AWS]
 tags: [trouble shooting,AWS EC2,CPU,Error]
 tok: true
