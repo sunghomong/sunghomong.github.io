@@ -9,7 +9,7 @@ tok: true
 
 # ⛔ 문제 상황
 
-![Key 길이 문제](</_posts/post_images/key 길이 문제 발생.png>)
+<img src="https://i.ibb.co/GHQF8GW/key.png" alt="key">
 
 key 설정을 하고 실행하려니 key길이 문제 발생
 

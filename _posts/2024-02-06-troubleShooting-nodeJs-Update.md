@@ -44,10 +44,14 @@ nodeJS는 설치 후 최신 버전으로 업데이트 생각이 없다가 요번
 
 ### exe 다운로드
 
-[NVM.exe 다운로드 사이트](https://github.com/coreybutler/nvm-windows/releases)
+<img src="https://i.ibb.co/c1zGgjY/2024-02-06-173425.png" alt="2024-02-06-173425">
+
+<br>
+
+- [NVM.exe 다운로드 사이트](https://github.com/coreybutler/nvm-windows/releases)
 해당 페이지에서 exe를 다운을 받는다.
 
-[alt text](</posts/post_images/nvm 다운.png>)
+<br>
 
 ```bash
 node -v 
