@@ -1,7 +1,7 @@
 ---
 title: Docker 배포 후 HTTP 500 오류 해결
 author: sunghomong
-date: 2024-02-20 22:00:00 +0800
+date: 2024-02-19 22:00:00 +0800
 categories: [trouble shooting,Docker]
 tags: [trouble shooting,HTTP,Docker,Error,500Error]
 tok: true
