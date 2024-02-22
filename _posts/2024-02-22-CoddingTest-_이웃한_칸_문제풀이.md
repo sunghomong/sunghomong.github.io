@@ -1,7 +1,7 @@
 ---
 title: 프로그래머스 이웃한 칸 자바 문제 풀이
 author: sunghomong
-date: 2024-01-27 10:00:00 +0800
+date: 2024-02-22 10:00:00 +0800
 categories: [CodingTest,프로그래머스_JAVA]
 tags: [CodingTest,CodingTest_JAVA,알고리즘]
 tok: true
