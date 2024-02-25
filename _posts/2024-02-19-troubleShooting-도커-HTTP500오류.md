@@ -4,7 +4,11 @@ author: sunghomong
 date: 2024-02-19 22:00:00 +0800
 categories: [trouble shooting,Docker]
 tags: [trouble shooting,HTTP,Docker,Error,500Error]
-tok: true
+toc: true
+toc_sticky: true
+toc_label: 목차
+math: true
+mermaid: true
 ---
 
 ## ⛔ 문제 상황
