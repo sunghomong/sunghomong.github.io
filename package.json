@@ -27,7 +27,7 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-terser": "^0.4.4",
     "rimraf": "^5.0.5",
-    "rollup": "^4.12.1",
+    "rollup": "^4.13.0",
     "rollup-plugin-license": "^3.3.1",
     "stylelint": "^16.2.1",
     "stylelint-config-standard-scss": "^13.0.0"
