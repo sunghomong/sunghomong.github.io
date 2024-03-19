@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://sunghomong.github.io/sitemap.xml
