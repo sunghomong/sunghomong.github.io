@@ -20,6 +20,6 @@ class SidebarUtil {
 }
 
 export function sidebarExpand() {
-  $('#sidebar-trigger').on('click', SidebarUtil.toggle);
+  $("#sidebar-trigger").click(sidebarUtil.toggle);
   $('#mask').on('click', SidebarUtil.toggle);
 }
