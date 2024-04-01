@@ -112,6 +112,9 @@ order: 4
 
 <h1 style="color: #4a779c; text-align: center;"> 🏢 Education 🏢  </h1>
 
+
+## 자바(JAVA)기반 풀스택(프론트엔드,백엔드) 개발 과정 (05.10~11.14)
+
 <br>
 
 |||
@@ -121,15 +124,12 @@ order: 4
 |project|[https://github.com/sunghomong/meeting_site_project](https://github.com/sunghomong/meeting_site_project)|
 |learn|JAVA, Python, HTML, CSS, SQL, Spring, JS, JSP...|
 
-<br>
-
-## 자바(JAVA)기반 풀스택(프론트엔드,백엔드) 개발 과정 (05.10~11.14)
 
 - JAVA의 개념 기초 및 문법 이해
 - 객체 지향 프로그래밍 기법에 대한 이론 및 실습
 - 웹 서비스의 A-Z 까지 이론 및 실습
 
-<br>
+## Udemy - Docker & Kubernetes : 실전 가이드 (03.28~ing)
 
 |||
 |--:|:--|
@@ -137,10 +137,6 @@ order: 4
 |title|Udemy - Docker & Kubernetes : 실전 가이드|
 |project|[https://github.com/sunghomong/Docker_Education](https://github.com/sunghomong/Docker_Education)|
 |learn|NodeJS, Docker, DockerHub, JS...|
-
-<br>
-
-## Udemy - Docker & Kubernetes : 실전 가이드 (03.28~ing)
 
 - Docker의 개념 및 활용
 - 작은 프로젝트부터 큰 프로젝트까지 Dockerfile의 활용
