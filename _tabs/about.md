@@ -131,6 +131,23 @@ order: 4
 
 <br>
 
+|||
+|--:|:--|
+|period|2024.03.28~ing|
+|title|Udemy - Docker & Kubernetes : 실전 가이드|
+|project|[https://github.com/sunghomong/Docker_Education](https://github.com/sunghomong/Docker_Education)|
+|learn|NodeJS, Docker, DockerHub, JS...|
+
+<br>
+
+## Udemy - Docker & Kubernetes : 실전 가이드 (03.28~ing)
+
+- Docker의 개념 및 활용
+- 작은 프로젝트부터 큰 프로젝트까지 Dockerfile의 활용
+- 더 나은 개발 환경 세팅을 위한 Docker 초보자부터 전문가까지의 교육 과정
+
+<br>
+
 <h1 style="color: #4a779c; text-align: center;"> 🔨 skills 🔨 </h1>
 
 <br>
