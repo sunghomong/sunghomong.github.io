@@ -31,7 +31,7 @@ StringBuffer와 StringBuilder의 차이는, StringBuffer는 멀티 스레드 완
 StringBuffer와 StringBuilder의 일반적으로 많이 사용되는 메소드를 확인 해보자.
 
 |||
-|--:|:--|
+|:--|:--|
 |.append(값)|뒤에 값을 붙인다|
 |.insert(인덱스, 값)|특정 인덱스부터 값을 삽입|
 |.delete(인덱스, 인덱스)|특정 인덱스부터 특정 인덱스까지 값을 삭제|
