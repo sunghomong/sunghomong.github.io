@@ -47,3 +47,7 @@ StringBuffer와 StringBuilder의 일반적으로 많이 사용되는 메소드�
 
 StringBuffer와 StringBuilder를 사용하는게 무조건 옳은 것은 아니다. 불변 값을 활용해야 하는 상황이 있을 것이고 가변 적인 메소드를 활용해야 하는 상황이 있을 것이다. 각각 상황에 맞게 사용하면 될 거 같다.
 
+<br>
+
+[sunghomong 의 깃 허브](https://github.com/sunghomong) <br>
+[sunghomong 의 블로그](https://sunghomong.github.io/)
