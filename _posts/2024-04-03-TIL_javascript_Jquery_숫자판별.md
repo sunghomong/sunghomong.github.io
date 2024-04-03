@@ -1,5 +1,5 @@
 ---
-title: [JS] 정규식으로 숫자 체크하기 (with.JQuery)
+title: (JS) 정규식으로 숫자 체크하기 (with.JQuery)
 author: sunghomong
 date: 2024-04-03 12:00:00 +0800
 categories: [TIL,TIL_JS]
