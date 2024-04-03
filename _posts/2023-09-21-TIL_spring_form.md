@@ -168,7 +168,7 @@ public class LoginController {
 
 ```java
 @PostMapping
-public String submit(LoginCommand loginCommand , HttpSession session,Errorserror , HttpServletResponse response) {
+public String submit(LoginCommand loginCommand , HttpSession session,Errorserror error, HttpServletResponse response) {
 	
 	// 1. 이메일, 비밀번호가 입력되었는지 체크
 	new LoginCommandValidator().validate(loginCommand, error);
