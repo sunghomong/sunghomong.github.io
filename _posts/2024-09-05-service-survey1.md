@@ -49,7 +49,7 @@ mermaid: true
 - 이러한 로직이기에 이렇게 DB를 짰다는 점을 참고하고 봐야한다.
 
 <div style="margin-left: 40px;">
-  <img src="https://github.com/sunghomong/sunghomong.github.io/tree/main/_posts/post_images/surveyTable.png" alt="img"/>
+  <img src="https://i.ibb.co/jfZ06vG/survey-Table.png" alt="survey-Table">
 </div>
 
 - TEST_ANSWER -> 답변을 저장할 테이블
