@@ -1,5 +1,5 @@
 ---
-title: [프로그래머스/코딩기초트레이닝] 9일간의 후기 (~Day9)
+title: (프로그래머스/코딩기초트레이닝) 9일간의 후기 (~Day9)
 author: sunghomong
 date: 2024-09-06 12:00:00 +0800
 categories: [CodingTest,프로그래머스_JAVA]
