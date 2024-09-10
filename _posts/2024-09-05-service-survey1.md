@@ -190,8 +190,8 @@ public @Nullable GetTestCheckUpResponse getTestCheckUpRoster(@RequestBody @NonNu
         int checkUpNo = 0;
         String statusCd = "";
 
-        GetEmotionalTestCheckUpResponse response = new GetEmotionalTestCheckUpResponse();
-        EmotionalTestCheckUpVo vo = null;
+        GetTestCheckUpResponse response = new GetTestCheckUpResponse();
+        TestCheckUpVo vo = null;
 
         customerId = request.getCustomerId();
         userId = request.getUserId();
