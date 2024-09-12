@@ -1,7 +1,7 @@
 ---
 title: JAVA 설문평가 서비스 만들기 (3)
 author: sunghomong
-date: 2024-09-11 12:00:00 +0800
+date: 2024-09-11 10:00:00 +0800
 categories: [ Service,Survey_java ]
 tags: [ frontend,service,survey,javascript,html ]
 toc: true
