@@ -31,5 +31,8 @@
     "rollup-plugin-license": "^3.5.3",
     "stylelint": "^16.10.0",
     "stylelint-config-standard-scss": "^13.1.0"
+  },
+  "dependencies": {
+    "tocbot": "^4.31.0"
   }
 }
