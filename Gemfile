@@ -4,6 +4,11 @@ source "https://rubygems.org"
 
 gemspec
 
+
+group :jekyll_plugins do # 자동 sitemap 생성
+  gem "jekyll-sitemap"  # Add jekyll-sitemap
+end
+
 group :test do
   gem "html-proofer", "~> 4.4"
 end
