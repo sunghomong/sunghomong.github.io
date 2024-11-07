@@ -96,10 +96,6 @@ order: 4
   - 원활한 커뮤니케이션으로 팀원 구성원들을 정해진 기간내에 서비스 구축
 - Spring Boot를 활용한 프로젝트 구조
 
-
-
-<br>
-
 |||
 |--:|:--|
 |period|2024.01~current (진행 중)|
@@ -107,9 +103,9 @@ order: 4
 |OpenSource|준비 중|
 |Intro|개인 일정, 팀 간의 일정을 효율적으로 관리할 수 있는 스케쥴 웹 서비스|
 
-## 🏢 Company 🏢 <br>
-
 <br>
+
+## 🏢 Company 🏢 <br>
 
 |              |                                                  |
 |-------------:|:-------------------------------------------------|
@@ -226,21 +222,21 @@ order: 4
     <p><strong>Server</strong></p>
     <div>
         <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
-        <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black">
+        <img src="https://img.shields.io/badge/apache%20tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black">
     </div>
     <!-- Development Tools -->
     <p><strong>Development Tools</strong></p>
     <div>
-        <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white">
-        <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white">
-        <img src="https://img.shields.io/badge/Eclipse IDE-2C2255?style=flat-square&logo=eclipse-ide&logoColor=white">
+        <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white">
+        <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white">
+        <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=eclipse-ide&logoColor=white">
     </div>
     <!-- Framework -->
     <p><strong>Framework</strong></p>
     <div>
         <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white">
-        <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white">
-        <img src="https://img.shields.io/badge/Web Socket-010101?style=flat-square&logo=socketdotio&logoColor=white">
+        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white">
+        <img src="https://img.shields.io/badge/Web%20Socket-010101?style=flat-square&logo=socketdotio&logoColor=white">
         <img src="https://img.shields.io/badge/thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white">
     </div>
     <!-- Version Control -->
@@ -253,7 +249,7 @@ order: 4
     <p><strong>Communication</strong></p>
     <div>
         <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
-        <img src="https://img.shields.io/badge/ERD Cloud-gray?style=flat-square&logo=staruml&logoColor=white">
+        <img src="https://img.shields.io/badge/ERD%20Cloud-gray?style=flat-square&logo=staruml&logoColor=white">
         <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white">
     </div>
 </div><br>

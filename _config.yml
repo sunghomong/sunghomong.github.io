@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: "/sunghomong.github.io"
+baseurl: ""
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -32,7 +32,7 @@ github:
   username: sunghomong # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username:  # change to your twitter username
 
 social:
   # Change to your full name.
@@ -195,3 +195,14 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_admin:
+  hidden_links:
+  homepage: ""
+
+plugins:
+  - jekyll-target-blank
+
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
