@@ -7,6 +7,7 @@ gemspec
 
 group :jekyll_plugins do # 자동 sitemap 생성
   gem "jekyll-sitemap"  # Add jekyll-sitemap
+  gem "jekyll-target-blank" # Add jekyll-target-blank
 end
 
 group :test do
