@@ -33,6 +33,6 @@
     "stylelint-config-standard-scss": "^13.1.0"
   },
   "dependencies": {
-    "tocbot": "^4.31.0"
+    "tocbot": "^4.32.2"
   }
 }
