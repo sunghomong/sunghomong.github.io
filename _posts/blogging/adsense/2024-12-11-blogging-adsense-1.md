@@ -15,7 +15,7 @@ tags: [ adsense,애드센스,google ]
   }
 </style>
 
-![adsense01](/assets/img/post_images/adsense/adsense01.jpg)
+![adsense01](/assets/img/post_images/adsense/adsense01.png)
 
 <hr>
 
