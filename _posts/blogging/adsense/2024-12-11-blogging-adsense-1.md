@@ -3,6 +3,7 @@ title: 구글 애드센스 두 번째 도전... 가치가 별로 없는 콘텐�
 date: 2024-12-11 00:00:00 +0800
 categories: [ Blogging,adsense ]
 tags: [ adsense,애드센스,google ]
+image: /assets/img/post_images/adsense/adsense01.png
 ---
 
 <style>
