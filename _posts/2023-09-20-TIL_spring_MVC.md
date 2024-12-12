@@ -1,10 +1,8 @@
 ---
 title: (TIL_Spring) 스프링을 이용한 설문조사 기능 구현
-author: sunghomong
 date: 2023-09-20 12:34:00 +0800
 categories: [TIL,TIL_Spring]
 tags: [TIL,Daily,Spring,]
-comments: true
 ---
 
 # 스프링을 이용한 설문조사 기능 구현

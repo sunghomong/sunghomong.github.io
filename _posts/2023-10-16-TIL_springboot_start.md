@@ -1,6 +1,5 @@
 ---
 title: (TIL_SpringBoot) 스프링 부트를 이용한 Hello World 출력해보기! 
-author: sunghomong
 date: 2023-10-16 15:00:00 +0800
 categories: [TIL,TIL_SpringBoot]
 tags: [TIL,Daily,SpringBoot]

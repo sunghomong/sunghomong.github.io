@@ -1,11 +1,8 @@
 ---
 title: (TIL_Spring) 스프링을 이용한 비밀번호 변경 기능 만들어보기
-author: sunghomong
 date: 2023-09-24 22:00:00 +0800
 categories: [TIL,TIL_Spring]
 tags: [TIL,Daily,Spring,loginService]
-tok: true
-comments: true
 ---
 
 # 스프링을 이용한 비밀번호 변경 기능 만들어보기 

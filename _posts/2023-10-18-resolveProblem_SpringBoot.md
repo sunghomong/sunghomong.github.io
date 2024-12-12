@@ -1,6 +1,5 @@
 ---
 title: (SpringBoot) DispatcherServlet 오류 문제 해결 
-author: sunghomong
 date: 2023-10-18 16:00:00 +0800
 categories: [문제 해결 능력,SpringBoot_resolveProblem]
 tags: [resolveProblem,SpringBoot]
@@ -13,19 +12,23 @@ tags: [resolveProblem,SpringBoot]
 프로젝트 하는 도중 404 SpringBoot의 기본적인 메핑 문제에 계속 시달렸다... 나중에 또 이런 문제를 방지하기 위해서 기록을 해보려고 한다.
 <br>
 
-<img src="https://i.ibb.co/7Wx54T3/2023-11-16-182629.png" alt="2023-11-16-182629">
+<img src="/assets/img/post_images/resolveProblem/resolveProblem1.png" alt="resolveProblem1">
 
-<img src="https://i.ibb.co/qYqCLVm/spring-Boot-dispatcher-Servlet-problem2.png" alt="spring-Boot-dispatcher-Servlet-problem2">
+<img src="/assets/img/post_images/resolveProblem/resolveProblem2.png" alt="resolveProblem2">
 
 코드상에는 문제가 없어 실행을 해보았다.
-<br><br>
-<img src="https://i.ibb.co/MG3xrjL/spring-Boot-dispatcher-Servlet-problem3.png" alt="spring-Boot-dispatcher-Servlet-problem3">
+
+<br>
+
+<img src="/assets/img/post_images/resolveProblem/resolveProblem3.png" alt="resolveProblem3">
 
 아니다 다를까 바로 에러 발생... ㅎ
 
-<img src="https://i.ibb.co/RN5TMPq/spring-Boot-dispatcher-Servlet-problem.png" alt="spring-Boot-dispatcher-Servlet-problem" border="0">
+<img src="/assets/img/post_images/resolveProblem/resolveProblem4.png" alt="resolveProblem4">
 
-#### nio-8085-exec-1 o.a.c.c.C.Tomcat.localhost./ : Initializing Spring DispatcherServlet 'dispatcherServlet'
+```shell
+nio-8085-exec-1 o.a.c.c.C.Tomcat.localhost./ : Initializing Spring DispatcherServlet 'dispatcherServlet'
+```
 
 이게 도대체 뭘까... 처음에 그래서 코드를 계속해서 어디가 문제일까 찾게 되고 인터넷도 계속해서 검색해봤다 메핑의 문제라는데...
 
