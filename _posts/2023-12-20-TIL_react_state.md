@@ -1,6 +1,5 @@
 ---
 title: (TIL_React) 리액트에서 state를 사용하는 이유
-author: sunghomong
 date: 2023-12-20 15:00:00 +0800
 categories: [TIL,TIL_React]
 tags: [TIL,Daily,React]
@@ -51,7 +50,7 @@ export default App;
 
 ### 아래의 화면과 똑같이 출력해보기
 
-<img src="https://i.ibb.co/ZTjT51D/react-start-study-1.png" alt="react-start-study-1">
+<img src="/assets/img/post_images/TIL/react_05.png" alt="react-05">
 
 ### 코드 작성
 

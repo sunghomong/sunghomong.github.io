@@ -1,9 +1,9 @@
 ---
 title: 깃 허브 프로필 꾸미기 (GitHub README)
-author: sunghomong
 date: 2024-01-05 15:00:00 +0800
 categories: [GitHub,README 꾸미기]
 tags: [GitHub,README]
+image: /assets/img/post_images/gitHub/github01.png
 ---
 
 # 🧐 깃 허브 꾸며야 될까?...
@@ -24,8 +24,9 @@ tags: [GitHub,README]
 [필자 블로그](https://github.com/sunghomong)
 
 ## 👤 프로필 꾸미기 
+
 <div style ="text-align:center;">
-  <img src="https://i.ibb.co/Jq1pVkn/2024-01-05-202525.png" alt="2024-01-05-202525" style ="max-height:500px;">
+  <img src="/assets/img/post_images/gitHub/github01.png" alt="github01" style ="max-height:500px;">
 </div>
 
 
@@ -34,13 +35,14 @@ tags: [GitHub,README]
 ## 📌 README.md
 
 깃 허브를 처음 들어갈 때 나오는 본문 화면을 꾸미기 위해서는 본문의 README가 필요하다.
+
 <div style ="text-align:center;">
-  <img src="https://i.ibb.co/cDTKpnf/google-search-service1.png" alt="google-search-service1" style ="max-height:600px;">
+  <img src="/assets/img/post_images/gitHub/github02.png" alt="github02" style ="max-height:600px;">
 </div>
 
 ### 프로필과 연동되는 repository 생성
 
-<img src="https://i.ibb.co/K5pg5KK/google-search-service2.png" alt="google-search-service2">
+<img src="/assets/img/post_images/gitHub/github03.png" alt="github03">
 
 1. Github 접속 > Repository > New 클릭
 2. repository 본인의 **계정 ID와 동일한 name**을 적을 시에 저렇게 고양이 표시가 나오면서 본인의 특별한 레파지토리를 생성 가능하다고 뜰 거다. (저 빨간색 오류는 제가 이미 생성해서 나온 오류)
@@ -75,12 +77,12 @@ tags: [GitHub,README]
 
 저 같은 경우에는 연락처, 기술 스택 등 뱃지를 넣을때 이 사이트를 이용했습니다.
 
-<img src="https://i.ibb.co/c3GCB5r/google-search-service4.png">
+<img src="/assets/img/post_images/gitHub/github04.png" alt="github04">
 
 <br>
+
 해당 사이트에 들어가면 자세한 설명이 있습니다. 저는 아래와 같이 사용했습니다.
-<br><br>
-  
+
 ```html
 <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> 
 ```
@@ -92,7 +94,7 @@ tags: [GitHub,README]
 
 ## 📌 Pined repo 활용
 
-<img src="https://i.ibb.co/KWK3n9s/google-search-service5.png">
+<img src="/assets/img/post_images/gitHub/github05.png" alt="github05">
 
 - **gists**를 이용한 자신 깃 허브의 활동 내역이라든지 다양한 정보를 가져올 수 있는 기능이 있습니다.
 - 저는 위의 이미지와 같이 **자신의 커밋 시간을 비교해 주는** [productive-box](https://github.com/maxam2017/productive-box)와 **자신의 깃 허브 전체 토털 평균을 보여주는** [github-stats-box](https://github.com/bokub/github-stats-box)를 사용했습니다.

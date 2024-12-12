@@ -1,6 +1,5 @@
 ---
 title: (TIL_React) 리액트 JSX 문법 알아보기
-author: sunghomong
 date: 2023-12-19 15:00:00 +0800
 categories: [TIL,TIL_React]
 tags: [TIL,Daily,React,JSX]

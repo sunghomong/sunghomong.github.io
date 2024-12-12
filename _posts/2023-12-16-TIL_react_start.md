@@ -1,6 +1,5 @@
 ---
 title: (TIL_React) 리액트 설치부터 실행까지
-author: sunghomong
 date: 2023-12-16 15:00:00 +0800
 categories: [TIL,TIL_React]
 tags: [TIL,Daily,React]
@@ -36,20 +35,20 @@ node.js 설치하는 이유는 소프트웨어 플랫폼으로서 리액트를 H
 
 3. powerShell창에 명령어 입력 후 `project 생성`
 
-``` bash
+``` shell
 npx create-react-app (프로젝트명)
 ```
 - 위의 프로젝트명은 본인이 원하는 프로젝트명을 작성하면 된다. 위의 명령어는 `node.js를 활용`해 react에 필요한 라이브러리를 패키지 자체로 다운을 받아주는 역할을 한다. 생성이 완료됐다면 npm 관련된 명령어들이 나오면서 완료됐다는 걸 확인할 수 있을 것이다.
 
-<img src="https://i.ibb.co/47jM3xG/react-problem-resolve.png" alt="react-problem-resolve">
+<img src="/assets/img/post_images/TIL/react_01.png" alt="react_01">
 
 4. 해당 폴더 vs code 열고 난 후 터미널에 `npm start` 입력
 
-<img src="https://i.ibb.co/4Pz9JRk/react-start-main.png" alt="react-start-main">
+<img src="/assets/img/post_images/TIL/react_02.png" alt="react-02">
 
-<img src="https://i.ibb.co/2gNjjv1/react-start-terminal.png" alt="react-start-terminal">
+<img src="/assets/img/post_images/TIL/react_03.png" alt="react-03">
 
-<img src="https://i.ibb.co/yRsWyKb/react-start-page.png" alt="react-start-page">
+<img src="/assets/img/post_images/TIL/react_04.png" alt="react-04">
 
 - 위의 순서대로 `npm start` 입력을 했을 때 2번째 이미지와 같이 성공했다는 글이 나오면서 3번째 이미지와 같은 창이 떴다면 정상적으로 설치와 실행이 마무리된 것이다.
 

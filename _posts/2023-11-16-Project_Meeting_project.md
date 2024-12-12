@@ -1,6 +1,5 @@
 ---
 title: (팀 프로젝트 회고록) 첫 웹 개발 프로젝트를 마치고...
-author: sunghomong
 date: 2023-11-16 16:00:00 +0800
 categories: [Project,TeamProject]
 tags: [Project,TeamProject,Daily]
@@ -21,10 +20,11 @@ tags: [Project,TeamProject,Daily]
 
 ### - 사용자들에게 필요한 서비스 구현
 
-아무래도 우리가 원하는 웹 구현 보다는 사용자들이 원하는 서비스를 구현함에 초점을 뒀다. <br><br>
-<img src="https://i.ibb.co/w07RrLD/meeting-project-image1.png" alt="meeting-project-image1">
+아무래도 우리가 원하는 웹 구현 보다는 사용자들이 원하는 서비스를 구현함에 초점을 뒀다. <br>
 
-<img src="https://i.ibb.co/c3RcDTF/meeting-project-image2.png" alt="meeting-project-image2">
+<img src="/assets/img/post_images/project/meeting_project_image1.png" alt="meeting-project-image1">
+
+<img src="/assets/img/post_images/project/meeting_project_image2.png" alt="meeting-project-image2">
 
 ## 개발 환경 구축 (1주차)
 
@@ -32,18 +32,18 @@ tags: [Project,TeamProject,Daily]
 
 ### - 기업에서 원하는 기술들을 적극적으로 활용하자.
 
-<img src="https://i.ibb.co/xJHM2XW/meeting-project-image4.png" alt="meeting-project-image4">
+<img src="/assets/img/post_images/project/meeting_project_image4.png" alt="meeting-project-image4">
 
 <br>
 기술 스택 순위에 관한 이미지이다. 아무래도 취업 과정을 위한 교육이기도 했고 우리의 취업을 위한 프로젝트를 만들고 싶어서 기업에서 원하는 기술들을 위주로 새롭게 개인적으로 공부도 하고 적극적으로 활용해서 프로젝트를 만들었다. 우리가 사용한 기술들은 아래의 이미지와 같다.<br><br>
 
-<img src="https://i.ibb.co/2gMkJp4/meeting-project-image5.png" alt="meeting-project-image5">
+<img src="/assets/img/post_images/project/meeting_project_image5.png" alt="meeting-project-image5">
 
 ## 데이터 모델링 (1주차)
 
 아무래도 기획 설계 파트에서 이 부분이 제일 힘들었던 거 같다. 데이터의 흐름을 전반적으로 이해를 해야 됐고 프로젝트가 처음이라 어떤 흐름일지 예상조차 힘들었다. 초기에는 큰 틀만 잡고 서비스를 하나하나 만들면서 추가하는 방식으로 했다. 아래의 이미지는 최종 모델링이다. 우리는 모델링 툴을 ``ERD Cloud``를 사용했다.<br><br>
 
-<img src="https://i.ibb.co/MpYpScY/meeting-project-image6.png" alt="meeting-project-image6">
+<img src="/assets/img/post_images/project/meeting_project_image6.png" alt="meeting-project-image6">
 
 ## 팀장으로서의 일정 조율 (1주차)
 
@@ -57,9 +57,11 @@ tags: [Project,TeamProject,Daily]
 
 노션을 활용한 이유는 아무래도 기업체에서 많이 사용하는 툴이고 알아두면 좋을 점들이 많을 거 같았다. 노션을 적극적으로 활용해서 일정을 조율하였다.
 
-<img src="https://i.ibb.co/5Bvn0zt/meeting-project-image7.png" alt="meeting-project-image7">
-<br><br>
-<img src="https://i.ibb.co/MsmhVk8/meeting-project-image8.png" alt="meeting-project-image8">
+<img src="/assets/img/post_images/project/meeting_project_image7.png" alt="meeting-project-image7">
+
+<br>
+
+<img src="/assets/img/post_images/project/meeting_project_image8.png" alt="meeting-project-image8">
 
 ## 프로젝트 기능 구현 (2주~4주)
 
@@ -100,7 +102,7 @@ tags: [Project,TeamProject,Daily]
 
 스토리보드처럼 이 버튼을 클릭 시에 이런 화면이 나오고 이런 흐름보다는 코드와 함께 보여주며 ``OO 기술을 사용해 이런 화면이 출력이 됩니다.`` 라고 설명을 해야 듣는 이들도 이해하기 편하고 정확히 발표자들이 이해하고 있구나라는 기억을 심어 줄 거 같아서 코드와 함께 PPT를 준비했다.
 
-<img src="https://i.ibb.co/3vNqSvv/meeting-project-image9.png" alt="meeting-project-image9">
+<img src="/assets/img/post_images/project/meeting_project_image9.png" alt="meeting-project-image9">
 
 
 ## 마무리 하며

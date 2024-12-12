@@ -1,11 +1,8 @@
 ---
 title: (프로그래머스) 자바 12931번 '자릿수 더하기' 문제 풀이 (LV.1)
-author: sunghomong
 date: 2023-10-02 10:00:00 +0800
 categories: [CodingTest,프로그래머스_JAVA]
 tags: [CodingTest,CodingTest_JAVA]
-tok: true
-comments: true
 ---
 
 # [프로그래머스] 자바 12931번 '자릿수 더하기' 문제 풀이 (LV.1)

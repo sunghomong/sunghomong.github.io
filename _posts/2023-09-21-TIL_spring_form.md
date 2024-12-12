@@ -1,10 +1,8 @@
 ---
 title: (TIL_Spring) 스프링을 이용한 로그인 기능 만들어보기
-author: sunghomong
 date: 2023-09-20 18:00:00 +0800
 categories: [TIL,TIL_Spring]
 tags: [TIL,Daily,Spring,loginService]
-comments: true
 ---
 
 # 스프링을 이용한 로그인 기능 만들기
