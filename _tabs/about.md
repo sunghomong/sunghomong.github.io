@@ -270,7 +270,7 @@ order: 4
         <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white">
         <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white">
         <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=eclipse-ide&logoColor=white">
-        <img src="https://img.shields.io/badge/android studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white">
+        <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white">
         <img src="https://img.shields.io/badge/dbeaver-382923?style=flat-square&logo=dbeaver&logoColor=white">
     </div>
     <!-- Framework -->
