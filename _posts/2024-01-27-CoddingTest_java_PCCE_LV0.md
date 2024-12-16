@@ -1,13 +1,10 @@
 ---
 title: 프로그래머스 PCCE 기출문제 LV.0 모음_자바
-author: sunghomong
 date: 2024-01-27 10:00:00 +0800
 categories: [CodingTest,프로그래머스_JAVA]
 tags: [CodingTest,CodingTest_JAVA,PCCE기출문제]
-tok: true
+image: /assets/img/post_images/codingtest/PCCE_01.png
 ---
-
-<img src="https://i.ibb.co/HX7QN8f/2024-01-27-184703.png" alt="2024-01-27-184703">
 
 ## PCCE
 
@@ -19,47 +16,47 @@ tok: true
 
 ### 1. 출력
 
-<img src="https://i.ibb.co/hs5kbZ1/2024-01-27-185604.png" alt="2024-01-27-185604">
+<img src="/assets/img/post_images/codingtest/PCCE_02.png" alt="PCCE_02">
 
 - 엥? 할정도로 너무 쉬었던 문제
 - 위와 같이 3개의 문자를 출력하는 형태였다.
 
 ### 2. 피타고라스의 정의
 
-<img src="https://i.ibb.co/ChBDVyG/2024-01-27-190921.png" alt="2024-01-27-190921">
+<img src="/assets/img/post_images/codingtest/PCCE_03.png" alt="PCCE_03">
 
 - 삼각형의 a,c(빗변) 길이의 값을 가지고 b 제곱근을 구하는 공식이였다.
 - 말그대로 제곱근을 구하는거기에 c 제곱에서 b제곱을 빼줬다.
 
 ### 3. 나이 계산
 
-<img src="https://i.ibb.co/b1vzHhX/2024-01-27-190954.png" alt="2024-01-27-190954">
+<img src="/assets/img/post_images/codingtest/PCCE_04.png" alt="PCCE_04">
 
 - 2030년 기준으로 만 나이와 우리 나라 나이 계산법으로 나이를 구하는 문제였다.
 - 솔직히 너무 쉬운 문제이기에... 한국이라는 문자가 도착하면 2030 - 2000 + 1 (한국은 만 나이 + 1)
 
 ### 4. 저축
 
-<img src="https://i.ibb.co/rcr4TpT/2024-01-27-191025.png" alt="2024-01-27-191025">
+<img src="/assets/img/post_images/codingtest/PCCE_05.png" alt="PCCE_05">
 
 - 70 아래일 경우에는 before 값을 더해주고 100 이하까지는 after의 저축값을 더해주고 총 몇달이 걸리는지 계산하는 문제이다.
 
 ### 5. 산책
 
-<img src="https://i.ibb.co/PFPFfYf/2024-01-27-191056.png" alt="2024-01-27-191056">
+<img src="/assets/img/post_images/codingtest/PCCE_06.png" alt="PCCE_06">
 
 - NSEW 문자열 형태를 받아와서 각각의 문자를 switch 문으로 해당하는 문자일 경우 그에 맞는 값을 더하거나 빼는 형식이다.
 
 ### 6. 가채점
 
-<img src="https://i.ibb.co/XVkn1jP/2024-01-27-191119.png" alt="2024-01-27-191119">
+<img src="/assets/img/post_images/codingtest/PCCE_07.png" alt="PCCE_07">
 
 - 쉽게 이해하면 `numbers`는 인덱스 번호를 의미하고 `our_score`는 가채점 한 점수를 나열한 배열 형태, `score_list`는 실제 점수를 나열한 배열 형태이다.
 - `numbers`는 인덱스 번호인데 1부터 시작하기에 배열형태는 0부터 시작한다. 그에 맞게 -1을 해줘야한다.
 
 ### 7. 가습기
 
-<img src="https://i.ibb.co/NWftc7D/2024-01-27-191147.png" alt="2024-01-27-191147">
+<img src="/assets/img/post_images/codingtest/PCCE_08.png" alt="PCCE_08">
 
 - 하나의 기계라고 생각하고 접근햇다.
 - `mode_type`은 어떤 모드를 선택할건지 결정하고 `humidity`는 습도의 정도 `val_set`은 설정값 즉 type에 따라 올바른 함수를 호출해서 이를 해결해야한다.
@@ -67,7 +64,7 @@ tok: true
 
 ### 8. 창고 정리
 
-<img src="https://i.ibb.co/jL5k8HF/2024-01-27-191219.png" alt="2024-01-27-191219">
+<img src="/assets/img/post_images/codingtest/PCCE_09.png" alt="PCCE_09">
 
 - 풀어본 8문제 중에 제일 난이도 있는?? 문제였다.
 - storage의 모든 물건의 배열 형태와 개수를 받아와 중복되는 물건이 있다면 같이 더해주고 return해주는 문제이다.

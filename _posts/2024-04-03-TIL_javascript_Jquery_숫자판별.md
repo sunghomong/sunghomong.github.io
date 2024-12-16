@@ -1,14 +1,9 @@
 ---
 title: (JS) 정규식으로 숫자 체크하기 (with.JQuery)
-author: sunghomong
 date: 2024-04-03 12:00:00 +0800
 categories: [TIL,TIL_JS]
 tags: [js,Jquery,정규식]
-toc: true
-toc_sticky: true
-toc_label: 목차
-math: true
-mermaid: true
+image: /assets/img/logo_images/jquery.png
 ---
 
 ## /^[0-9]*$/ - 숫자만 이루어져 있는지 체크하는 정규식

@@ -1,15 +1,14 @@
 ---
 title: Ubuntu openssl Key 길이 문제 해결 과정
-author: sunghomong
 date: 2024-02-03 14:00:00 +0800
 categories: [trouble shooting,AWS]
 tags: [trouble shooting,AWS EC2,CPU,Error]
-tok: true
+image: /assets/img/post_images/resolveProblem/resolveProblem11.png
 ---
 
 # ⛔ 문제 상황
 
-<img src="https://i.ibb.co/GHQF8GW/key.png" alt="key">
+<img src="/assets/img/post_images/resolveProblem/resolveProblem11.png" alt="resolveProblem11">
 
 key 설정을 하고 실행하려니 key길이 문제 발생
 

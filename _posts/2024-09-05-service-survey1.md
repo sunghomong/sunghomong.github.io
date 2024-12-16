@@ -1,14 +1,8 @@
 ---
 title: JAVA 설문평가 서비스 만들기 (1)
-author: sunghomong
 date: 2024-09-05 12:00:00 +0800
-categories: [Service,Survey_java]
-tags: [java,api,controller,service,survey]
-toc: true
-toc_sticky: true
-toc_label: 목차
-math: true
-mermaid: true
+categories: [library,java]
+tags: [java,library,controller,service,survey]
 ---
 
 ## 개요
@@ -49,7 +43,7 @@ mermaid: true
 - 이러한 로직이기에 이렇게 DB를 짰다는 점을 참고하고 봐야한다.
 
 <div style="margin-left: 40px;">
-  <img src="https://i.ibb.co/jfZ06vG/survey-Table.png" alt="survey-Table">
+  <img src="/assets/img/post_images/library/java_01.png" alt="java_01">
 </div>
 
 - TEST_ANSWER -> 답변을 저장할 테이블

@@ -1,14 +1,9 @@
 ---
 title: StringBuffer와 StringBuilder를 왜 사용할까?
-author: sunghomong
 date: 2024-04-01 12:00:00 +0800
 categories: [TIL,TIL_JAVA]
 tags: [java,StringBuffer,StringBuilder]
-toc: true
-toc_sticky: true
-toc_label: 목차
-math: true
-mermaid: true
+image: /assets/img/logo_images/java.png
 ---
 
 ## 불변의 값 String
