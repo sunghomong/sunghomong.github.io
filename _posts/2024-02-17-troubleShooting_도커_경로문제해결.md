@@ -1,10 +1,9 @@
 ---
 title: Error Unable to access jarfile (Docker ENTRYPOINT 오류 해결)
-author: sunghomong
 date: 2024-02-17 14:00:00 +0800
 categories: [trouble shooting,Docker]
 tags: [trouble shooting,Dockerfile,Docker,Error]
-tok: true
+image: /assets/img/logo_images/docker.png
 ---
 ## ⛔ 문제 상황
 
@@ -41,7 +40,7 @@ chatGPT와 아무리 얘기를 해도 말이 통하지 않아 차근차근 하�
 
 ### gradle project jar 파일 확인
 
-<img src="https://i.ibb.co/GVx1gR4/2024-02-17-173212.png">
+<img src="/assets/img/post_images/resolveProblem/docker_01.png" alt="docker_01">
 
 - 만약 본인이 spring boot 프로젝트를 사용중이라면 build의 libs에 생성된 jar 파일이 있을것이다. 그 파일의 명을 확인해서 ENTRYPOINT에 적용시켜주면 된다.
 
@@ -59,14 +58,14 @@ ENTRYPOINT ["java","-jar","/app/본인 jar 파일명.jar"]
 
 ### 수정 후 build 해보기
 
-<img src="https://i.ibb.co/9HMHKR1/2024-02-17-173647.png">
+<img src="/assets/img/post_images/resolveProblem/docker_02.png" alt="docker_02">
 
 - 수정을 완료하고 저와 같이 스프링 부트를 사용했다면 이렇게 Docker 컨테이너가 정상적으로 작동하는것을 확인 가능하다.
 
 
 ## 마무리
 
-오늘은 배포 과정중 오류 코드에 대한 글을 올려보았다. 아직까지 Dockerfile의 명령어들의 숙지가 필요한것을 느꼈다.
+오늘은 배포 과정중 오류 코드에 대한 글을 올려보았다. 아직까지 Dockerfile 의 명령어들의 숙지가 필요한것을 느꼈다.
 
 <br>
 

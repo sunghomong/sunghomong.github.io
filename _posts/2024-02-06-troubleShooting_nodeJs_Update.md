@@ -1,10 +1,9 @@
 ---
 title: nodeJS 최신 버전으로 업데이트 하는 방법(window 환경_nvm)
-author: sunghomong
 date: 2024-02-03 14:00:00 +0800
 categories: [trouble shooting,AWS]
 tags: [trouble shooting,AWS EC2,CPU,Error]
-tok: true
+image: /assets/img/post_images/resolveProblem/resolveProblem12.png
 ---
 
 # ⛔ 문제 상황
@@ -44,7 +43,7 @@ nodeJS는 설치 후 최신 버전으로 업데이트 생각이 없다가 요번
 
 ### exe 다운로드
 
-<img src="https://i.ibb.co/c1zGgjY/2024-02-06-173425.png" alt="2024-02-06-173425">
+<img src="/assets/img/post_images/resolveProblem/resolveProblem12.png" alt="resolveProblem12">
 
 <br>
 
