@@ -1,14 +1,8 @@
 ---
 title: Jekyll Chirpy 테마 라이브러리 not found 에러
-author: sunghomong
 date: 2024-11-01 12:00:00 +0800
 categories: [ Blogging,error ]
 tags: [ ruby,error,trouble shooting,git ]
-toc: true
-toc_sticky: true
-toc_label: 목차
-math: true
-mermaid: true
 ---
 
 # ⛔ 문제 상황
