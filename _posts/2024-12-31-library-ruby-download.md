@@ -1,7 +1,7 @@
 ---
 title: ruby 다운로드 방법 및 실행 과정
 date: 2024-12-30 12:00:00 +0800
-categories: [ Blogging,error ]
+categories: [ library,ruby ]
 tags: [ ruby,error,trouble shooting,git ]
 image: /assets/img/post_images/library/ruby01.png
 ---
@@ -12,7 +12,8 @@ image: /assets/img/post_images/library/ruby01.png
 
 이번 글은 window 용 루비 다운로드 및 실행 방법을 설명하려고 합니다.
 
-> 루비란 무엇일까? -> Ruby는 프론트엔드 및 백엔드 웹 개발 및 기타 유사한 애플리케이션을 위해 설계된 스크립팅 언어다. 이 언어는 강력하고 동적으로 입력된 객체 지향 언어이며, 높은 수준의 구문을 사용하여 프로그래밍을 영어 코딩과 거의 비슷하게 만듭니다. {: .prompt-info }
+> 루비란 무엇일까? -> Ruby는 프론트엔드 및 백엔드 웹 개발 및 기타 유사한 애플리케이션을 위해 설계된 스크립팅 언어다. 이 언어는 강력하고 동적으로 입력된 객체 지향 언어이며, 높은 수준의 구문을 사용하여 프로그래밍을 영어 코딩과 거의 비슷하게 만듭니다.
+{: .prompt-info }
 
 ## 1. ruby 설치 파일 다운로드
 
