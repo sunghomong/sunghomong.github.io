@@ -31,7 +31,7 @@ image: /assets/img/post_images/error_images/error03.png
 
 문제 해결방법은 따로 포스팅을 해서 준비했다. 아래의 글을 참고해보고 실행해보면 될 것 같다.
 
-[ruby 다운로드 방법 및 실행 과정](/_posts/library/ruby/2024-12-31-library-ruby-download.md)
+![ruby 다운로드 방법 및 실행 과정](https://sunghomong.github.io/posts/library-ruby-download/)
 
 설치와 실행을 완료하고 아래와 같이 실행해보았다.
 
