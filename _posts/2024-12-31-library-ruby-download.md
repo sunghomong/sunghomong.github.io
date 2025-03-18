@@ -74,3 +74,6 @@ gem install jekyll bundle
 
 <img src="/assets/img/post_images/library/ruby09.png" alt="ruby09.png">
 
+
+[sunghomong 의 깃 허브](https://github.com/sunghomong) <br>
+[sunghomong 의 블로그](https://sunghomong.github.io/)
