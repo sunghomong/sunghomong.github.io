@@ -33,29 +33,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-#      - name: Setup Ruby
-#        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
-#        with:
-#          ruby-version: '3.1' # Not needed with a .ruby-version file
-#          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
+        with:
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 #          cache-version: 0 # Increment this number if you need to re-download cached gems
 #           Install Ruby using ruby-build
-      - name: Install Ruby
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ruby-full
-          ruby -v
 
-      # Install Bundler with user install to avoid permission issues
-      - name: Install Bundler
-        run: |
-          gem install bundler --user-install
-          echo 'export PATH="$HOME/.gem/ruby/3.1.0/bin:$PATH"' >> $GITHUB_ENV
+      - name: Check Ruby version
+        run: ruby -v  # Ruby 버전 확인 (디버깅용)
+
+          # Install dependencies (불필요할 수도 있지만 안전하게 유지)
+      - name: Install dependencies
+        run: bundle install
 
       # Install dependencies
       - name: Install dependencies
-        run: |
-          bundle install --path $HOME/.gem
+        run: bundle install
 
       - name: Setup Pages
         id: pages
