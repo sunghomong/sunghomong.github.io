@@ -119,21 +119,18 @@ order: 4
 
 ### 💻 업무 성과
 
-- KMI 설문평가 서비스 도입 (2024.05~2024.07)
-  - A~Z까지 서비스 구축 (프론트,백엔드)
-  - 관리자 서비스 (결과,통계,대상자)
-  - 엑셀 추출
+- 설문평가 서비스 도입 (2024.05~2024.07)
+  - 설문평가 페이지 개발
+  - 관리자 서비스 (결과,통계,대상자,엑셀)
   - 임시 저장 기능
-  - 평가 점수 산출
+  - 결과 점수에 따른 대상자 결과 산출
 
-
-- KMI 마음검진 평가 서비스 도입 (2024.04~2024.07)
+- 마음검진 평가 서비스 도입 (2024.04~2024.07)
   - A~Z까지 서비스 구축 (프론트,백엔드)
   - 관리자 서비스 (대상자,보고서)
   - 외부 업체와 API 연동 (결과 리스트 전달 -> return 보고서)
   - 엑셀 추출
   - 보고서 다운 기능 (sftp)
-
 
 - CODEF API 연동 서비스 (2024.08~2024.10)
   - A~Z 까지 서비스 구축 (프론트,백엔드)
@@ -192,9 +189,9 @@ order: 4
 |learn|JAVA, Python, HTML, CSS, SQL, Spring, JS, JSP...|
 
 
-- JAVA의 개념 기초 및 문법 이해
-- 객체 지향 프로그래밍 기법에 대한 이론 및 실습
-- 웹 서비스의 A-Z 까지 이론 및 실습
+- 객체 지향 프로그래밍(OOP) 핵심 원리 및 Java 기본 문법 학습
+- Spring Boot 기반 웹 애플리케이션 개발 실습
+- 단기 프로젝트 진행을 통해 실무 감각 향상
 
 ## Udemy - Docker & Kubernetes : 실전 가이드 (03.28~ing)
 
@@ -218,11 +215,23 @@ order: 4
 |    TIL | [코틀린_3강으로_끝내기](https://github.com/sunghomong/TIL/tree/main/Kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0_3%EA%B0%95%EC%9C%BC%EB%A1%9C_%EB%81%9D%EB%82%B4%EA%B8%B0)|
 |  learn | kotlin,android studio                                                                                                                                       |  
 
-- android studio 다운 부터 프로젝트 생성 실행까지
+- Android Studio 설치부터 프로젝트 생성 및 실행까지의 전반적인 과정 습득
 - kotlin 기본 문법에 대한 이해
-- kotlin class,object,람다... 등 다양한 고급 문법에 대한 이해
-- navigation 활용
-- 앱 페이지 생성에 대한 이해, android 다양한 패키지 활용
+- `Class`, `Object`, `Lambda` 등 Kotlin 의 다양한 기능을 활용한 코드 작성법 익히기
+- Navigation 을 통한 앱 내 화면 전환 및 구조 설계 방법
+- 다양한 안드로이드 패키지 활용법 및 앱 페이지 생성의 전반적인 이해
+
+## 방송통신대학교 컴퓨터과학과 (2025-03 ~ 재학 중)
+
+|        |                                                                                                                                                |
+|-------:|:-----------------------------------------------------------------------------------------------------------------------------------------------|
+| period | 2025-03 ~ 재학 중                                                                                                                                  |
+|  title | 방송통신대학교 컴퓨터과학과                                                                                                                                 |
+|  learn | 컴퓨터의 이해,파이썬프로그래밍기초,유비쿼터스컴퓨팅개론...                                                                                                               |  
+
+- 컴퓨터의 기초 원리 및 프로그래밍 개념 습득
+- 파이썬을 활용한 문제 해결 및 알고리즘 학습
+- 유비쿼터스 컴퓨팅 개론을 통해 최신 IT 트렌드 탐색
 
 <br>
 
@@ -247,7 +256,8 @@ order: 4
     <!-- Backend -->
     <p><strong>Backend</strong></p>
     <div>
-        <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> 
+        <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
+        <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white">
         <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
         <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
@@ -261,6 +271,7 @@ order: 4
     <!-- Server -->
     <p><strong>Server</strong></p>
     <div>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
         <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
         <img src="https://img.shields.io/badge/apache%20tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black">
     </div>
@@ -284,6 +295,8 @@ order: 4
     <!-- Version Control -->
     <p><strong>Version Control</strong></p>
     <div>
+        <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white">
+        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white">
         <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
         <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
     </div>
@@ -293,6 +306,12 @@ order: 4
         <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
         <img src="https://img.shields.io/badge/ERD%20Cloud-gray?style=flat-square&logo=staruml&logoColor=white">
         <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white">
+        <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white">
+    </div>
+    <p><strong>Security</strong></p>
+    <div>
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white">
+        <img src="https://img.shields.io/badge/OAuth2.0-4285F4?style=flat-square&logo=google&logoColor=white">
     </div>
 </div><br>
 
