@@ -8,7 +8,7 @@ image: /assets/img/post_images/error_images/error04.png
 
 ## ⛔ 문제 상황
 
-gitHub action build 과정 중 아래와 같은 에러가 발생했다.
+gitHub action build 과정 중 아래와 같은 에러가 발생했다
 
 ```shell
 Run ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf
