@@ -84,10 +84,10 @@ image: /assets/img/post_images/gitHub/github01.png
 해당 사이트에 들어가면 자세한 설명이 있습니다. 저는 아래와 같이 사용했습니다.
 
 ```html
-<img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> 
+<img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="html5"> 
 ```
 
-- <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> 위의 코드는 이런 모양의 이미지를 띄웁니다.
+- <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="html5"> 위의 코드는 이런 모양의 이미지를 띄웁니다.
 - ``https://img.shields.io/badge/<MESSAGE>-<COLOR>?style=&logo=&등`` 형태로 본인이 원하는 모양,색,메시지 등 으로 만들 수 있습니다.
 - 적절한 ``logo,logoColor``를 원하시는 분은 [simpleicons.org](https://simpleicons.org/) 사이트를 참고 하시면 될 거 같습니다.
 
