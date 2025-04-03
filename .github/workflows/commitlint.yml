@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - main
       - "hotfix/*"
   pull_request:
 
