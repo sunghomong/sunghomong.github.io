@@ -45,6 +45,16 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Dependencies (Ruby + Node.js)  # 🔧 추가
+        run: |
+          bundle install
+          npm install  # Bootstrap을 포함한 패키지 설치
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
