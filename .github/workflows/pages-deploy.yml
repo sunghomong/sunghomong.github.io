@@ -53,7 +53,12 @@ jobs:
       - name: Install Dependencies (Ruby + Node.js)  # 🔧 추가
         run: |
           bundle install
-          npm install  # Bootstrap을 포함한 패키지 설치
+
+      - name: Install Dependencies
+        run: npm install  # 🛠 SCSS 관련 패키지 설치
+
+      - name: Build Static Assets
+        run: npm run build
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
