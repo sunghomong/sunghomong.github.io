@@ -1,6 +1,6 @@
 ---
 title: "[Docker] Docker 소개 및 Docker 활용 (1주차)"
-date: 2025-04-16 12:00:00 +0800
+date: 2025-04-20 12:00:00 +0800
 categories: [TIL,TIL_Docker]
 tags: [ Docker,CI,CD,TIL,Education ]
 image: /assets/img/logo_images/docker.png
