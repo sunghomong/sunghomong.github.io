@@ -13,8 +13,6 @@ image: /assets/img/logo_images/docker.png
 
 사전 설정을 위한 AWS 생성은 이전에 활용 사례가 있어서 기록한 내용을 토대로 설정을 진행했다. [AWS EC2 인스턴스 생성 및 접속해보기 !!](https://sunghomong.github.io/posts/TIL_Docker_Start/)
 
-[1주차 - Docker 소개 & Docker 활용 (김경보)](https://www.notion.so/kimalarm/1-Docker-Docker-1cf15d353e348006a41beea65eafe117#1cf15d353e34806b9cfef93194a394ee)
-
 ## 1. Docker란?
 
 스터디 첫 주차에서는 도커의 기본 개념과 활용 사례에 대해 학습했다.
@@ -53,8 +51,6 @@ exit
 ```
 
 ### Docker 기본 명령어
-
-- 아래는 스터디 노션에 적어주신 내용을 그대로 가져왔습니다. 추 후 유용한 활용을 위해 메모해두려고 한다.
 
 ```shell
 # 현재 컨테이너 프로세스 조회
@@ -142,4 +138,18 @@ docker rm $(docker ps -aq)
 # 컨테이너 이미지 제거
 docker rmi nginx:latest hello-world:latest
 ```
+
+기존에 공부했던 내용들이 겹치는 부분들이 있어서 github 에 올려놓은 자료들을 공유해보려고한다.
+
+[Docker & Kubernetes : 실전 가이드](https://github.com/sunghomong/Docker_Education/tree/main)
+
+## 마무리
+
+- 1주차 스터디에서는 심화 과정에 들어가기 전에, 도커의 기본적인 소개와 활용 방법에 대해 배웠다.
+- 기존에 WAS에 도커를 활용해본 경험을 바탕으로, 이번 스터디 내용을 정리해볼 예정이다.
+
+<br><br>
+
+[sunghomong 의 깃 허브](https://github.com/sunghomong) <br>
+[sunghomong 의 블로그](https://sunghomong.github.io/)
 
