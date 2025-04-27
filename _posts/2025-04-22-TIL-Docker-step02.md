@@ -305,6 +305,7 @@ echo 'export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"' >> ~/.bashrc
 #### Multi-Node Cluster (Control-plane, Nodes) with kube-ops-view & Mapping ports (Windows)
 
 - yaml 생성
+
 ```shell
 # '컨트롤플레인, 워커 노드 1대' 클러스터 배포 : 파드에 접속하기 위한 포트 맵핑 설정
 cat <<EOT> kind-2node.yaml
