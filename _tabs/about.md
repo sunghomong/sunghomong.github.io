@@ -119,65 +119,48 @@ order: 4
 
 ### 💻 업무 성과
 
-- 설문평가 서비스 도입 (2024.05~2024.07)
-  - 설문평가 페이지 개발
-  - 관리자 서비스 (결과,통계,대상자,엑셀)
-  - 임시 저장 기능
-  - 결과 점수에 따른 대상자 결과 산출
+- 📌 설문평가 서비스 도입 (2024.05~2024.07)
+  - 서비스 전반 (프론트엔드 + 백엔드) 개발
+  - 사용자용 설문 평가 페이지 개발 및 관리자 기능 구축 (결과, 통계, 대상자 관리, 엑셀 다운로드)
+  - 임시 저장 기능 및 점수 기반 결과 산출 로직 구현
 
-- 마음검진 평가 서비스 도입 (2024.04~2024.07)
-  - A~Z까지 서비스 구축 (프론트,백엔드)
-  - 관리자 서비스 (대상자,보고서)
-  - 외부 업체와 API 연동 (결과 리스트 전달 -> return 보고서)
-  - 엑셀 추출
-  - 보고서 다운 기능 (sftp)
+- 📌 마음검진 평가 서비스 도입 (2024.04~2024.07)
+  - 서비스 전반 (프론트엔드 + 백엔드) 개발
+  - 관리자 페이지에서 대상자 관리 및 보고서 출력 기능 제공
+  - 외부 업체 API 연동 (결과 데이터 전송 및 보고서 수신)
+  - SFTP 기반 보고서 다운로드, 엑셀 추출 기능 구현
 
-- CODEF API 연동 서비스 (2024.08~2024.10)
-  - A~Z 까지 서비스 구축 (프론트,백엔드)
-  - 건강검진 결과 api 연동 
-  - 간편인증 서비스 도입
-  - 뇌졸증 예측 api 연동
-  - 심근경색 예측 api 연동
+- 📌 CODEF API 연동 서비스 (2024.08~2024.10)
+  - 백엔드 개발
+  - 건강검진 결과, 뇌졸중/심근경색 예측 API 연동
+  - 간편 인증 연동 도입
 
-- nice pay api 연동 서비스 (2024.10 ~ current)
-  - A~Z 까지 서비스 구축 (프론트,백엔드)
-  - 결제내역 페이지 생성
-  - 나이스페이 결제 내역 조회 api 연동
-  - 가상계좌,계좌이체,신용카드 결제 취소 코드 리팩토링을 통한 통일성 유지
-  - nice pay 매출전표, 현금영수증 api 연동
-  - 나이스페이 결제취소 api 연동
+- 📌 nice pay api 연동 서비스 (2024.10 ~ current)
+  - 결제 내역 조회 페이지 및 관리자 기능 구현
+  - [나이스페이 결제 내역 조회 api 연동](https://sunghomong.github.io/posts/service-nicePay_java/)
+  - 가상계좌/계좌이체/카드 결제 취소 로직 리팩토링 → 코드 통일성 확보
+  - 매출전표, 현금영수증, 결제취소 API 등 NICE PAY 연동 완료
 
-- isms 작업 (정보 보안) (2024.10)
-  - 인터셉터 부분에서 masking 작업 (관리자)
+- 📌 ISMS 대응 작업 (2024.10)
+  - 관리자 페이지의 민감정보 출력에 대해 인터셉터 기반 Masking 처리 적용
 
-- 관리자 결제 내역 관리
-  - A~Z 까지 서비스 구축
-  - 결제 취소
-  - 결제 내역 엑셀 다운로드
-  - 결제 내역 조회
-  - 나이스 페이 조회
-  - 결제 싱크 안맞는거 조정 가능하게 만듬
+- 📌 관리자 결제 내역 관리 (2024.10 ~ current)
+  - A~Z까지 단독 개발: 결제 취소, 조회, 엑셀 다운로드 기능 포함
+  - 결제 싱크 불일치 시 조정 가능한 기능 추가 개발
 
-- SSO 통합 로그인 서비스
-  - A~Z 까지 서비스 구축
-  - 3 사 고객사 연동 (keycloak)
-    - KMI -> salus,omni,kmi
-  - 계정 생성 api 생성
-  - 계정 수정 api 생성
-  - 회원 탈퇴 api 생성
-  - 회원 조회 api 생성
-  - 통합 로그인 서비스 생성
-    - token 발급 후 session 처리
-  - 통합 로그아웃 서비스 생성
-    - session out 처리
+- 📌 통합 로그인(SSO) 연동 서비스 (2025.02 ~ 2025.05)
+  - SSO A~Z 구축 및 Keycloak 기반 3개 고객사 연동 (Salus, Omni, KMI)
+  - 회원 정보 REST API 연동(개정 생성,수정,탈퇴,조회)
 
-- SSO 고객사 로그인 서비스
-  - 고객사 별 SSO 로그인 서비스 생성 -> login 페이지 새로 생성
+- 📌 Micro 서비스 기반 SSO + OAuth2.0 연동 (2025.02 ~ 2025.04)
+  - 고객사 맞춤형 OAuth2.0 로그인 시스템 구축
+  - 각 고객사별 로그인 페이지 및 인증 흐름 분리 설계
+  - AccessToken 기반 사용자 정보 조회 및 자동 로그인 기능 구현
 
 <h1 style="color: #4a779c; text-align: center;"> 🖥️ Education 🖥️  </h1>
 
 
-## 자바(JAVA)기반 풀스택(프론트엔드,백엔드) 개발 과정 (05.10~11.14)
+## 자바(JAVA)기반 풀스택(프론트엔드,백엔드) 개발 과정 (23.05~23.11)
 
 <br>
 
@@ -233,6 +216,20 @@ order: 4
 - 파이썬을 활용한 문제 해결 및 알고리즘 학습
 - 유비쿼터스 컴퓨팅 개론을 통해 최신 IT 트렌드 탐색
 
+
+## 클럽_도커-쿠버네티스-스터디 4주 교육 (25.04 ~ 25.05)
+
+|        |                                    |
+|-------:|:-----------------------------------|
+| period | 2025-04 ~ 2025-05                  |
+|  title | 도커-쿠버네티스-스터디                 |
+|  learn | Docker,Kubernetes,GitOps,ArgoCD... |  
+
+- Docker 및 Kubernetes를 활용한 컨테이너 오케스트레이션 실습
+- GitOps와 ArgoCD 기반의 지속적 배포(CD) 전략 학습
+- 인프라 자동화 및 운영 환경 구성에 대한 이해
+- 클라우드 네이티브 기술 전반에 대한 실습 중심 교육 진행
+
 <br>
 
 <h1 style="color: #4a779c; text-align: center;"> 🔨 skills 🔨 </h1>
@@ -274,6 +271,7 @@ order: 4
         <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
         <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="linux"> 
         <img src="https://img.shields.io/badge/apache%20tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black" alt="apache">
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
     </div>
     <!-- Development Tools -->
     <p><strong>Development Tools</strong></p>
