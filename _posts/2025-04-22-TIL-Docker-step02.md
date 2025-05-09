@@ -1,7 +1,7 @@
 ---
 title: "[Kubernetes] Kubernetes 소개 및 Kubernetes 활용 (2주차)"
 date: 2025-04-22 12:00:00 +0800
-categories: [TIL,TIL_Docker]
+categories: [TIL,TIL_Kubernetes]
 tags: [ Kubernetes,CI,CD,TIL,Education ]
 image: /assets/img/post_images/TIL/docker_21.png
 ---
