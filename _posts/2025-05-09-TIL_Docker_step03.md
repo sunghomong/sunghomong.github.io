@@ -1,6 +1,6 @@
 ---
 title: "[Kubernetes] Kubernetes Availability & Network (3주차)"
-date: 2025-04-22 12:00:00 +0800
+date: 2025-05-09 12:00:00 +0800
 categories: [TIL,TIL_Kubernetes]
 tags: [ Kubernetes,CI,CD,TIL,Education ]
 image: https://devocean.sk.com/editorImg/2023/4/19/bf70cebd7a900531967971cab2bcc05434c8117cea041f7904eb3cd39bdf1ef2
