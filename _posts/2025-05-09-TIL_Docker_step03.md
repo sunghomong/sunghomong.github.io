@@ -50,11 +50,13 @@ kubectl patch deployment metrics-server -n kube-system --type=json \
 kubectl get pods -n kube-system -l k8s-app=metrics-server
 ```
 
+<img src="/assets/img/post_images/TIL/kub01.png" alt="img"/>
+
 - `리소스 사용량 확인 명령어`
 
 ```shell
 # 전체 노드의 리소스 사용량
-kubectl top node
+kubectl top nodes
 
 # 전체 네임스페이스의 Pod 사용량
 kubectl top pods -A
@@ -65,6 +67,10 @@ kubectl top pods -A --sort-by=cpu
 # 메모리 사용량 기준 정렬
 kubectl top pods -A --sort-by=memory
 ```
+
+<img src="/assets/img/post_images/TIL/kub02.png" alt="img"/>
+
+<img src="/assets/img/post_images/TIL/kub03.png" alt="img"/>
 
 ---
 
@@ -167,6 +173,8 @@ kubectl apply -f hpa-nginx.yaml
 kubectl get deploy,pod
 ```
 
+<img src="/assets/img/post_images/TIL/kub04.png" alt="img">
+
 - `HPA 구성`
 
 ```shell
@@ -179,6 +187,8 @@ kubectl get hpa
 # HPA 상세 정보 확인
 kubectl describe hpa
 ```
+
+<img src="/assets/img/post_images/TIL/kub05.png" alt="img">
 
 ```yaml
 apiVersion: autoscaling/v2
@@ -478,6 +488,10 @@ kubectl delete pod --all
 kubectl delete cm nginx-configmap
 ```
 
+<img src="/assets/img/post_images/TIL/kub06.png" alt="img">
+
+<img src="/assets/img/post_images/TIL/kub07.png" alt="img">
+
 #### ConfigMap 으로 설정 파일 관리
 
 ```shell
@@ -573,6 +587,12 @@ kubectl rollout restart deploy nginx-configmap-deploy # Deployment 재시작으�
 kubectl delete -f configmap.yaml -f config-deploy.yaml # 리소스 삭제
 ```
 
+<img src="/assets/img/post_images/TIL/kub08.png" alt="img">
+
+<img src="/assets/img/post_images/TIL/kub09.png" alt="img">
+
+<img src="/assets/img/post_images/TIL/kub10.png" alt="img">
+
 ---
 
 ### 🔐 Secret – Kubernetes 민감 정보 관리
@@ -651,11 +671,14 @@ data:
   username: YWRtaW4=  # 'admin'을 base64 인코딩한 값
   password: cGFzc3dvcmQ=  # 'password'를 base64 인코딩한 값
 EOF
-
 # Base64 인코딩 방법
 echo -n 'admin' | base64
 echo -n 'password' | base64
+```
 
+<img src="/assets/img/post_images/TIL/kub11.png" alt="img">
+
+```shell
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
@@ -698,6 +721,8 @@ DB_PASS=password
 kubectl delete pod --all                 # 모든 Pod 삭제
 kubectl delete secret secret-test        # Secret 삭제
 ```
+
+<img src="/assets/img/post_images/TIL/kub12.png" alt="img">
 
 #### Secret 을 관리하는 다양한 도구
 
@@ -863,6 +888,8 @@ cluster-svc                         10.244.1.65:80,10.244.1.66:80   9m37s
 ...
 ```
 
+<img src="/assets/img/post_images/TIL/kub13.png" alt="img">
+
 #### ClusterIP 확인 (랜덤 트래픽 분산)
 
 ```shell
@@ -948,6 +975,8 @@ NAME           ENDPOINTS                       AGE
 nodeport-svc   10.244.1.10:80,10.244.1.11:80   2m50s
 ```
 
+<img src="/assets/img/post_images/TIL/kub14.png" alt="img">
+
 #### NodePort 동작 확인
 
 ```shell
@@ -962,6 +991,8 @@ for i in {1..100}; do curl -s http://localhost:31001 | grep Hostname; done | sor
 42 Hostname: nodeport-deploy-59b68567d7-k2cpb
 ...
 ```
+
+<img src="/assets/img/post_images/TIL/kub15.png" alt="img">
 
 ### 🚪 Ingress
 
@@ -1053,6 +1084,8 @@ kubectl patch svc ingress-nginx-controller -n ingress-nginx -p \
 # Nginx Ingress Controller 리소스 확인
 kubectl get -n ingress-nginx svc,deploy,pod
 ```
+
+<img src="/assets/img/post_images/TIL/kub16.png" alt="img">
 
 #### 서비스 생성
 
@@ -1182,6 +1215,8 @@ kubectl describe cm growth-html
 kubectl describe cm log-html
 ```
 
+<img src="/assets/img/post_images/TIL/kub17.png" alt="img">
+
 #### Ingress 배포
 
 ```shell
@@ -1224,6 +1259,8 @@ kubectl get ing,svc
 kubectl describe ingress growth-log-ingress
 ```
 
+<img src="/assets/img/post_images/TIL/kub19.png" alt="img">
+
 #### Ingress 동작 확인
 
 ```shell
@@ -1247,6 +1284,8 @@ curl http://localhost:31000/log
 </html>
 ...
 ```
+
+<img src="/assets/img/post_images/TIL/kub20.png" alt="img">
 
 ## 🧑‍💻 Kubernetes Storage
 
