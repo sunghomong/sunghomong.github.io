@@ -318,6 +318,7 @@ Server Version: v1.32.2
 > 🛠️ Kustomize란? <br>
 > **K**ubernetes + C**ustomize** = **Kustomize**  
 > → 템플릿 없이 순수 YAML을 레이어별로 조합하여 **구성 변경을 선언적으로 관리**할 수 있게 해주는 도구
+{: .prompt-info }
 
 - 공식 사이트: [https://kustomize.io/](https://kustomize.io/)
 - **쿠버네티스 리소스(YAML 파일)를 직접 수정하지 않고, 재정의 및 오버레이로 새로운 구성 생성 가능**
@@ -656,6 +657,7 @@ kubectl kustomize .
 `Transformers 필드`
 
 > [공식문서](https://kubectl.docs.kubernetes.io/references/kustomize/builtins/#_namespacetransformer_)
+{: .prompt-info }
 
 - 리소스의 특정 필드 값을 **변경**하는 기능을 제공
 - 다양한 **내장(transformer) 기능**을 지원하여 필드 수정 작업을 쉽게 수행 가능
@@ -832,6 +834,7 @@ Helm은 Kubernetes 애플리케이션을 쉽고 체계적으로 배포하고 관
 - 설치
 
 > [공식문서](https://helm.sh/ko/docs/intro/install/)
+{: .prompt-info }
 
 ```shell
 # Mac Homebrew 설치
@@ -904,6 +907,7 @@ helm delete myapp
 > - 템플릿 파일 내 변수들을 바인딩하여 **동적인 Kubernetes 리소스 생성** 가능
 > - 환경에 따라 **다른 values.yaml 파일을 적용**하여 dev / stg / prd 분리 가능
 > - 실제 운영에서도 OpenSource Helm Chart에 내 환경에 맞는 `values.yaml`을 적용해 사용
+    {: .prompt-info }
 
 - 📦 Helm Repository 설정
 
@@ -998,6 +1002,7 @@ helm ls
 - **RBAC 설정 (Namespace 단위 권한 관리)**
 
 > 💡 GitOps는 단순히 Git을 사용하는 것 이상의 개념으로, **운영 자동화**, **보안 강화**, **개발 효율성 향상**을 모두 목표로 한다.
+{: .prompt-info }
 
 
 ## 🚀 ArgoCD
@@ -1030,6 +1035,7 @@ helm ls
 > 
 > **추천 도서**: [예제로 배우는 ArgoCD - Yes24](https://www.yes24.com/product/goods/125018027)<br>
 > **공식 자격증**: [Certified Argo Project Associate (CAPA)](https://www.cncf.io/training/certification/capa/)
+{: .prompt-info }
 
 
 ### ArgoCD 설치
