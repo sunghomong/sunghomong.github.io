@@ -1115,7 +1115,7 @@ open http://localhost:31001
 
 ```shell
 # 본인 Repository 클론
-git clone https://github.com/AlarmKimKB/argocd-knou.git
+git clone https://github.com/본인git/repo
 
 # Helm Chart 생성
 helm create argo-test-chart
@@ -1133,7 +1133,7 @@ git add . && git commit -m "Initial Commit" && git push origin main
 
 
 - **Application Source 입력**
-  - **Repository URL** : `https://github.com/AlarmKimKB/argocd-knou.git`
+  - **Repository URL** : `https://github.com/본인git/repo`
   - **Revision**: main
   - **Path**: argo-test-chart
 
