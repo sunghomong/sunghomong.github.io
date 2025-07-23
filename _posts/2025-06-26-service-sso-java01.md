@@ -24,9 +24,9 @@ image: https://xebia.com/wp-content/uploads/2024/03/keycloak-1.jpg.webp
 
 ## ⚙️ 연동 방식 & 흐름 설명
 
-<img src="https://xebia.com/wp-content/uploads/2024/03/keycloak-1.jpg.webp" alt="https://xebia.com/wp-content/uploads/2024/03/keycloak-1.jpg.webp">
+<img src="https://www.cncf.io/wp-content/uploads/2023/05/image-20.png" alt="https://www.cncf.io/wp-content/uploads/2023/05/image-20.png">
 
-출처 : [https://xebia.com/wp-content/uploads/2024/03/keycloak-1.jpg.webp](https://xebia.com/wp-content/uploads/2024/03/keycloak-1.jpg.webp)
+출처 : [https://www.cncf.io/blog/2023/05/17/securing-cloud-native-microservices-with-role-based-access-control-using-keycloak/](https://www.cncf.io/blog/2023/05/17/securing-cloud-native-microservices-with-role-based-access-control-using-keycloak/)
 
 1. Keycloak 서버의 리소스 등록
    - 협력사 측에서 Keycloak 서버를 운영 중이므로 우리는 클라이언트(client) 등록을 요청

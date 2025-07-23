@@ -22,9 +22,9 @@ image: https://learn.microsoft.com/ko-kr/entra/identity-platform/media/v2-oauth2
 
 ## ⚙️ 연동 방식 & 흐름 설명
 
-<img src="https://learn.microsoft.com/ko-kr/entra/identity-platform/media/v2-oauth2-auth-code-flow/convergence-scenarios-native.svg" alt="intro">
+<img src="https://github.com/Azure-Samples/ms-identity-msal-java-samples/blob/main/2-client-side/Integrated-Windows-Auth-Flow/ReadmeFiles/Topology.png?raw=true" alt="https://github.com/Azure-Samples/ms-identity-msal-java-samples/blob/main/2-client-side/Integrated-Windows-Auth-Flow/ReadmeFiles/Topology.png?raw=true">
 
-출처 : [https://learn.microsoft.com/ko-kr/entra/identity-platform/v2-oauth2-auth-code-flow](https://learn.microsoft.com/ko-kr/entra/identity-platform/v2-oauth2-auth-code-flow)
+출처 : [https://github.com/Azure-Samples/ms-identity-msal-java-samples/tree/main/2-client-side/Integrated-Windows-Auth-Flow](https://github.com/Azure-Samples/ms-identity-msal-java-samples/tree/main/2-client-side/Integrated-Windows-Auth-Flow)
 
 1. Microsoft Entra 관리 센터에 클라이언트 등록 요청 (협력사 측 작업)
    - client_id (협력사에서 발급)
@@ -506,9 +506,9 @@ Microsoft의 OAuth 2.0 체계는 처음 접한 방식이라 공식 문서를 반
 특히 이번 연동 과정에서는 PKCE(code_challenge/code_verifier) 와 같은 보안 요소를 적용하면서
 OAuth 보안의 원리와 설계 의도를 깊이 있게 이해할 수 있는 좋은 기회가 되었다.
 
-> 💡  Microsoft Azure OAuth 2.0 인증은 다양한 하이브리드 방식과 흐름이 존재한다.
-기회가 된다면 다른 인증 흐름도 실전에서 적용해보며 경험을 넓혀가고 싶다.
-{: .prompt-info }
+> 💡 Microsoft Azure OAuth 2.0 인증은 다양한 하이브리드 방식과 흐름이 존재한다.
+> 기회가 된다면 다른 인증 흐름도 실전에서 적용해보며 경험을 넓혀가고 싶다.
+> {: .prompt-info }
 
 이번 작업은 나에게 두 번째 SSO 연동 경험이었고 이전보다 훨씬 더 매끄럽게 작업을 진행할 수 있었고 
 외국계 협력사와의 커뮤니케이션과 협업 역량도 함께 성장할 수 있었던 시간이었다.
