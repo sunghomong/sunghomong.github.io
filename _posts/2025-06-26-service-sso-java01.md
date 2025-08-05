@@ -3,7 +3,7 @@ title: "[SSO Keycloak] SSO 연동 도입기"
 date: 2025-07-06 12:00:00 +0800
 categories: [ Service,SSO ]
 tags: [ Keycloak,java,service,SSO ]
-image: https://xebia.com/wp-content/uploads/2024/03/keycloak-1.jpg.webp
+image: https://www.cncf.io/wp-content/uploads/2023/05/image-20.png" alt="https://www.cncf.io/wp-content/uploads/2023/05/image-20.png
 ---
 
 ## 🧐 개발 배경
