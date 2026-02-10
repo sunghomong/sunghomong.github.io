@@ -1,287 +1,770 @@
 ---
 # the default layout is 'page'
+layout: blank
 icon: fas fa-info-circle
 order: 4
 ---
 
-<h1 style="color: #4a779c; text-align: center;"> 👉 About Me 👈 </h1>
+<style>
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+    
+    body {
+        font-family: 'Pretendard', sans-serif;
+        font-weight: 300;
+        word-wrap: break-word;
+        word-break: keep-all;
+        line-height: 1.8;
+        background: #ffffff;
+        margin: 0;
+        padding: 0;
+        color: #2c3e50;
+    }
+    
+    p, li, span, div {
+        color: #2c3e50;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    h1 {
+        color: #3c78d8;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        color: #3c78d8;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    h4 {
+        color: #555;
+        font-weight: 500;
+    }
+    
+    i {
+        color: #666;
+    }
+    
+    a {
+        color: #3c78d8;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #2c5aa0;
+        text-decoration: underline;
+    }
+    
+    small {
+        color: #777;
+    }
+    
+    .badge {
+        display: inline-block;
+        padding: 0.25em 0.6em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.25rem;
+    }
+    
+    .badge-primary {
+        color: #fff;
+        background-color: #007bff;
+    }
+    
+    .badge-secondary {
+        color: #fff;
+        background-color: #6c757d;
+    }
+    
+    .badge-info {
+        color: #fff;
+        background-color: #17a2b8;
+    }
+    
+    .alert {
+        position: relative;
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+    
+    .alert-secondary {
+        color: #2c3e50;
+        background-color: #e2e3e5;
+        border-color: #d6d8db;
+    }
+    
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+    
+    ul {
+        padding-left: 20px;
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-md-right {
+        text-align: right;
+    }
+    
+    .text-md-left {
+        text-align: left;
+    }
+    
+    @media (max-width: 768px) {
+        .text-md-right {
+            text-align: center;
+        }
+        .text-md-left {
+            text-align: center;
+        }
+    }
+</style>
 
-<br>
-<div style="text-align: center;">
-    <img src="/assets/img/logo_images/profile.jpg" alt="DSC05027-1" style="display: block; margin: 0 auto; height:200px;">
-    <br>
-    <p>
-        <strong>조성호</strong>
-        <br><br>
-        <strong>Backend Developer</strong>
-    </p>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div id="__next">
+    <div style="font-family:Pretendard, sans-serif;font-weight:300;word-wrap:break-word;word-break:keep-all; line-height:1.8" class="container">
+
+        <!-- 프로필 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="pb-3 text-md-right text-center">
+                        <img style="max-height:320px" class="img-fluid rounded" src="/assets/img/logo_images/profile.jpg" alt="Profile">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <div class="row">
+                        <div class="text-center text-md-left col">
+                            <h1 style="color:#3c78d8">조성호 <small>(Cho Sung Ho)</small></h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="pt-3 col">
+                            <div class="pb-2 row">
+                                <div class="text-right col-1">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="mailto:kidcojsh@gmail.com" target="_blank" rel="noreferrer noopener">kidcojsh@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="pb-2 row">
+                                <div class="text-right col-1">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <span style="color:black;">Please contact me by email</span>
+                                </div>
+                            </div>
+                            <div class="pb-2 row">
+                                <div class="text-right col-1">
+                                    <i class="fas fa-pen"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://sunghomong.github.io/" target="_blank" rel="noreferrer noopener">https://sunghomong.github.io/</a>
+                                </div>
+                            </div>
+                            <div class="pb-2 row">
+                                <div class="text-right col-1">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">https://github.com/sunghomong</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mt-3 alert alert-secondary fade show" role="alert">
+                                <i class="far fa-bell mr-2"></i> 가급적 이메일로 연락 부탁드립니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- INTRODUCE 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <h2 style="color:#3c78d8">INTRODUCE</h2>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <p>
+                    코드 너머의 소통을 지향하고 비즈니스 성장에 기여하는 것을 좋아하는 개발자 조성호입니다. 좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다.
+                    </p>
+                    <p>
+                    백엔드 개발자로서 전문성을 계속 확장해 나가면서도 팀과 조직과 함께 성장하는 개발자가 되고자 합니다. 서비스 개발은 결국 개발과 비즈니스의 긴밀한 커뮤니케이션 위에서 완성된다고 믿습니다.
+                    </p>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 02. 10</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SKILL 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2><span style="color:#3c78d8">SKILL</span></h2>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Languages</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Java</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>TypeScript</li>
+                                            <li>HTML/CSS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Frameworks & Libraries</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Spring Boot</li>
+                                            <li>JPA</li>
+                                            <li>Node.js</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Thymeleaf</li>
+                                            <li>Vue</li>
+                                            <li>REST API</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>JSP</li>
+                                            <li>WebSocket</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Infrastructure & Databases</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>MySQL</li>
+                                            <li>Oracle</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Docker</li>
+                                            <li>Redis</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>SFTP</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Security</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>OAuth2</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Keycloak</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Microsoft Azure AD</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Collaboration</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Notion</li>
+                                            <li>Slack</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Git</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Redmine</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- EXPERIENCE 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 1년 11개월</span></span></h2>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">2024. 03 ~</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <h4 style="display:inline-flex;align-items:center">위메진 소프트 - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-primary">파견 중</span><span class="ml-1 badge badge-info">1년 11개월</span></span></h4>
+                            </div>
+                        </div>
+                        <div class="mt-2 row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <span style="color:gray">2024. 03 ~ 현재</span>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <i style="color:gray">Healthcare Product / 건강 검진 플랫폼 풀스택 개발자</i>
+                                <ul class="pt-2">
+                                    <li>건강검진 예약 플랫폼 결제 서비스 백엔드 API 개발</li>
+                                    <li>결제 관련 관리자 기능 개발</li>
+                                    <li>마음 검진 서비스 풀스택 개발</li>
+                                    <li>Keycloak 기반 통합 SSO 구축</li>
+                                    <li>Microsoft Azure AD(OAuth2.0) 연동</li>
+                                    <li>국가건강검진 데이터 파싱</li>
+                                    <li><strong>Skill Keywords</strong>
+                                        <div>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Java</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Keycloak</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">OAuth2.0</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PROJECT 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8"><span>PROJECT</span></h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 02 ~ 2025. 05</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>SSO (Single-Sign-On) 연동</h4>
+                                        <i style="color:gray">통합 SSO 구축 및 외부 인증 연동</i>
+                                        <ul class="pt-2">
+                                            <li>Keycloak 기반 3개 도메인 통합 SSO 연동, 전체 신규 가입자의 84%를 SSO로 전환 유도</li>
+                                            <li>Microsoft Azure AD 연동으로 외국계 협력사 직원 로그인 서비스 지원</li>
+                                            <li>OAuth2.0 state/nonce, PKCE 적용으로 보안 강화 및 CSRF 방지</li>
+                                            <li>Keycloak OIDC 및 Azure AD 인증 프로세스를 주도적으로 설계 및 구현</li>
+                                            <li>해외 협력사와 Azure AD 연동을 위한 기술 스펙 조율 및 영문 기술 커뮤니케이션 수행</li>
+                                            <li><strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Microsoft Azure AD</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Keycloak</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">PKCE</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">OAuth2.0</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 10 ~ 2025. 06</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>비타브릿지 결제 서비스 개선</h4>
+                                        <i style="color:gray">건강검진 플랫폼 결제 서비스 개선 및 고도화</i>
+                                        <ul class="pt-2">
+                                            <li>Redis를 적용하여 모바일 브라우저 환경의 데이터 유실 문제 해결</li>
+                                            <li>기존 비즈니스적 주요 기능(공통 영역, 검진 예약, SMS 결제 등) BFF API 마이그레이션 작업</li>
+                                            <li>관리자 서비스이용료 발송 페이지 / 결제 내역 페이지 신규 구축</li>
+                                            <li>Scheduler를 활용하여 6개월간 150건 이상의 비정상 결제 건을 자동 환불 처리</li>
+                                            <li>핵심 비즈니스 로직을 포괄하는 결제 시스템 2.0 고도화 및 아키텍처 설계/개발</li>
+                                            <li><strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JSP</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Ajax</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 10 ~ 2025. 02</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>국가건강검진 조회</h4>
+                                        <i style="color:gray">10년치 건강검진 기록 조회 및 표시</i>
+                                        <ul class="pt-2">
+                                            <li>CODEF API 연동 비동기 데이터 파이프라인 설계/개발</li>
+                                            <li>국가 건강검진 데이터 연동을 위한 고효율 데이터베이스 구조 설계</li>
+                                            <ul>
+                                                <li>TOKEN 테이블을 활용하여 API 발급 비용 절감 및 서비스 응답 속도 단축</li>
+                                                <li></li>
+                                            </ul>
+                                            <li>마음검진 대상자 및 관리 기능을 위한 관리자 페이지 신규 구축</li>
+                                            <li>검사 항목 추가 또는 변경될때마다 코드 수정 없도록 확장 가능한 ERD 설계</li>
+                                            <li>답변 형태 테이블도 추가해서 화면이 동적으로 구성되게 하여 클라이언트 의존도를 낮춤</li>
+                                            <li><strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Ajax</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 04 ~ 2024. 08</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>마음검진</h4>
+                                        <i style="color:gray">외부 전문 심리 평가 기관 API 연동 및 마음검진 서비스 설계/개발</i>
+                                        <ul class="pt-2">
+                                            <li>데이터 파이프라인 구축</li>
+                                            <li>다양한 유형의 문항(객관식, 서술형 등)을 처리할 수 있는 유연한 백엔드 및 프론트앤드 개발</li>
+                                            <li>마음검진 대상자 및 관리 기능을 위한 관리자 페이지 신규 구축</li>
+                                            <li>검사 항목 추가 또는 변경될때마다 코드 수정 없도록 확장 가능한 ERD 설계</li>
+                                            <li>답변 형태 테이블도 추가해서 화면이 동적으로 구성되게 하여 클라이언트 의존도를 낮춤</li>
+                                            <li><strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Ajax</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- EDUCATION 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8"><span>EDUCATION</span></h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 04 ~ 2025. 05</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>도커-쿠버네티스-스터디</h4>
+                                        <i style="color:gray">스터디 모임활동</i>
+                                        <ul class="pt-2">
+                                            <li>GitOps, ArgoCD 등을 활용한 지속적 배포(CD) 및 자동화 환경 구성 실습</li>
+                                            <li>인프라 자동화 및 운영환경에 대한 이해도를 높이고 클라우드 네이티브 및 MSA 환경에 대한 실전 감각 향상을 목표로 스터디 참여</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 03 ~ 2025. 08</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Growth Log - 3기</h4>
+                                        <i style="color:gray">대학교 커뮤니티 참여</i>
+                                        <ul class="pt-2">
+                                            <li>대학생 개발 커뮤니티에 참여하여 지식 공유 및 팀 단위 프로젝트 수행을 목적으로 활동</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 03 ~</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>방송통신대학교</h4>
+                                        <i style="color:gray">컴퓨터과학과 재학 중</i>
+                                        <ul class="pt-2">
+                                            <li>컴퓨터 구조, 자료구조, 운영체제 등 컴퓨터 공학의 기초 이론을 학습</li>
+                                            <li>직무 관련 실무 경험과 이론 지식을 병행하여 이론 기반의 문제 해결 능력을 향상</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                             
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 03 ~ 2024. 10</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Docker & Kubernetes : 실전 가이드</h4>
+                                        <i style="color:gray">Udemy 강의 수료</i>
+                                        <ul class="pt-2">
+                                            <li>Docker 컨테이너 활용 및 Kubernetes 오케스트레이션을 실습 위주로 학습</li>
+                                            <li>CI/CD 구성 감각을 익히고 개발-배포 파이프라인 자동화의 기본 구조 이해에 목적을 두고 초급부터 전문가 수준까지의 영상 기반 강의를 수료</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2023. 12</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>정보처리 산업기사</h4>
+                                        <i style="color:gray">자격증 취득</i>
+                                        <ul class="pt-2">
+                                            <li>소프트웨어 개발 직무에 필요한 기초 이론과 실무 능력 검증을 목적으로 취득</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2023. 05 ~ 2023. 11</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>자바(JAVA)기반 풀스택 개발 과정</h4>
+                                        <i style="color:gray">프론트엔드, 백엔드 개발 과정</i>
+                                        <ul class="pt-2">
+                                            <li>총 6개월 과정으로 객체지향 프로그래밍(OOP) 개념부터 Java 웹 개발 실무 전반을 학습</li>
+                                            <li>프론트엔드와 백엔드를 연계한 웹 시스템 구현 프로젝트 경험 및 프로젝트 1등 수상</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ETC 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8"><span>ETC</span></h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2020. 04 ~ 2023. 03</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>성우알에스</h4>
+                                        <i style="color:gray">건설업 근무 (도면 작업, 현장 관리)</i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2018. 08 ~ 2020. 03</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>해병대 병장 만기 전역</h4>
+                                        <i style="color:gray">군대 만기 전역</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="row">
+            <div style="background-color:#f5f5f5;padding-left:0;padding-right:0;margin-top:50px;height:80px" class="col">
+                <div class="text-center mt-4">
+                    <div class="row">
+                        <div class="col">
+                            <small>v.1.0.0 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-
-<table style="margin: 0 auto; text-align: center;">
-    <tr>
-        <th style="text-align:right;">Email</th>
-        <td style="text-align:left;">kidcojsh@gmail.com</td>
-    </tr>
-    <tr>
-        <th style="text-align:right;">GitHub</th>
-        <td style="text-align:left;"><a href="https://github.com/sunghomong">https://github.com/sunghomong</a></td>
-    </tr>
-    <tr>
-        <th style="text-align:right;" >Blog</th>
-        <td style="text-align:left;"><a href="https://sunghomong.github.io/">https://sunghomong.github.io/</a></td>
-    </tr>
-</table>
-
-<br>
-
-
-### Introduce
-
-```
-백엔드 개발자로서 안정성과 확장성을 고려한 시스템 설계에 관심이 많으며  
-효율적인 데이터 처리, API 최적화, 그리고 서비스 운영 자동화에 집중하고 있습니다.  
-또한, 대용량 트래픽을 안정적으로 처리하는 구조 설계와   
-보안 강화를 위한 인증 및 권한 관리에도 관심을 가지고 지속적으로 학습하고 있습니다.
-```
-
-<br>
-
-<h1 style="color: #4a779c; text-align: center;"> 🏢 Career 🏢 </h1>
-
-## 🏢 Company
-
-|                       |                             |
-|----------------------:|:----------------------------|
-|                period | 2024.03.12 ~ current (진행 중) |
-|          company name | 위메진 소프트                     |
-|                  info | 시스템 소프트웨어 개발 및 공급업          |
-| dispatch company name | 옴니케어(파견)                    |
-| dispatch company info | 경영 컨설팅/전자상거래/응용소프트웨어 개발,공급                    |
-
-<br>
-
-## ✅ 업무 성과
-
-<br>
-
-- 📌 콜 센터 예약 페이지 유지 보수 및 운영
-  - 관리자 서비스에 SMS 결제 기능이 도입된 이후 예약 프로세스가 정상적으로 작동하지 않는 오류가 빈번히 발생하여 사용자 및 타 업체들로부터 CS 요청이 지속되어 왔었습니다.
-  - 여러 페이지에서 각각 분리되어 호출되던 SMS 결제 알림 발송 로직을 하나의 통합 API로 구조 개선하였고 다양한 예외 상황을 고려해 설계함으로써 관련 CS를 약 64% 감소시키는 성과를 얻었습니다.
-
-- 📌 [결제 내역 페이지 신규 개발 및 운영](https://sunghomong.github.io/posts/service-nicePay_java/)
-  - 결제 오류 및 CS 증가에 대응해 신규 결제 내역 조회 페이지 기획·개발하였습니다.
-  - 도메인 규모가 점차 확장됨에 따라 기존 쿼리의 성능 저하 문제가 발생하여 이를 해결하기 위해 조회 기준점을 재설계하고 페이징 처리를 도입하여 조회 속도를 개선하였습니다. (기존 평균 응답 시간 약 3.2초 → 0.8초로 개선)
-  - 관리자 환경에 적합한 UI/UX를 직접 설계 및 구현하였으며 slick.grid.js를 활용해 대량 데이터에 대한 효율적인 테이블 렌더링 및 사용자 편의성을 제공하였습니다.
-
-- 📌 결제 취소 및 NICE API 연동
-  - 갑작스러운 예약 취소 및 기업 지원금 결제의 단순 취소 요구 대응을 위한 결제 취소 전용 프로세스를 개발하였습니다.
-  - 결제 상태 오류 해결을 위한 NICE PAY 결제 취소 API 및 결제 내역 조회 API 연동을 통하여 내부-외부 데이터 정합성 확보에 기여하였습니다.
-  - 매출 통계 효율화를 위한 엑셀 다운로드 기능 및 다양한 부가 서비스 기능을 제공하였습니다.
-
-- 📌 마음 검진 서비스
-  - 사내에서 기업들 대상 마음 검진 플랫폼의 관리자 서비스를 신규 구축하고 운영을 담당하였습니다.
-  - 검진 대상자 등록 및 관리, 보고서 다운로드 기능(3사 업체와의 REST API 연동) 등 주요 기능을 개발하였습니다.
-  - 관리자 편의성을 고려한 UI/UX를 직접 기획하고, 페이징 처리 기반의 프로세스를 설계하여 효율적인 관리 환경을 제공하였습니다.
-
-- 📌 [설문 평가 서비스](https://sunghomong.github.io/posts/service-survey1/)
-  - 기존 직무 스트레스 설문 평가 시스템의 개선을 위해 설문 평가 서비스 신규 개발을 담당하였습니다.
-  - 검진 대상자 등록 및 관리 기능을 구현하였으며, 평가 점수를 기반으로 4가지 유형별 점수를 산출하고, 각 유형의 위험도를 분석하는 프로세스를 구축하였습니다.
-
-- 📌 [Keycloak 기반 통합 SSO 구축](https://sunghomong.github.io/posts/service-sso-java01/#-%EA%B0%9C%EB%B0%9C-%EB%B0%B0%EA%B2%BD)
-  - Keycloak 기반으로 3개 도메인을 통합한 SSO 환경을 구축하고 OAuth2.0의 state/nonce 처리로 CSRF 및 Replay Attack 방지 등 보안성을 강화했습니다.
-  - 전체 가입자의 약 84%가 SSO를 통해 가입하도록 유도했으며 Interceptor를 활용한 자동 로그인 기능도 함께 구현했습니다.
-  - 신규 제휴사 연동을 위한 인증 자동화 구조를 설계하여 확장성과 재사용성을 확보했습니다.
-
-- 📌 Microsoft Azure AD(OAuth2.0) 연동
-  - Microsoft Azure AD(OAuth2.0) 기반 외국계 협력사들과의 SSO 연동을 통해 간편 로그인 프로세스를 설계 및 구현했습니다.
-  - PKCE(code_challenge/code_verifier) 기반 인증으로 Authorization Code 탈취를 방지하고 state 파라미터와 등록된 redirect_uri 기반 검증으로 CSRF 및 인증 요청 무결성을 강화했습니다.
-
-- 📌 [망취소 자동화 시스템 도입](https://sunghomong.github.io/posts/service-nicePay_java01/)
-  - 기존에는 결제 완료 후 예약 세션이 유실된 경우 예약은 되지 않았으나 결제는 정상적으로 처리되어 CS 및 환불 처리가 필요했습니다.
-  - NICE API 연동을 통해 유실된 예약 건의 결제 여부를 탐지하고 자동 환불 처리 로직을 구현 하여 매월 평균 25건, 6개월간 총 150건 이상의 비정상 결제 건에 대해 자동 환불 처리가 가능해졌고 ‘환불 문의’ 관련 CS 를 약 70% 이상 감소시키는 성과를 냈습니다.
-
-- 📌 전반적인 결제 시스템 개선
-  - 예약 등록 및 취소 과정에서 Exception 처리 미흡으로 인해 결제-예약 간 일관성 오류가 발생하는 문제를 확인했습니다.
-  - 전체 결제 프로세스를 단일 API로 통합하여 흐름을 정리하고, 예외 발생 구간에 일괄적으로 Exception 핸들링 로직 적용하였습니다.
-  - REST API 응답 코드와 실제 나이스페이 결제 상태 간 불일치 케이스를 try-catch로 처리하여 안정성을 강화하였습니다.
-
-
-<h1 style="color: #4a779c; text-align: center;"> 🏃 Experiences 🏃 </h1>
-
-## 🖥️ Education
-
-|||
-|--:|:--|
-|title|자바(JAVA)기반 풀스택(프론트엔드,백엔드) 개발 과정|
-|period|2023.05.10~2023.11.14|
-|project|[https://github.com/sunghomong/meeting_site_project](https://github.com/sunghomong/meeting_site_project)|
-|learn|JAVA, Python, HTML, CSS, SQL, Spring, JS, JSP...|
-
-- 객체 지향 프로그래밍(OOP) 핵심 원리 및 Java 기본 문법 학습
-- Spring Boot 기반 웹 애플리케이션 개발 실습
-- 단기 프로젝트 진행을 통해 실무 감각 향상
-
-|||
-|--:|:--|
-|title|Udemy - Docker & Kubernetes : 실전 가이드|
-|period|2024.03.28~ing|
-|project|[https://github.com/sunghomong/Docker_Education](https://github.com/sunghomong/Docker_Education)|
-|learn|NodeJS, Docker, DockerHub, JS...|
-
-- Docker의 개념 및 활용
-- 작은 프로젝트부터 큰 프로젝트까지 Dockerfile의 활용
-- 더 나은 개발 환경 세팅을 위한 Docker 초보자부터 전문가까지의 교육 과정
-
-|||
-|-------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  title | 코틀린 3강으로 끝내기 feat. 안드로이드 개발                                                                                                                       |
-| period | 11.01~12.13                                                                                                                                                 |
-|    TIL | [코틀린_3강으로_끝내기](https://github.com/sunghomong/TIL/tree/main/Kotlin/%EC%BD%94%ED%8B%80%EB%A6%B0_3%EA%B0%95%EC%9C%BC%EB%A1%9C_%EB%81%9D%EB%82%B4%EA%B8%B0)|
-|  learn | kotlin,android studio                                                                                                                                       |  
-
-- Android Studio 설치부터 프로젝트 생성 및 실행까지의 전반적인 과정 습득
-- kotlin 기본 문법에 대한 이해
-- `Class`, `Object`, `Lambda` 등 Kotlin 의 다양한 기능을 활용한 코드 작성법 익히기
-- Navigation 을 통한 앱 내 화면 전환 및 구조 설계 방법
-- 다양한 안드로이드 패키지 활용법 및 앱 페이지 생성의 전반적인 이해
-
-|||
-|-------:|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-|  title | 방송통신대학교 컴퓨터과학과                                                                                                                                 |
-| period | 2025-03 ~ 재학 중                                                                                                                                  |
-|  learn | 컴퓨터의 이해,파이썬프로그래밍기초,유비쿼터스컴퓨팅개론...                                                                                                               |  
-
-- 컴퓨터의 기초 원리 및 프로그래밍 개념 습득
-- 파이썬을 활용한 문제 해결 및 알고리즘 학습
-- 유비쿼터스 컴퓨팅 개론을 통해 최신 IT 트렌드 탐색
-
-|||
-|-------:|:-----------------------------------|
-|  title | 도커-쿠버네티스-스터디                 |
-| period | 2025-04 ~ 2025-05                  |
-|  learn | Docker,Kubernetes,GitOps,ArgoCD... |  
-
-- Docker 및 Kubernetes를 활용한 컨테이너 오케스트레이션 실습
-- GitOps와 ArgoCD 기반의 지속적 배포(CD) 전략 학습
-- 인프라 자동화 및 운영 환경 구성에 대한 이해
-- 클라우드 네이티브 기술 전반에 대한 실습 중심 교육 진행
-
-## 👥 Project
-
-|||
-|--:|:--|
-|title|Social Meeting|
-|period|2023.10.05~2023.11.17|
-|OpenSource|[GitHub_OpenSource](https://github.com/sunghomong/meeting_site_project)|
-|Intro|취미 별 모임 기준으로 사용자 간의 관계와 소통을 도와주는 소셜 모임 서비스|
-
-- 취미 별 모임 기준으로 사용자 간의 관계와 소통을 도와주는 소셜 모임 서비스
-- Http 통신 방식에서 Web Socket 프로토콜 활용을 실시간 채팅 방식 변환
-  - 단방향 통신에서 양방향 통신으로 전송 속도 개선
-- DB 정규화와 MyBatis 의 쿼리 개선
-- 팀장 역할로서 원활한 커뮤니케이션으로 팀원 구성원들을 정해진 기간내에 서비스 구축
-- Spring Boot 를 활용한 프로젝트 구조
-
-## 📘 Diary
-
-|||
-|--:|:-------------------------------------------------------------------|
-|Title| Blog                                                               |
-|period| 2023.09.13~current                                                 |
-|link| [https://sunghomong.github.io/](https://sunghomong.github.io/)     |
-
-- 업무 처리 중 만난 문제, 유용하게 사용될 수 있는 기술, 개발자로서의 기록을 자세히 정리하여 공유하기 위한 블로그
-- 독학 및 교육 과정에서 얻은 기술들을 꼼꼼하게 기록하는 블로그
-- 반복되는 실수를 방지하고자 문제 해결의 과정을 기록하는 블로그
-- 끊임 없는 성장을 보여주는 블로그
-
-<h1 style="color: #4a779c; text-align: center;"> 🔨 skills 🔨 </h1>
-
-<br>
-제가 배우고 사용했던 기술들 입니다.
-<br><br>
-
-<div style="display:flex; flex-direction:column; align-items:flex-start;">
-    <!-- Frontend -->
-    <p><strong>Frontend</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="html5"> 
-        <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white" alt="css"> 
-        <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="javascript">
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-        <img src="https://img.shields.io/badge/JQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" alt="JQuery">
-        <img src="https://img.shields.io/badge/Ajax-00758F?style=flat-square&logo=ajax&logoColor=white" alt="Ajax">
-        <img src="https://img.shields.io/badge/JSP-00758?style=flat-square&logo=ajax&color=black" alt="JSP">
-    </div>
-    <!-- Backend -->
-    <p><strong>Backend</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white" alt="Java">
-        <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby">
-        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
-    </div>
-    <!-- Database -->
-    <p><strong>Database</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="oracle"> 
-        <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql"> 
-    </div>
-    <!-- Server -->
-    <p><strong>Server</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-        <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="linux"> 
-        <img src="https://img.shields.io/badge/apache%20tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black" alt="apache">
-        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
-    </div>
-    <!-- Development Tools -->
-    <p><strong>Development Tools</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white" alt="IntelliJ">
-        <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="Visual">
-        <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=eclipse-ide&logoColor=white" alt="Eclipse">
-        <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white" alt="android">
-        <img src="https://img.shields.io/badge/dbeaver-382923?style=flat-square&logo=dbeaver&logoColor=white" alt="dbeaver">
-    </div>
-    <!-- Framework -->
-    <p><strong>Framework</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring">
-        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="SpringBoot">
-        <img src="https://img.shields.io/badge/Web%20Socket-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Web">
-        <img src="https://img.shields.io/badge/thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white" alt="thymeleaf">
-    </div>
-    <!-- Version Control -->
-    <p><strong>Version Control</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins">
-        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub">
-        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-    </div>
-    <!-- Communication -->
-    <p><strong>Communication</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Notion">
-        <img src="https://img.shields.io/badge/ERD%20Cloud-gray?style=flat-square&logo=staruml&logoColor=white" alt="ERD">
-        <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord">
-        <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack">
-    </div>
-    <p><strong>Security</strong></p>
-    <div>
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT">
-        <img src="https://img.shields.io/badge/OAuth2.0-4285F4?style=flat-square&logo=google&logoColor=white" alt="OAuth2">
-    </div>
-</div><br>
-
-## Communication
-
-- 어떤 프로젝트에 있어서 커뮤니케이션이 가장 우선적이라 생각합니다.
-- 적극적으로 의사를 전달해 개발 방향성을 잡아 가려고 노력합니다.
-- 커뮤니케이션에 있어서 적은것보다 많은게 좋다고 믿고 있습니다.
-
-<br>
-
