@@ -142,9 +142,6 @@ order: 4
     }
 </style>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 <div id="__next">
     <div style="font-family:Pretendard, sans-serif;font-weight:300;word-wrap:break-word;word-break:keep-all; line-height:1.8" class="container">
 
@@ -208,7 +205,7 @@ order: 4
                 </div>
             </div>
         </div>
-        
+
         <!-- INTRODUCE 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -217,10 +214,10 @@ order: 4
                 </div>
                 <div class="col-sm-12 col-md-9">
                     <p>
-                    코드 너머의 소통을 지향하고 비즈니스 성장에 기여하는 것을 좋아하는 개발자 조성호입니다. 좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다.
+                        코드 너머의 소통을 지향하고 비즈니스 성장에 기여하는 것을 좋아하는 개발자 조성호입니다. 좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다.
                     </p>
                     <p>
-                    백엔드 개발자로서 전문성을 계속 확장해 나가면서도 팀과 조직과 함께 성장하는 개발자가 되고자 합니다. 서비스 개발은 결국 개발과 비즈니스의 긴밀한 커뮤니케이션 위에서 완성된다고 믿습니다.
+                        백엔드 개발자로서 전문성을 계속 확장해 나가면서도 팀과 조직과 함께 성장하는 개발자가 되고자 합니다. 서비스 개발은 결국 개발과 비즈니스의 긴밀한 커뮤니케이션 위에서 완성된다고 믿습니다.
                     </p>
                     <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 02. 10</span></p>
                 </div>
@@ -236,7 +233,7 @@ order: 4
                             <h2><span style="color:#3c78d8">SKILL</span></h2>
                         </div>
                     </div>
-                    
+
                     <div>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -260,7 +257,7 @@ order: 4
                             </div>
                         </div>
                     </div>
-                    
+
                     <div><hr>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -292,7 +289,7 @@ order: 4
                             </div>
                         </div>
                     </div>
-                    
+
                     <div><hr>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -321,7 +318,7 @@ order: 4
                             </div>
                         </div>
                     </div>
-                    
+
                     <div><hr>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -348,7 +345,7 @@ order: 4
                             </div>
                         </div>
                     </div>
-                    
+
                     <div><hr>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -379,7 +376,7 @@ order: 4
                 </div>
             </div>
         </div>
-        
+
         <!-- EXPERIENCE 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -412,7 +409,8 @@ order: 4
                                     <li>Keycloak 기반 통합 SSO 구축</li>
                                     <li>Microsoft Azure AD(OAuth2.0) 연동</li>
                                     <li>국가건강검진 데이터 파싱</li>
-                                    <li><strong>Skill Keywords</strong>
+                                    <li>
+                                        <strong>Skill Keywords</strong>
                                         <div>
                                             <span style="font-weight:400" class="mr-1 badge badge-secondary">Java</span>
                                             <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
@@ -428,7 +426,7 @@ order: 4
                 </div>
             </div>
         </div>
-        
+
         <!-- PROJECT 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -459,7 +457,8 @@ order: 4
                                             <li>OAuth2.0 state/nonce, PKCE 적용으로 보안 강화 및 CSRF 방지</li>
                                             <li>Keycloak OIDC 및 Azure AD 인증 프로세스를 주도적으로 설계 및 구현</li>
                                             <li>해외 협력사와 Azure AD 연동을 위한 기술 스펙 조율 및 영문 기술 커뮤니케이션 수행</li>
-                                            <li><strong>Skill Keywords</strong>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
                                                 <div>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Microsoft Azure AD</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Keycloak</span>
@@ -490,7 +489,8 @@ order: 4
                                             <li>관리자 서비스이용료 발송 페이지 / 결제 내역 페이지 신규 구축</li>
                                             <li>Scheduler를 활용하여 6개월간 150건 이상의 비정상 결제 건을 자동 환불 처리</li>
                                             <li>핵심 비즈니스 로직을 포괄하는 결제 시스템 2.0 고도화 및 아키텍처 설계/개발</li>
-                                            <li><strong>Skill Keywords</strong>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
                                                 <div>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring</span>
@@ -521,12 +521,12 @@ order: 4
                                             <li>국가 건강검진 데이터 연동을 위한 고효율 데이터베이스 구조 설계</li>
                                             <ul>
                                                 <li>TOKEN 테이블을 활용하여 API 발급 비용 절감 및 서비스 응답 속도 단축</li>
-                                                <li></li>
                                             </ul>
                                             <li>마음검진 대상자 및 관리 기능을 위한 관리자 페이지 신규 구축</li>
                                             <li>검사 항목 추가 또는 변경될때마다 코드 수정 없도록 확장 가능한 ERD 설계</li>
                                             <li>답변 형태 테이블도 추가해서 화면이 동적으로 구성되게 하여 클라이언트 의존도를 낮춤</li>
-                                            <li><strong>Skill Keywords</strong>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
                                                 <div>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
@@ -557,7 +557,8 @@ order: 4
                                             <li>마음검진 대상자 및 관리 기능을 위한 관리자 페이지 신규 구축</li>
                                             <li>검사 항목 추가 또는 변경될때마다 코드 수정 없도록 확장 가능한 ERD 설계</li>
                                             <li>답변 형태 테이블도 추가해서 화면이 동적으로 구성되게 하여 클라이언트 의존도를 낮춤</li>
-                                            <li><strong>Skill Keywords</strong>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
                                                 <div>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
@@ -575,7 +576,7 @@ order: 4
                 </div>
             </div>
         </div>
-        
+
         <!-- EDUCATION 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -643,7 +644,8 @@ order: 4
                                         </ul>
                                     </div>
                                 </div>
-                            </div>                             
+                            </div>
+
                             <div><hr>
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
@@ -662,7 +664,8 @@ order: 4
                                         </ul>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
+
                             <div><hr>
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
@@ -705,6 +708,7 @@ order: 4
                 </div>
             </div>
         </div>
+
         <!-- ETC 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -732,7 +736,7 @@ order: 4
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div><hr>
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
@@ -753,7 +757,7 @@ order: 4
                 </div>
             </div>
         </div>
-        
+
         <!-- Footer -->
         <div class="row">
             <div style="background-color:#f5f5f5;padding-left:0;padding-right:0;margin-top:50px;height:80px" class="col">
