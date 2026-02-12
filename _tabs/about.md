@@ -614,6 +614,95 @@ order: 4
                     </div>
                 </div>
             </div>
+        </div>        
+        
+        <!-- OPEN SOURCE 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">OPEN SOURCE</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">NICE PAY 연동 모듈</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <ul class="">
+                                            <li>NICE PAY 결제 시스템 연동을 위한 Java/Spring Boot 기반 오픈소스 모듈 개발</li>
+                                            <li>Java & Spring Boot</li>
+                                            <li><a href="https://github.com/sunghomong/NICEPAY_JAVA" target="_blank" rel="noreferrer noopener">https://github.com/sunghomong/NICEPAY_JAVA</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">SSO 연동 모듈</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <ul class="">
+                                            <li>Microsoft Azure AD 및 Keycloak 기반 SSO 연동을 위한 Java/Spring Boot 오픈소스 모듈 개발</li>
+                                            <li>Microsoft Azure AD & Keycloak</li>
+                                            <li>Java & Spring Boot</li>
+                                            <li><a href="https://github.com/sunghomong/SSO_PROJECT" target="_blank" rel="noreferrer noopener">https://github.com/sunghomong/SSO_PROJECT</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">Jekyll Blog</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <ul class="">
+                                            <li>Jekyll 테마(Chirpy)를 fork하여 커스터마이징한 개인 블로그 구축 및 운영</li>
+                                            <li>Rollup과 Babel을 활용한 JavaScript 번들링 및 트랜스파일링 구성</li>
+                                            <li>GitHub Actions를 활용한 자동 빌드 및 배포 파이프라인 구성</li>
+                                            <li><a href="https://github.com/sunghomong/sunghomong.github.io" target="_blank" rel="noreferrer noopener">Repository</a> / <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noreferrer noopener">Original Theme</a></li>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Jekyll</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Ruby</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">SCSS</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Bootstrap</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Rollup</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Babel</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">GitHub Actions</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Markdown</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Liquid</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- EDUCATION 섹션 -->
