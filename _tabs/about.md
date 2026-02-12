@@ -589,7 +589,7 @@ order: 4
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-9">
-                                        <h4>마음검진</h4>
+                                        <h4>마음검진 서비스</h4>
                                         <i style="color:gray">외부 전문 심리 평가 기관 API 연동 및 마음검진 서비스 설계/개발</i>
                                         <ul class="pt-2">
                                             <li>외부 심리 평가 기관과의 SFTP 기반 데이터 파이프라인 구축</li>
