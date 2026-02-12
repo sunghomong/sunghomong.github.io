@@ -384,7 +384,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary" id="totalExperience"></span></span></h2>
+                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary" id="totalExperience">총 1년 11개월</span></span></h2>
                         </div>
                     </div>
                     
@@ -840,10 +840,11 @@ order: 4
     </div>
 </div>
 
+{% raw %}
 <script>
     // 경력 기간 동적 계산
     function calculateExperience() {
-        // 경력 시작일 (2024년 3월 1일)
+        // 경력 시작일 (2024년 3월 12일)
         const startDate = new Date('2024-03-12');
         const currentDate = new Date();
         
@@ -872,13 +873,19 @@ order: 4
         if (experienceElement) {
             if (years > 0 && months > 0) {
                 experienceElement.textContent = `총 ${years}년 ${months}개월`;
-                omniTotalExperience.textContent = `${years}년 ${months}개월`;
+                if (omniTotalExperience) {
+                    omniTotalExperience.textContent = `${years}년 ${months}개월`;
+                }
             } else if (years > 0) {
                 experienceElement.textContent = `총 ${years}년`;
-                omniTotalExperience.textContent = `${years}년`;
+                if (omniTotalExperience) {
+                    omniTotalExperience.textContent = `${years}년`;
+                }
             } else {
                 experienceElement.textContent = `총 ${months}개월`;
-                omniTotalExperience.textContent = `${months}개월`;
+                if (omniTotalExperience) {
+                    omniTotalExperience.textContent = `${months}개월`;
+                }
             }
         }
     }
@@ -890,3 +897,4 @@ order: 4
         calculateExperience();
     }
 </script>
+{% endraw %}
