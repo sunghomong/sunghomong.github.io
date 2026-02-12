@@ -384,7 +384,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary" id="totalExperience">총 1년 11개월</span></span></h2>
+                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 1년 11개월</span></span></h2>
                         </div>
                     </div>
                     
@@ -395,7 +395,7 @@ order: 4
                             </div>
                             <div class="col-sm-12 col-md-9">
                                 <h4 style="display:inline-flex;align-items:center">위메진 소프트 - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center">
-                                <span class="ml-1 badge badge-primary" style="margin-left: 10px;">파견 중</span><span class="ml-1 badge badge-info" id="omniTotalExperience" style="margin-left: 3px;">1년 11개월</span></span></h4>
+                                <span class="ml-1 badge badge-primary" style="margin-left: 10px;">파견 중</span><span class="ml-1 badge badge-info" style="margin-left: 3px;">1년 11개월</span></span></h4>
                             </div>
                         </div>
                         <div class="mt-2 row">
@@ -459,6 +459,7 @@ order: 4
                                         <h4>비타브릿지 마이그레이션 및 차세대 플랫폼 구축</h4>
                                         <i style="color:gray">건강검진 플랫폼 전환 프로젝트</i>
                                         <ul class="pt-2">
+                                            <li><a href="https://www.docdocdoc.co.kr/news/articleView.html?idxno=3032565" target="_blank" rel="noreferrer noopener">브타브릿지 차세대 서비스 출시</a></li>
                                             <li>레거시 시스템(JSTL/Spring)을 Vue, TypeScript, Spring Boot, JPA 기반 모던 스택으로 전면 마이그레이션 및 아키텍처 재설계</li>
                                             <li>Spring Security 커스터마이징을 통한 JWT 기반 인증 체계 구축 및 전역 예외 처리 표준화</li>
                                             <li>ISMS 심사 규정 준수 개발 및 소셜 로그인(Naver, Kakao, Pass) 연동을 통한 간편가입 기능 구현</li>
@@ -562,8 +563,9 @@ order: 4
                                         <ul class="pt-2">
                                             <li>CODEF API 연동을 위한 비동기 데이터 파이프라인 설계 및 개발</li>
                                             <li>TOKEN 테이블 활용으로 API 발급 비용 절감 및 서비스 응답 속도 단축</li>
-                                            <li>국가 건강검진 데이터 연동을 위한 고효율 데이터베이스 구조 설계</li>
+                                            <li>10년치 국가 건강검진 데이터 연동을 위한 고효율 데이터베이스 구조 설계</li>
                                             <li>Chart 라이브러리를 활용해 비정형 검진 항목 카테고리별 데이터 시각화 모듈 개발</li>
+                                            <li>TXID 기반의 2-PHASE 인증 및 데이터 처리 구조 완성</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
@@ -587,7 +589,7 @@ order: 4
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-9">
-                                        <h4>마음검진</h4>
+                                        <h4>마음검진 서비스</h4>
                                         <i style="color:gray">외부 전문 심리 평가 기관 API 연동 및 마음검진 서비스 설계/개발</i>
                                         <ul class="pt-2">
                                             <li>외부 심리 평가 기관과의 SFTP 기반 데이터 파이프라인 구축</li>
@@ -839,62 +841,3 @@ order: 4
         </div>
     </div>
 </div>
-
-{% raw %}
-<script>
-    // 경력 기간 동적 계산
-    function calculateExperience() {
-        // 경력 시작일 (2024년 3월 12일)
-        const startDate = new Date('2024-03-12');
-        const currentDate = new Date();
-        
-        // 년과 월 차이 계산
-        let years = currentDate.getFullYear() - startDate.getFullYear();
-        let months = currentDate.getMonth() - startDate.getMonth();
-        
-        // 음수 월 처리
-        if (months < 0) {
-            years--;
-            months += 12;
-        }
-        
-        // 일자 고려 (현재 일자가 시작일보다 작으면 1개월 빼기)
-        if (currentDate.getDate() < startDate.getDate()) {
-            months--;
-            if (months < 0) {
-                years--;
-                months += 12;
-            }
-        }
-        
-        // 결과 표시
-        const experienceElement = document.getElementById('totalExperience');
-        const omniTotalExperience = document.getElementById('omniTotalExperience');
-        if (experienceElement) {
-            if (years > 0 && months > 0) {
-                experienceElement.textContent = `총 ${years}년 ${months}개월`;
-                if (omniTotalExperience) {
-                    omniTotalExperience.textContent = `${years}년 ${months}개월`;
-                }
-            } else if (years > 0) {
-                experienceElement.textContent = `총 ${years}년`;
-                if (omniTotalExperience) {
-                    omniTotalExperience.textContent = `${years}년`;
-                }
-            } else {
-                experienceElement.textContent = `총 ${months}개월`;
-                if (omniTotalExperience) {
-                    omniTotalExperience.textContent = `${months}개월`;
-                }
-            }
-        }
-    }
-    
-    // 페이지 로드 시 실행
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', calculateExperience);
-    } else {
-        calculateExperience();
-    }
-</script>
-{% endraw %}
