@@ -312,6 +312,7 @@ order: 4
                                     <div class="col-12 col-md-4">
                                         <ul>
                                             <li>SFTP</li>
+                                            <li>MongoDB</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -383,7 +384,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 1년 11개월</span></span></h2>
+                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary" id="totalExperience"></span></span></h2>
                         </div>
                     </div>
                     
@@ -393,7 +394,8 @@ order: 4
                                 <h4 style="color:gray">2024. 03 ~</h4>
                             </div>
                             <div class="col-sm-12 col-md-9">
-                                <h4 style="display:inline-flex;align-items:center">위메진 소프트 - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-primary">파견 중</span><span class="ml-1 badge badge-info">1년 11개월</span></span></h4>
+                                <h4 style="display:inline-flex;align-items:center">위메진 소프트 - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center">
+                                <span class="ml-1 badge badge-primary" style="margin-left: 10px;">파견 중</span><span class="ml-1 badge badge-info" id="omniTotalExperience" style="margin-left: 3px;">1년 11개월</span></span></h4>
                             </div>
                         </div>
                         <div class="mt-2 row">
@@ -409,14 +411,19 @@ order: 4
                                     <li>Keycloak 기반 통합 SSO 구축</li>
                                     <li>Microsoft Azure AD(OAuth2.0) 연동</li>
                                     <li>국가건강검진 데이터 파싱</li>
+                                    <li>마이그레이션 및 차세대 플랫폼 구축</li>
                                     <li>
                                         <strong>Skill Keywords</strong>
                                         <div>
-                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Java</span>
                                             <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
                                             <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">MongoDB</span>
                                             <span style="font-weight:400" class="mr-1 badge badge-secondary">Keycloak</span>
-                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">OAuth2.0</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Microsoft Azure AD</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -433,13 +440,82 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8"><span>PROJECT</span></h2>
+                            <h2 style="color:#3c78d8">PROJECT</h2>
                         </div>
                     </div>
                     
                     <div class="row">
                         <div class="col">
                             <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 09 ~ 현재</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>비타브릿지 마이그레이션 및 차세대 플랫폼 구축</h4>
+                                        <i style="color:gray">건강검진 플랫폼 전환 프로젝트</i>
+                                        <ul class="pt-2">
+                                            <li>레거시 시스템(JSTL/Spring)을 Vue, TypeScript, Spring Boot, JPA 기반 모던 스택으로 전면 마이그레이션 및 아키텍처 재설계</li>
+                                            <li>Spring Security 커스터마이징을 통한 JWT 기반 인증 체계 구축 및 전역 예외 처리 표준화</li>
+                                            <li>ISMS 심사 규정 준수 개발 및 소셜 로그인(Naver, Kakao, Pass) 연동을 통한 간편가입 기능 구현</li>
+                                            <li>결제 통보 시스템 구축으로 모든 결제 건 실시간 처리 및 상태 관리 자동화</li>
+                                            <li>개발 서버 배포 파이프라인 구축 및 상태 모니터링 및 관리</li>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JWT</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">MongoDB</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Linux</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 10 ~ 2025. 09</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>비타브릿지 결제 서비스 개선</h4>
+                                        <i style="color:gray">건강검진 플랫폼 결제 서비스 개선 및 고도화</i>
+                                        <ul class="pt-2">
+                                            <li>Redis 도입으로 모바일 브라우저 환경의 세션 데이터 유실 문제 해결</li>
+                                            <li>공통 영역, 검진 예약, SMS 결제 등 핵심 비즈니스 기능의 BFF API 마이그레이션 및 통합</li>
+                                            <li>관리자 페이지 신규 구축(서비스이용료 발송, 결제 내역 관리)으로 운영 효율성 향상</li>
+                                            <li>Scheduler 기반 자동화 시스템 구축으로 6개월간 150건 이상의 비정상 결제 건 자동 환불 처리</li>
+                                            <li>결제 시스템 2.0 아키텍처 설계 및 핵심 비즈니스 로직 고도화</li>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JSP</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
                                         <div class="row">
@@ -452,11 +528,11 @@ order: 4
                                         <h4>SSO (Single-Sign-On) 연동</h4>
                                         <i style="color:gray">통합 SSO 구축 및 외부 인증 연동</i>
                                         <ul class="pt-2">
-                                            <li>Keycloak 기반 3개 도메인 통합 SSO 연동, 전체 신규 가입자의 84%를 SSO로 전환 유도</li>
-                                            <li>Microsoft Azure AD 연동으로 외국계 협력사 직원 로그인 서비스 지원</li>
-                                            <li>OAuth2.0 state/nonce, PKCE 적용으로 보안 강화 및 CSRF 방지</li>
-                                            <li>Keycloak OIDC 및 Azure AD 인증 프로세스를 주도적으로 설계 및 구현</li>
-                                            <li>해외 협력사와 Azure AD 연동을 위한 기술 스펙 조율 및 영문 기술 커뮤니케이션 수행</li>
+                                            <li>Keycloak 기반 3개 도메인 통합 SSO 구축으로 전체 신규 가입자의 84%를 SSO로 전환 달성</li>
+                                            <li>Microsoft Azure AD 연동을 통한 외국계 협력사 직원 로그인 서비스 지원</li>
+                                            <li>OAuth2.0 state/nonce, PKCE 적용으로 보안 강화 및 CSRF 공격 방지</li>
+                                            <li>Keycloak OIDC 및 Azure AD 인증 프로세스 설계/개발</li>
+                                            <li>해외 협력사와의 Azure AD 연동을 위한 기술 스펙 조율 및 영문 기술 문서 작성 및 커뮤니케이션</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
@@ -476,40 +552,7 @@ order: 4
                                     <div class="text-md-right col-sm-12 col-md-3">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <h4 style="color:gray">2024. 10 ~ 2025. 06</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-9">
-                                        <h4>비타브릿지 결제 서비스 개선</h4>
-                                        <i style="color:gray">건강검진 플랫폼 결제 서비스 개선 및 고도화</i>
-                                        <ul class="pt-2">
-                                            <li>Redis를 적용하여 모바일 브라우저 환경의 데이터 유실 문제 해결</li>
-                                            <li>기존 비즈니스적 주요 기능(공통 영역, 검진 예약, SMS 결제 등) BFF API 마이그레이션 작업</li>
-                                            <li>관리자 서비스이용료 발송 페이지 / 결제 내역 페이지 신규 구축</li>
-                                            <li>Scheduler를 활용하여 6개월간 150건 이상의 비정상 결제 건을 자동 환불 처리</li>
-                                            <li>핵심 비즈니스 로직을 포괄하는 결제 시스템 2.0 고도화 및 아키텍처 설계/개발</li>
-                                            <li>
-                                                <strong>Skill Keywords</strong>
-                                                <div>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JSP</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Ajax</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div><hr>
-                                <div class="row">
-                                    <div class="text-md-right col-sm-12 col-md-3">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h4 style="color:gray">2024. 10 ~ 2025. 02</h4>
+                                                <h4 style="color:gray">2024. 09 ~ 2025. 02</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -517,22 +560,17 @@ order: 4
                                         <h4>국가건강검진 조회</h4>
                                         <i style="color:gray">10년치 건강검진 기록 조회 및 표시</i>
                                         <ul class="pt-2">
-                                            <li>CODEF API 연동 비동기 데이터 파이프라인 설계/개발</li>
+                                            <li>CODEF API 연동을 위한 비동기 데이터 파이프라인 설계 및 개발</li>
+                                            <li>TOKEN 테이블 활용으로 API 발급 비용 절감 및 서비스 응답 속도 단축</li>
                                             <li>국가 건강검진 데이터 연동을 위한 고효율 데이터베이스 구조 설계</li>
-                                            <ul>
-                                                <li>TOKEN 테이블을 활용하여 API 발급 비용 절감 및 서비스 응답 속도 단축</li>
-                                            </ul>
-                                            <li>마음검진 대상자 및 관리 기능을 위한 관리자 페이지 신규 구축</li>
-                                            <li>검사 항목 추가 또는 변경될때마다 코드 수정 없도록 확장 가능한 ERD 설계</li>
-                                            <li>답변 형태 테이블도 추가해서 화면이 동적으로 구성되게 하여 클라이언트 의존도를 낮춤</li>
+                                            <li>Chart 라이브러리를 활용해 비정형 검진 항목 카테고리별 데이터 시각화 모듈 개발</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Ajax</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Chart.js</span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -544,7 +582,7 @@ order: 4
                                     <div class="text-md-right col-sm-12 col-md-3">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <h4 style="color:gray">2024. 04 ~ 2024. 08</h4>
+                                                <h4 style="color:gray">2024. 04 ~ 2024. 09</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -552,19 +590,18 @@ order: 4
                                         <h4>마음검진</h4>
                                         <i style="color:gray">외부 전문 심리 평가 기관 API 연동 및 마음검진 서비스 설계/개발</i>
                                         <ul class="pt-2">
-                                            <li>데이터 파이프라인 구축</li>
-                                            <li>다양한 유형의 문항(객관식, 서술형 등)을 처리할 수 있는 유연한 백엔드 및 프론트앤드 개발</li>
-                                            <li>마음검진 대상자 및 관리 기능을 위한 관리자 페이지 신규 구축</li>
-                                            <li>검사 항목 추가 또는 변경될때마다 코드 수정 없도록 확장 가능한 ERD 설계</li>
-                                            <li>답변 형태 테이블도 추가해서 화면이 동적으로 구성되게 하여 클라이언트 의존도를 낮춤</li>
+                                            <li>외부 심리 평가 기관과의 SFTP 기반 데이터 파이프라인 구축</li>
+                                            <li>객관식, 서술형 등 다양한 문항 유형을 처리할 수 있는 유연한 백엔드 및 프론트엔드 개발</li>
+                                            <li>확장 가능한 ERD 설계로 검사 항목 추가/변경 시 코드 수정 없이 대응 가능한 구조 구현</li>
+                                            <li>답변 형태 테이블 기반 동적 화면 구성으로 클라이언트 의존도 최소화</li>
+                                            <li>마음검진 대상자 관리 및 운영을 위한 관리자 페이지 신규 구축</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Ajax</span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -583,7 +620,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8"><span>EDUCATION</span></h2>
+                            <h2 style="color:#3c78d8">EDUCATION</h2>
                         </div>
                     </div>
                     
@@ -631,7 +668,7 @@ order: 4
                                     <div class="text-md-right col-sm-12 col-md-3">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <h4 style="color:gray">2025. 03 ~</h4>
+                                                <h4 style="color:gray">2025. 03 ~ 현재</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -715,7 +752,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8"><span>ETC</span></h2>
+                            <h2 style="color:#3c78d8">ETC</h2>
                         </div>
                     </div>
                     
@@ -731,8 +768,38 @@ order: 4
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-9">
-                                        <h4>성우알에스</h4>
-                                        <i style="color:gray">건설업 근무 (도면 작업, 현장 관리)</i>
+                                        <h4>건설업 종사</h4>
+                                        <i style="color:gray">도면 작업, 현장 관리</i>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2022. 11</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>방수기능사</h4>
+                                        <i style="color:gray">한국산업인력공단 자격증 취득</i>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2020. 07</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>건축도장기능사</h4>
+                                        <i style="color:gray">한국산업인력공단 자격증 취득</i>
                                     </div>
                                 </div>
                             </div>
@@ -764,7 +831,7 @@ order: 4
                 <div class="text-center mt-4">
                     <div class="row">
                         <div class="col">
-                            <small>v.1.0.0 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
+                            <small>v.1.0.1 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
                         </div>
                     </div>
                 </div>
@@ -772,3 +839,54 @@ order: 4
         </div>
     </div>
 </div>
+
+<script>
+    // 경력 기간 동적 계산
+    function calculateExperience() {
+        // 경력 시작일 (2024년 3월 1일)
+        const startDate = new Date('2024-03-12');
+        const currentDate = new Date();
+        
+        // 년과 월 차이 계산
+        let years = currentDate.getFullYear() - startDate.getFullYear();
+        let months = currentDate.getMonth() - startDate.getMonth();
+        
+        // 음수 월 처리
+        if (months < 0) {
+            years--;
+            months += 12;
+        }
+        
+        // 일자 고려 (현재 일자가 시작일보다 작으면 1개월 빼기)
+        if (currentDate.getDate() < startDate.getDate()) {
+            months--;
+            if (months < 0) {
+                years--;
+                months += 12;
+            }
+        }
+        
+        // 결과 표시
+        const experienceElement = document.getElementById('totalExperience');
+        const omniTotalExperience = document.getElementById('omniTotalExperience');
+        if (experienceElement) {
+            if (years > 0 && months > 0) {
+                experienceElement.textContent = `총 ${years}년 ${months}개월`;
+                omniTotalExperience.textContent = `${years}년 ${months}개월`;
+            } else if (years > 0) {
+                experienceElement.textContent = `총 ${years}년`;
+                omniTotalExperience.textContent = `${years}년`;
+            } else {
+                experienceElement.textContent = `총 ${months}개월`;
+                omniTotalExperience.textContent = `${months}개월`;
+            }
+        }
+    }
+    
+    // 페이지 로드 시 실행
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', calculateExperience);
+    } else {
+        calculateExperience();
+    }
+</script>
