@@ -214,12 +214,17 @@ order: 4
                 </div>
                 <div class="col-sm-12 col-md-9">
                     <p>
-                        코드 너머의 소통을 지향하고 비즈니스 성장에 기여하는 것을 좋아하는 개발자 조성호입니다. 좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다.
+                        Healthcare Product 웹/앱 서비스의 풀스택 개발을 담당하며, <strong>Java, Spring Boot, Vue, TypeScript, JSTL</strong>등을 활용한 서비스 개발 및 운영 경험을 보유하고 있습니다.
                     </p>
+
                     <p>
-                        백엔드 개발자로서 전문성을 계속 확장해 나가면서도 팀과 조직과 함께 성장하는 개발자가 되고자 합니다. 서비스 개발은 결국 개발과 비즈니스의 긴밀한 커뮤니케이션 위에서 완성된다고 믿습니다.
+                        <strong>MySQL, Redis, MongoDB</strong> 등 다양한 환경에서 확장성과 유지보수성을 고려한 아키텍처 설계 및 운영 경험이 있으며, 레거시 시스템 마이그레이션, SSO 구축, 결제 시스템 개발 등 다양한 도메인에서의 실무 경험을 보유하고 있습니다.
                     </p>
-                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 02. 10</span></p>
+
+                    <p>
+                        코드 너머의 소통을 지향하고 비즈니스 성장에 기여하는 것을 좋아하는 개발자 조성호입니다. 좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다. 서비스 개발은 결국 개발과 비즈니스의 긴밀한 커뮤니케이션 위에서 완성된다고 믿습니다.
+                    </p>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 02. 26</span></p>
                 </div>
             </div>
         </div>
@@ -615,6 +620,57 @@ order: 4
                 </div>
             </div>
         </div>        
+        <!-- SIDE PROJECT 섹션 -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">SIDE PROJECT</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2023. 10 ~ 2023.11</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Social Meeting Service (요즘 뭐해?)</h4>
+                                        <i style="color:gray">취미 기반 소셜 모임 서비스 플랫폼 프로젝트</i>
+                                        <ul class="pt-2">
+                                            <li>팀장으로서 기획, 구축, 개발까지 주도하여 교육 과정 내 최우수 프로젝트(1위) 수상</li>
+                                            <li>HTTP Polling 방식의 한계를 개선하고자 WebSocket을 도입하여 실시간 양방향 통신 구현</li>
+                                            <li>WebSocket 적용으로 동시 접속 50명 지원, 메시지 지연시간 100ms 이하 달성</li>
+                                            <li>게시글, 댓글, 공지사항, 채팅, 관리자 기능 등 주요 기능 구현 및 ERD 설계</li>
+                                            <li><strong>Open Source : </strong><a href="https://github.com/sunghomong/social_meeting_site" target="_blank" rel="noreferrer noopener">https://github.com/sunghomong/social_meeting_site</a></li>                                            
+                                            <li><strong>회고록 : </strong><a href="https://sunghomong.github.io/posts/Project_Meeting_project" target="_blank" rel="noreferrer noopener">https://sunghomong.github.io/posts/Project_Meeting_project</a></li>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Java</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Thymeleaf</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">WebSocket</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
         
         <!-- OPEN SOURCE 섹션 -->
         <div class="mt-5">
@@ -922,7 +978,7 @@ order: 4
                 <div class="text-center mt-4">
                     <div class="row">
                         <div class="col">
-                            <small>v.1.0.1 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
+                            <small>v.1.0.2 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
                         </div>
                     </div>
                 </div>
