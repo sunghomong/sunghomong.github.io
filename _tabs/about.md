@@ -198,7 +198,7 @@ order: 4
                     <div class="row">
                         <div class="col">
                             <div class="mt-3 alert alert-secondary fade show" role="alert">
-                                <i class="far fa-bell mr-2"></i> 가급적 이메일로 연락 부탁드립니다.
+                                <i class="far fa-bell mr-2"></i> 이메일로 연락 부탁드립니다.
                             </div>
                         </div>
                     </div>
@@ -224,7 +224,7 @@ order: 4
                     <p>
                         코드 너머의 소통을 지향하고 비즈니스 성장에 기여하는 것을 좋아하는 개발자 조성호입니다. 좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다. 서비스 개발은 결국 개발과 비즈니스의 긴밀한 커뮤니케이션 위에서 완성된다고 믿습니다.
                     </p>
-                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 02. 26</span></p>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 05. 08</span></p>
                 </div>
             </div>
         </div>
@@ -399,8 +399,7 @@ order: 4
                                 <h4 style="color:gray">2024. 03 ~</h4>
                             </div>
                             <div class="col-sm-12 col-md-9">
-                                <h4 style="display:inline-flex;align-items:center">위메진 소프트 - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center">
-                                <span class="ml-1 badge badge-primary" style="margin-left: 10px;">파견 중</span><span class="ml-1 badge badge-info" style="margin-left: 3px;">1년 11개월</span></span></h4>
+                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 2개월</span></span></h4>
                             </div>
                         </div>
                         <div class="mt-2 row">
@@ -978,7 +977,7 @@ order: 4
                 <div class="text-center mt-4">
                     <div class="row">
                         <div class="col">
-                            <small>v.1.0.2 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
+                            <small>v.1.0.3 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
                         </div>
                     </div>
                 </div>
