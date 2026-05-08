@@ -389,7 +389,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 1년 11개월</span></span></h2>
+                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 2개월</span></span></h2>
                         </div>
                     </div>
                     
