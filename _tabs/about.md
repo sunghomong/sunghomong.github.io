@@ -214,17 +214,17 @@ order: 4
                 </div>
                 <div class="col-sm-12 col-md-9">
                     <p>
-                        Healthcare Product 웹/앱 서비스의 풀스택 개발을 담당하며, <strong>Java, Spring Boot, Vue, TypeScript, JSTL</strong>등을 활용한 서비스 개발 및 운영 경험을 보유하고 있습니다.
+                        Healthcare Product 웹/앱 서비스의 풀스택 개발을 담당하고 있으며, <strong>Java, Spring Boot, Vue, TypeScript, JSTL, JPA</strong>등을 활용한 서비스 개발 및 운영 경험을 보유하고 있습니다.
                     </p>
 
                     <p>
-                        <strong>MySQL, Redis, MongoDB</strong> 등 다양한 환경에서 확장성과 유지보수성을 고려한 아키텍처 설계 및 운영 경험이 있으며, 레거시 시스템 마이그레이션, SSO 구축, 결제 시스템 개발 등 다양한 도메인에서의 실무 경험을 보유하고 있습니다.
+                        <strong>MySQL, Oracle</strong> 중심의 RDB 환경을 주로 다루고 있고, 세션 관리 및 성능 최적화를 위해 <strong>Redis</strong> 를, 대용량 비정형 데이터 처리를 위해 MongoDB 를 적재적소에 활용한 경험이 있습니다. 레거시 시스템 마이그레이션, SSO 구축, 결제 시스템 개발 등 다양한 도메인에서의 실무 경험을 보유하고 있습니다.
                     </p>
 
                     <p>
                         코드 너머의 소통을 지향하고 비즈니스 성장에 기여하는 것을 좋아하는 개발자 조성호입니다. 좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다. 서비스 개발은 결국 개발과 비즈니스의 긴밀한 커뮤니케이션 위에서 완성된다고 믿습니다.
                     </p>
-                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 05. 08</span></p>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 06. 30</span></p>
                 </div>
             </div>
         </div>
@@ -389,7 +389,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 2개월</span></span></h2>
+                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 4개월</span></span></h2>
                         </div>
                     </div>
                     
@@ -399,7 +399,7 @@ order: 4
                                 <h4 style="color:gray">2024. 03 ~</h4>
                             </div>
                             <div class="col-sm-12 col-md-9">
-                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 2개월</span></span></h4>
+                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 4개월</span></span></h4>
                             </div>
                         </div>
                         <div class="mt-2 row">
@@ -428,6 +428,8 @@ order: 4
                                             <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
                                             <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
                                             <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -455,7 +457,43 @@ order: 4
                                     <div class="text-md-right col-sm-12 col-md-3">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <h4 style="color:gray">2025. 09 ~ 현재</h4>
+                                                <h4 style="color:gray">2026. 05 ~ 2026.06</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>결제 알림톡 개발</h4>
+                                        <i style="color:gray">건강검진 플랫폼 결제 모듈 전환</i>
+                                        <ul class="pt-2">
+                                            <li>외부 결제 링크 방식에서 Vue(TypeScript) 기반 자체 결제 페이지로 전환하여 결제 프로세스 개선</li>
+                                            <li>카카오 비즈니스 채널 및 그룹웨어 메일 연동을 통한 다채널 결제 안내 시스템 구축</li>
+                                            <li>가상계좌 발급/입금 만료 관리 프로세스 및 은행/PG 연동 API 개발</li>
+                                            <li>Redis TTL 이벤트 기반 입금 만료 및 예약 취소 자동화 시스템 구축 및 결제 데이터 정합성 확보</li>
+                                            <li>예약 API 호출로 발생한 DB Lock Wait Timeout 이슈 분석 및 트랜잭션 분리를 통한 커넥션 풀 고갈 문제 해결</li>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                           
+                            <div><hr> 
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 09 ~ 2026.05</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -482,6 +520,7 @@ order: 4
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">MongoDB</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Linux</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
                                                 </div>
                                             </li>
                                         </ul>
