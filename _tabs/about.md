@@ -140,11 +140,15 @@ order: 4
             text-align: center;
         }
     }
+
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+
 </style>
 
 <div id="__next">
     <div style="font-family:Pretendard, sans-serif;font-weight:300;word-wrap:break-word;word-break:keep-all; line-height:1.8" class="container">
-
         <!-- 프로필 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -205,7 +209,6 @@ order: 4
                 </div>
             </div>
         </div>
-
         <!-- INTRODUCE 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -214,21 +217,18 @@ order: 4
                 </div>
                 <div class="col-sm-12 col-md-9">
                     <p>
-                        Healthcare Product 웹/앱 서비스의 풀스택 개발을 담당하고 있으며, <strong>Java, Spring Boot, Vue, TypeScript, JSTL, JPA</strong>등을 활용한 서비스 개발 및 운영 경험을 보유하고 있습니다.
+                        Healthcare Product 웹/앱 서비스의 개발 및 운영을 담당하고 있는 백엔드 중심의 풀스택 개발자입니다. Java, Spring Boot 기반의 백엔드 개발을 중심으로 Vue, TypeScript, JSTL, JPA 등을 활용하여 서비스 전반을 개발하고 운영해왔습니다. 결제 시스템 구축, SSO 통합, 레거시 시스템 마이그레이션 등 다양한 프로젝트를 수행하며 서비스 아키텍처 설계부터 운영, 장애 대응 및 개선까지 경험했습니다.
                     </p>
-
                     <p>
-                        <strong>MySQL, Oracle</strong> 중심의 RDB 환경을 주로 다루고 있고, 세션 관리 및 성능 최적화를 위해 <strong>Redis</strong> 를, 대용량 비정형 데이터 처리를 위해 MongoDB 를 적재적소에 활용한 경험이 있습니다. 레거시 시스템 마이그레이션, SSO 구축, 결제 시스템 개발 등 다양한 도메인에서의 실무 경험을 보유하고 있습니다.
+                        AI 기술에 관심을 가지고 있으며, 새로운 기술과 오픈소스를 탐색하고 실무에 적용할 수 있는 방안을 연구하는 것을 즐깁니다. 빠르게 변화하는 IT 환경 속에서 지속적으로 새로운 기술을 학습하고 검증하며 성장하는 개발자가 되고자 노력하고 있습니다.
                     </p>
-
                     <p>
-                        코드 너머의 소통을 지향하고 비즈니스 성장에 기여하는 것을 좋아하는 개발자 조성호입니다. 좋은 성과에는 개개인의 역량도 중요하지만 팀 구성원들과 함께 만들어 나간다고 생각하기에 적극적인 커뮤니케이션과 함께 협업해왔습니다. 서비스 개발은 결국 개발과 비즈니스의 긴밀한 커뮤니케이션 위에서 완성된다고 믿습니다.
+                        개발은 기술만으로 완성되지 않는다고 생각합니다. 비즈니스 요구사항을 이해하고 다양한 이해관계자와 적극적으로 소통하며 최적의 해결책을 만들어가는 과정을 중요하게 생각합니다. 개인의 역량뿐 아니라 팀의 협업이 좋은 서비스를 만든다고 믿으며, 함께 성장하고 성과를 만들어가는 개발자를 꿈꾸고 있습니다.
                     </p>
-                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 06. 30</span></p>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 07. 13</span></p>
                 </div>
             </div>
         </div>
-        
         <!-- SKILL 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -238,7 +238,6 @@ order: 4
                             <h2><span style="color:#3c78d8">SKILL</span></h2>
                         </div>
                     </div>
-
                     <div>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -262,7 +261,6 @@ order: 4
                             </div>
                         </div>
                     </div>
-
                     <div><hr>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -294,7 +292,6 @@ order: 4
                             </div>
                         </div>
                     </div>
-
                     <div><hr>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -324,7 +321,6 @@ order: 4
                             </div>
                         </div>
                     </div>
-
                     <div><hr>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -351,7 +347,32 @@ order: 4
                             </div>
                         </div>
                     </div>
-
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">AI Tools</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Cursor</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>ChatGPT</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Gemini</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div><hr>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -382,17 +403,15 @@ order: 4
                 </div>
             </div>
         </div>
-
         <!-- EXPERIENCE 섹션 -->
         <div class="mt-5">
             <div class="row">
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8">EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 4개월</span></span></h2>
+                            <h2 style="color:#3c78d8">WORK EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 4개월</span></span></h2>
                         </div>
                     </div>
-                    
                     <div>
                         <div class="row">
                             <div class="text-md-right col-sm-12 col-md-3">
@@ -409,13 +428,11 @@ order: 4
                             <div class="col-sm-12 col-md-9">
                                 <i style="color:gray">Healthcare Product / 건강 검진 플랫폼 풀스택 개발자</i>
                                 <ul class="pt-2">
-                                    <li>건강검진 예약 플랫폼 결제 서비스 백엔드 API 개발</li>
-                                    <li>결제 관련 관리자 기능 개발</li>
-                                    <li>마음 검진 서비스 풀스택 개발</li>
-                                    <li>Keycloak 기반 통합 SSO 구축</li>
-                                    <li>Microsoft Azure AD(OAuth2.0) 연동</li>
-                                    <li>국가건강검진 데이터 파싱</li>
-                                    <li>마이그레이션 및 차세대 플랫폼 구축</li>
+                                    <li>결제 도메인 전담 (관리자/사용자 기능 개발 및 운영)</li>
+                                    <li>외부 기관 연계 REST API 개발 (마음검진, 설문평가, 건강분석 서비스 등)</li>
+                                    <li>SSO 로그인 구축 (Keycloak, Microsoft Azure AD)</li>
+                                    <li>건강검진 플랫폼 리뉴얼 및 차세대 시스템 구축 (Vue, TypeScript, Spring Boot, JPA...)</li>
+                                    <li>신규 서비스 구축을 위한 데이터 모델링 및 ERD 설계</li>
                                     <li>
                                         <strong>Skill Keywords</strong>
                                         <div>
@@ -439,7 +456,6 @@ order: 4
                 </div>
             </div>
         </div>
-
         <!-- PROJECT 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -449,7 +465,6 @@ order: 4
                             <h2 style="color:#3c78d8">PROJECT</h2>
                         </div>
                     </div>
-                    
                     <div class="row">
                         <div class="col">
                             <div>
@@ -465,11 +480,9 @@ order: 4
                                         <h4>결제 알림톡 개발</h4>
                                         <i style="color:gray">건강검진 플랫폼 결제 모듈 전환</i>
                                         <ul class="pt-2">
-                                            <li>외부 결제 링크 방식에서 Vue(TypeScript) 기반 자체 결제 페이지로 전환하여 결제 프로세스 개선</li>
+                                            <li>외부 결제 링크 방식에서 자체 결제 페이지 (Vue/TypeScript)로 전환 (회원 전환율 5% 개선)</li>
                                             <li>카카오 비즈니스 채널 및 그룹웨어 메일 연동을 통한 다채널 결제 안내 시스템 구축</li>
-                                            <li>가상계좌 발급/입금 만료 관리 프로세스 및 은행/PG 연동 API 개발</li>
-                                            <li>Redis TTL 이벤트 기반 입금 만료 및 예약 취소 자동화 시스템 구축 및 결제 데이터 정합성 확보</li>
-                                            <li>예약 API 호출로 발생한 DB Lock Wait Timeout 이슈 분석 및 트랜잭션 분리를 통한 커넥션 풀 고갈 문제 해결</li>
+                                            <li>가상계좌 발급 기능 개발 및 Redis TTL 기반 입금 만료, 예약 취소 자동화 구현</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
@@ -478,8 +491,6 @@ order: 4
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
                                                 </div>
@@ -498,15 +509,15 @@ order: 4
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-9">
-                                        <h4>비타브릿지 마이그레이션 및 차세대 플랫폼 구축</h4>
-                                        <i style="color:gray">건강검진 플랫폼 전환 프로젝트</i>
+                                        <h4>비타브릿지 리뉴얼 및 차세대 시스템 구축</h4>
+                                        <i style="color:gray">건강검진 플랫폼 리뉴얼 프로젝트</i>
                                         <ul class="pt-2">
                                             <li><a href="https://www.docdocdoc.co.kr/news/articleView.html?idxno=3032565" target="_blank" rel="noreferrer noopener">브타브릿지 차세대 서비스 출시</a></li>
-                                            <li>레거시 시스템(JSTL/Spring)을 Vue, TypeScript, Spring Boot, JPA 기반 모던 스택으로 전면 마이그레이션 및 아키텍처 재설계</li>
-                                            <li>Spring Security 커스터마이징을 통한 JWT 기반 인증 체계 구축 및 전역 예외 처리 표준화</li>
-                                            <li>ISMS 심사 규정 준수 개발 및 소셜 로그인(Naver, Kakao, Pass) 연동을 통한 간편가입 기능 구현</li>
-                                            <li>결제 통보 시스템 구축으로 모든 결제 건 실시간 처리 및 상태 관리 자동화</li>
-                                            <li>개발 서버 배포 파이프라인 구축 및 상태 모니터링 및 관리</li>
+                                            <li>레거시 시스템(JSTL/Spring)을 Vue, TypeScript, Spring Boot, JPA 기반 차세대 아키텍처로 전면 마이그레이션</li>
+                                            <li>Spring Security 커스터마이징을 통한 JWT 기반 인증, 인가 체계 구축</li>
+                                            <li>회원 서비스 전담 및 ISMS 보안 요구사항 반영</li>
+                                            <li>결제 도메인 전담으로 결제 로직 마이그레이션 및 실시간 결제 상태 관리 시스템 구축</li>
+                                            <li>개발 환경 배포 프로세스 구축 및 운영 효율화</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
@@ -514,7 +525,7 @@ order: 4
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JWT</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Security</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">MongoDB</span>
@@ -538,13 +549,13 @@ order: 4
                                     </div>
                                     <div class="col-sm-12 col-md-9">
                                         <h4>비타브릿지 결제 서비스 개선</h4>
-                                        <i style="color:gray">건강검진 플랫폼 결제 서비스 개선 및 고도화</i>
+                                        <i style="color:gray">결제 서비스 전담으로서 개선 및 고도화 작업</i>
                                         <ul class="pt-2">
-                                            <li>Redis 도입으로 모바일 브라우저 환경의 세션 데이터 유실 문제 해결</li>
-                                            <li>공통 영역, 검진 예약, SMS 결제 등 핵심 비즈니스 기능의 BFF API 마이그레이션 및 통합</li>
-                                            <li>관리자 페이지 신규 구축(서비스이용료 발송, 결제 내역 관리)으로 운영 효율성 향상</li>
-                                            <li>Scheduler 기반 자동화 시스템 구축으로 6개월간 150건 이상의 비정상 결제 건 자동 환불 처리</li>
-                                            <li>결제 시스템 2.0 아키텍처 설계 및 핵심 비즈니스 로직 고도화</li>
+                                            <li>결제 서비스 전담으로 결제 시스템 2.0 아키텍처 설계 및 고도화</li>
+                                            <li>Redis 기반 세션 관리 도입으로 모바일 환경 세션 유실 문제 해결</li>
+                                            <li>BFF API 통합 및 마이그레이션을 통한 결제 서비스 구조 개선</li>
+                                            <li>결제 관리 관리자 페이지 신규 구축으로 주당 70시간 이상의 운영 업무 절감</li>
+                                            <li>자동 환불 프로세스 구축으로 1,425건 이상의 비정상 결제 건 자동 처리</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
@@ -572,11 +583,10 @@ order: 4
                                         <h4>SSO (Single-Sign-On) 연동</h4>
                                         <i style="color:gray">통합 SSO 구축 및 외부 인증 연동</i>
                                         <ul class="pt-2">
-                                            <li>Keycloak 기반 3개 도메인 통합 SSO 구축으로 전체 신규 가입자의 84%를 SSO로 전환 달성</li>
-                                            <li>Microsoft Azure AD 연동을 통한 외국계 협력사 직원 로그인 서비스 지원</li>
-                                            <li>OAuth2.0 state/nonce, PKCE 적용으로 보안 강화 및 CSRF 공격 방지</li>
-                                            <li>Keycloak OIDC 및 Azure AD 인증 프로세스 설계/개발</li>
-                                            <li>해외 협력사와의 Azure AD 연동을 위한 기술 스펙 조율 및 영문 기술 문서 작성 및 커뮤니케이션</li>
+                                            <li>Keycloak / Microsoft Azure AD 기반 통합 SSO 구축 (신규 가입자 73%, 약 120만 명 전환)</li>
+                                            <li>해외 협력사 Azure AD 연동 및 기술 커뮤니케이션 수행</li>
+                                            <li>OIDC, OAuth2.0, PKCE 기반 인증 체계 설계 및 구현</li>
+                                            <li>state, nonce 검증을 통한 인증 보안 강화 및 CSRF 대응</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
@@ -604,11 +614,11 @@ order: 4
                                         <h4>국가건강검진 조회</h4>
                                         <i style="color:gray">10년치 건강검진 기록 조회 및 표시</i>
                                         <ul class="pt-2">
-                                            <li>CODEF API 연동을 위한 비동기 데이터 파이프라인 설계 및 개발</li>
-                                            <li>TOKEN 테이블 활용으로 API 발급 비용 절감 및 서비스 응답 속도 단축</li>
-                                            <li>10년치 국가 건강검진 데이터 연동을 위한 고효율 데이터베이스 구조 설계</li>
-                                            <li>Chart 라이브러리를 활용해 비정형 검진 항목 카테고리별 데이터 시각화 모듈 개발</li>
-                                            <li>TXID 기반의 2-PHASE 인증 및 데이터 처리 구조 완성</li>
+                                            <li>CODEF API 기반 국가건강검진 조회 서비스 개발</li>
+                                            <li>TXID 기반 2단계 인증 및 비동기 데이터 처리 구조 구축</li>
+                                            <li>10년치 건강검진 데이터 모델링 및 DB 설계</li>
+                                            <li>토큰 재사용 구조 도입으로 API 호출 비용 절감 및 응답 성능 개선</li>
+                                            <li>Chart.js 기반 건강검진 데이터 시각화 모듈 개발</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
@@ -616,6 +626,7 @@ order: 4
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
                                                     <span style="font-weight:400" class="mr-1 badge badge-secondary">Chart.js</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -635,11 +646,10 @@ order: 4
                                         <h4>마음검진 서비스</h4>
                                         <i style="color:gray">외부 전문 심리 평가 기관 API 연동 및 마음검진 서비스 설계/개발</i>
                                         <ul class="pt-2">
-                                            <li>외부 심리 평가 기관과의 SFTP 기반 데이터 파이프라인 구축</li>
-                                            <li>객관식, 서술형 등 다양한 문항 유형을 처리할 수 있는 유연한 백엔드 및 프론트엔드 개발</li>
-                                            <li>확장 가능한 ERD 설계로 검사 항목 추가/변경 시 코드 수정 없이 대응 가능한 구조 구현</li>
-                                            <li>답변 형태 테이블 기반 동적 화면 구성으로 클라이언트 의존도 최소화</li>
-                                            <li>마음검진 대상자 관리 및 운영을 위한 관리자 페이지 신규 구축</li>
+                                            <li>외부 전문 심리 평가 기관 연계 REST API 기반 부가 서비스 설계 및 개발</li>
+                                            <li>다양한 문항 유형을 지원하는 동적 설문 시스템 구축</li>
+                                            <li>확장 가능한 데이터 모델링 및 ERD 설계로 신규 검사 항목 유연 대응</li>
+                                            <li>SFTP 기반 결과지 관리 기능 및 대상자 관리 관리자 페이지 구축</li>
                                             <li>
                                                 <strong>Skill Keywords</strong>
                                                 <div>
@@ -667,7 +677,6 @@ order: 4
                             <h2 style="color:#3c78d8">SIDE PROJECT</h2>
                         </div>
                     </div>
-                    
                     <div class="row">
                         <div class="col">
                             <div>
@@ -709,7 +718,6 @@ order: 4
                 </div>
             </div>
         </div>        
-        
         <!-- OPEN SOURCE 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -719,7 +727,6 @@ order: 4
                             <h2 style="color:#3c78d8">OPEN SOURCE</h2>
                         </div>
                     </div>
-                    
                     <div class="row">
                         <div class="col">
                             <div>
@@ -798,7 +805,6 @@ order: 4
                 </div>
             </div>
         </div>
-
         <!-- EDUCATION 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -808,7 +814,6 @@ order: 4
                             <h2 style="color:#3c78d8">EDUCATION</h2>
                         </div>
                     </div>
-                    
                     <div class="row">
                         <div class="col">
                             <div>
@@ -867,7 +872,6 @@ order: 4
                                     </div>
                                 </div>
                             </div>
-
                             <div><hr>
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
@@ -887,7 +891,6 @@ order: 4
                                     </div>
                                 </div>
                             </div>
-
                             <div><hr>
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
@@ -930,7 +933,6 @@ order: 4
                 </div>
             </div>
         </div>
-
         <!-- ETC 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -940,7 +942,6 @@ order: 4
                             <h2 style="color:#3c78d8">ETC</h2>
                         </div>
                     </div>
-                    
                     <div class="row">
                         <div class="col">
                             <div>
@@ -988,7 +989,6 @@ order: 4
                                     </div>
                                 </div>
                             </div>
-
                             <div><hr>
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
@@ -1009,14 +1009,13 @@ order: 4
                 </div>
             </div>
         </div>
-
         <!-- Footer -->
         <div class="row">
             <div style="background-color:#f5f5f5;padding-left:0;padding-right:0;margin-top:50px;height:80px" class="col">
                 <div class="text-center mt-4">
                     <div class="row">
                         <div class="col">
-                            <small>v.1.0.3 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
+                            <small>v.1.0.4 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
                         </div>
                     </div>
                 </div>
