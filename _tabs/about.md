@@ -90,6 +90,62 @@ order: 4
         color: #fff;
         background-color: #17a2b8;
     }
+
+    .exp-item {
+        margin-bottom: 1.75em;
+    }
+
+    .exp-item > div + div {
+        margin-top: 0.9em;
+    }
+
+    .exp-item .exp-title {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .exp-item > div {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .exp-label {
+        flex: 0 0 5.6em;
+        margin-right: 8px;
+        font-style: italic;
+        font-weight: 500;
+        color: rgba(44, 62, 80, 0.45);
+    }
+
+    .exp-body {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .exp-how {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+        padding-left: 1.15em;
+    }
+
+    .exp-points {
+        margin: 0.45em 0 0;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .exp-points li + li {
+        margin-top: 0.35em;
+    }
+
+    .exp-key {
+        margin-right: 0.35em;
+        font-style: italic;
+        font-weight: 500;
+        color: rgba(44, 62, 80, 0.45);
+    }
     
     .alert {
         position: relative;
@@ -143,6 +199,9 @@ order: 4
 
     .mt-5 {
         margin-top: 1rem !important;
+    }
+    .key-word {
+        font-weight: bold;
     }
 
 </style>
@@ -217,15 +276,15 @@ order: 4
                 </div>
                 <div class="col-sm-12 col-md-9">
                     <p>
-                        Healthcare Product 웹/앱 서비스의 개발 및 운영을 담당하고 있는 백엔드 중심의 풀스택 개발자입니다. Java, Spring Boot 기반의 백엔드 개발을 중심으로 Vue, TypeScript, JSTL, JPA 등을 활용하여 서비스 전반을 개발하고 운영해왔습니다. 결제 시스템 구축, SSO 통합, 레거시 시스템 마이그레이션 등 다양한 프로젝트를 수행하며 서비스 아키텍처 설계부터 운영, 장애 대응 및 개선까지 경험했습니다.
+                        "적극적인 소통으로 비즈니스 요구사항을 조율하고, 그 성과를 숫자로 증명하는 백엔드 중심 풀스택 개발자 조성호입니다."
+                    </p>                    
+                    <p>
+                        현재 Healthcare Product 웹/앱 서비스의 개발 및 운영을 담당하고 있습니다. 결제 시스템 구축, SSO 통합, 레거시 시스템 마이그레이션 등 다양한 프로젝트를 수행하며 서비스 아키텍처 설계부터 운영, 장애 대응 및 개선까지 경험했습니다.
                     </p>
                     <p>
-                        AI 기술에 관심을 가지고 있으며, 새로운 기술과 오픈소스를 탐색하고 실무에 적용할 수 있는 방안을 연구하는 것을 즐깁니다. 빠르게 변화하는 IT 환경 속에서 지속적으로 새로운 기술을 학습하고 검증하며 성장하는 개발자가 되고자 노력하고 있습니다.
+                        특히 AI 기술에 관심을 가지고 있으며, 새로운 기술과 오픈소스를 탐색하고 실무에 적용할 수 있는 방안을 연구하는 것을 즐깁니다. 빠르게 변화하는 IT 환경 속에서 지속적으로 새로운 기술을 학습하고 검증하며 성장하는 개발자가 되고자 노력하고 있습니다.
                     </p>
-                    <p>
-                        개발은 기술만으로 완성되지 않는다고 생각합니다. 비즈니스 요구사항을 이해하고 다양한 이해관계자와 적극적으로 소통하며 최적의 해결책을 만들어가는 과정을 중요하게 생각합니다. 개인의 역량뿐 아니라 팀의 협업이 좋은 서비스를 만든다고 믿으며, 함께 성장하고 성과를 만들어가는 개발자를 꿈꾸고 있습니다.
-                    </p>
-                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 07. 13</span></p>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 10. 02</span></p>
                 </div>
             </div>
         </div>
@@ -418,7 +477,7 @@ order: 4
                                 <h4 style="color:gray">2024. 03 ~</h4>
                             </div>
                             <div class="col-sm-12 col-md-9">
-                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 4개월</span></span></h4>
+                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 7개월</span></span></h4>
                             </div>
                         </div>
                         <div class="mt-2 row">
@@ -428,11 +487,31 @@ order: 4
                             <div class="col-sm-12 col-md-9">
                                 <i style="color:gray">Healthcare Product / 건강 검진 플랫폼 풀스택 개발자</i>
                                 <ul class="pt-2">
-                                    <li>결제 도메인 전담 (관리자/사용자 기능 개발 및 운영)</li>
-                                    <li>외부 기관 연계 REST API 개발 (마음검진, 설문평가, 건강분석 서비스 등)</li>
-                                    <li>SSO 로그인 구축 (Keycloak, Microsoft Azure AD)</li>
-                                    <li>건강검진 플랫폼 리뉴얼 및 차세대 시스템 구축 (Vue, TypeScript, Spring Boot, JPA...)</li>
-                                    <li>신규 서비스 구축을 위한 데이터 모델링 및 ERD 설계</li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">결제 도메인 파이프라인 개편 및 자동화 (연 12억 원 규모 결제 정상화)</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">기존 결제 프로세스의 높은 실패율 및 수동 입금 확인 병목을 해결하기 위해 Redis 기반의 TTL 입금 만료 처리 및 결제 자동화 파이프라인 구축</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">결제 처리 안정성을 제고하여 연간 약 12억 원 이상 규모의 결제 데이터 정상화 및 결제 모듈 전환을 통한 회원 전환율 5% 개선</span></div>
+                                    </li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">외부 API 비용 최적화 및 데이터 모델링 (연 2억 원+ 인프라 비용 방어)</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">호출당 10~20원의 비용이 발생하는 외부 연계 API 구조 분석 후, ERD 재설계를 통해 50분 TTL DB 캐싱 기반 토큰 갱신 프로세스 구축 및 사용자 요청 기반(On-demand) 조회로 전환</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">150만+ 회원 대상 불필요한 API 호출을 원천 차단하여 연간 약 2억원 상당의 외부 연계 운영 비용 절감</span></div>
+                                    </li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">글로벌/중견/대기업 대상 SSO 통합 인증 체계 구축</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">다양해진 B2B 이해관계자의 보안 및 로그인 편의성 요구사항에 맞춰 Keycloak 및 Microsoft Azure AD 기반 통합 SSO 로그인 환경 주도적 설계</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">엔터프라이즈 고객사 대상 보안 신뢰성 확보 및 멀티 도메인 인증 절차 단축</span></div>
+                                    </li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">건강검진 차세대 플랫폼 리뉴얼 및 신규 API 파이프라인 구축</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">노후화된 레거시 백엔드 로직 및 사용자 UI/UX 전면 개편</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">단 6개월 만에 Vue 기반 웹/앱 UI 및 Spring Boot/JPA 기반 API 백엔드 전체 구조를 적기 구축하여 사용성 정상화</span></div>
+                                    </li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">신사업 연계 신규 서비스 4개 런칭 및 API 파이프라인 구축</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">사내 신사업 확장 및 비즈니스 요구사항에 맞춰 MSA/모듈러 구조를 고려한 확장성 있는 데이터 모델링 및 신규 API 파이프라인 설계·구축</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">비즈니스 성장에 발맞추어 단기간 내에 신규 서비스 4개를 성공적으로 런칭하며 서비스 확장성 증명</span></div>
+                                    </li>
                                     <li>
                                         <strong>Skill Keywords</strong>
                                         <div>
@@ -472,33 +551,117 @@ order: 4
                                     <div class="text-md-right col-sm-12 col-md-3">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <h4 style="color:gray">2026. 05 ~ 2026.06</h4>
+                                                <h4 style="color:gray">2025. 02 ~ 현재</h4>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-9">
-                                        <h4>결제 알림톡 개발</h4>
-                                        <i style="color:gray">건강검진 플랫폼 결제 모듈 전환</i>
-                                        <ul class="pt-2">
-                                            <li>외부 결제 링크 방식에서 자체 결제 페이지 (Vue/TypeScript)로 전환 (회원 전환율 5% 개선)</li>
-                                            <li>카카오 비즈니스 채널 및 그룹웨어 메일 연동을 통한 다채널 결제 안내 시스템 구축</li>
-                                            <li>가상계좌 발급 기능 개발 및 Redis TTL 기반 입금 만료, 예약 취소 자동화 구현</li>
-                                            <li>
-                                                <strong>Skill Keywords</strong>
-                                                <div>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                        <h4>SSO (Single-Sign-On) 연동</h4>
+                                        <i style="color:gray">통합 SSO 구축 및 외부 인증 연동</i>
+                                        <div class="exp-item pt-2">
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">WHY</em>
+                                                <ul class="exp-how">
+                                                    <li>다수의 B2B 고객사 및 해외 협력사로부터 글로벌 보안 표준을 충족하는 통합 인증(SSO) 연동 요구사항 접수</li>
+                                                    <li>서로 다른 3rd Party 도메인 환경 간의 파편화된 인증 세션을 매끄럽게 연결해야 하는 기술적 과제 직면</li>
+                                                </ul>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">HOW</em>
+                                                <ul class="exp-how">
+                                                    <li>Keycloak / Microsoft Azure AD 기반 통합 SSO 아키텍처 설계</li>
+                                                    <li>SK 계열사 및 쿠O okta SSO 기반 통합 SSO 아키텍처 설계</li>
+                                                    <li>해외 협력사 및 고객사 기술팀과의 주도적인 커뮤니케이션을 통해 복잡한 권한 매핑 및 인증 예외 처리 시나리오 수립</li>
+                                                    <li>CORS 및 보안 정책을 고려하여 제3자(3rd Party) 도메인 간의 크로스 도메인(Cross-Domain) SSO 환경 구축</li>
+                                                    <li>state 및 nonce 검증 로직을 도입하여 CSRF 공격 방어 및 인증 세션 보안 강화</li>
+                                                </ul>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">OUTPUT</em>
+                                                <ul class="exp-how">
+                                                    <li>약 138만 명(신규 가입자의 92%)을 신규 통합 SSO 환경으로 성공적으로 전환 완료</li>
+                                                    <li>엔터프라이즈 고객사 및 다양한 3rd Party 도메인 대상 멀티 도메인 인증 절차 간소화 및 글로벌 수준의 보안 신뢰성 확보</li>
+                                                    <li>Okta 연동으로 B2B 고객사에 관리 권한 위임 체계를 구축하여 사내 수동 운영 공수를 없애고 운영 비용 대폭 절감</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <strong>Skill Keywords</strong>
+                                            <div>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Microsoft Azure AD</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Keycloak</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Okta</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">PKCE</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">OAuth 2.0</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">SAML</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">OIDC</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>                           
+                            </div><hr>
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 10 ~ 2026. 06</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>결제 도메인 아키텍처 고도화 및 자체 결제 시스템 구축</h4>
+                                        <i style="color:gray">결제 서비스 전담으로서 개선 및 고도화 작업</i>
+                                        <div class="exp-item pt-2">
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">WHY</em>
+                                                <div class="exp-body">
+                                                    결제 전반의 구조적 한계 및 비효율성을 극복하기 위해 다음 핵심 문제들 직면
+                                                    <ul class="exp-points">
+                                                        <li><span class="exp-key">(안정성)</span>파편화된 BFF 구조 및 모바일 환경에서의 세션 데이터 유실로 인한 결제 불안정성</li>
+                                                        <li><span class="exp-key">(정합성)</span>PG사 결제망과 내부 시스템 간의 결제 상태 불일치로 인한 데이터 누락 및 수동 동기화 이슈</li>
+                                                        <li><span class="exp-key">(사용성)</span>외부 결제 링크 방식의 낮은 편의성으로 인한 결제 이탈율 증가</li>
+                                                        <li><span class="exp-key">(운영성)</span>수동 환불 및 결제 확인 병목으로 인한 심각한 운영 생산성 저하</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">HOW</em>
+                                                <ul class="exp-how">
+                                                    <li>결제 시스템 2.0 아키텍처 설계 및 고도화 주도 및 Redis 기반 세션 관리 도입</li>
+                                                    <li>PG사 결제 통보 연동 및 내부 DB 간의 결제 상태 자동 동기화 파이프라인 구축으로 데이터 정합성 확보</li>
+                                                    <li>결제 관리 관리자 페이지 및 자동 환불 프로세스 구축</li>
+                                                    <li>BFF API 통합 및 마이그레이션을 통한 결제 서비스 구조 전면 개편</li>
+                                                    <li>Vue/TypeScript 기반 자체 결제 페이지 전면 구축 및 카카오 알림톡 및 그룹웨어 메일 연동</li>
+                                                    <li>Redis TTL 기반 가상계좌 입금 만료 및 예약 취소 자동화 프로세스 설계</li>
+                                                </ul>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">OUTPUT</em>
+                                                <ul class="exp-how">
+                                                    <li>결제 상태 누락 방지 및 연간 12억 원 규모 결제 데이터 자동 동기화 및 정상화 달성</li>
+                                                    <li>회원 전환율 5% 개선 및 반복적인 수동 운영 업무 공수를 80% 이상 절감</li>
+                                                    <li>1,699건 이상의 비정상 결제 건 자동 처리 및 결제 안정성 극대화</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <strong>Skill Keywords</strong>
+                                            <div>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                         
                             <div><hr> 
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
@@ -509,157 +672,83 @@ order: 4
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-9">
-                                        <h4>비타브릿지 리뉴얼 및 차세대 시스템 구축</h4>
+                                        <h4>리뉴얼 및 차세대 시스템 구축</h4>
                                         <i style="color:gray">건강검진 플랫폼 리뉴얼 프로젝트</i>
-                                        <ul class="pt-2">
-                                            <li><a href="https://www.docdocdoc.co.kr/news/articleView.html?idxno=3032565" target="_blank" rel="noreferrer noopener">브타브릿지 차세대 서비스 출시</a></li>
-                                            <li>레거시 시스템(JSTL/Spring)을 Vue, TypeScript, Spring Boot, JPA 기반 차세대 아키텍처로 전면 마이그레이션</li>
-                                            <li>Spring Security 커스터마이징을 통한 JWT 기반 인증, 인가 체계 구축</li>
-                                            <li>회원 서비스 전담 및 ISMS 보안 요구사항 반영</li>
-                                            <li>결제 도메인 전담으로 결제 로직 마이그레이션 및 실시간 결제 상태 관리 시스템 구축</li>
-                                            <li>개발 환경 배포 프로세스 구축 및 운영 효율화</li>
-                                            <li>
-                                                <strong>Skill Keywords</strong>
-                                                <div>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Security</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">MongoDB</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Linux</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                        <div class="exp-item pt-2">
+                                            <div><em class="exp-label">WHY</em><span class="exp-body">기존 레거시 시스템(JSTL/Spring)의 높은 결합도와 파편화된 구조로 인해 기능 확장 및 유지보수 생산성이 저하되는 한계 직면</span></div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">HOW</em>
+                                                <ul class="exp-how">
+                                                    <li>프론트엔드와 백엔드를 완전 분리하고, 레거시 시스템을 Vue, TypeScript, Spring Boot, JPA 기반 차세대 아키텍처로 전면 마이그레이션</li>
+                                                    <li>Spring Security 커스터마이징을 통한 JWT 기반 인증 및 인가 체계 구축</li>
+                                                    <li>회원 및 결제 도메인 전담 마이그레이션 수행 및 ISMS 보안 요구사항 반영</li>
+                                                    <li>개발 환경 배포 프로세스 구축</li>
+                                                </ul>
+                                            </div>
+                                            <div><em class="exp-label">OUTPUT</em><span class="exp-body"><a href="https://www.docdocdoc.co.kr/news/articleView.html?idxno=3032565" target="_blank" rel="noreferrer noopener">차세대 서비스의 성공적인 런칭</a>을 견인하고, 안정적인 배포 프로세스 구축으로 서비스 운영 및 유지보수 효율성 극대화</span></div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <strong>Skill Keywords</strong>
+                                            <div>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Security</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">MongoDB</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Linux</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>                                                       
                             <div><hr>
                                 <div class="row">
                                     <div class="text-md-right col-sm-12 col-md-3">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <h4 style="color:gray">2024. 10 ~ 2025. 09</h4>
+                                                <h4 style="color:gray">2024. 04 ~ 2026. 06</h4>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-9">
-                                        <h4>비타브릿지 결제 서비스 개선</h4>
-                                        <i style="color:gray">결제 서비스 전담으로서 개선 및 고도화 작업</i>
-                                        <ul class="pt-2">
-                                            <li>결제 서비스 전담으로 결제 시스템 2.0 아키텍처 설계 및 고도화</li>
-                                            <li>Redis 기반 세션 관리 도입으로 모바일 환경 세션 유실 문제 해결</li>
-                                            <li>BFF API 통합 및 마이그레이션을 통한 결제 서비스 구조 개선</li>
-                                            <li>결제 관리 관리자 페이지 신규 구축으로 주당 70시간 이상의 운영 업무 절감</li>
-                                            <li>자동 환불 프로세스 구축으로 1,425건 이상의 비정상 결제 건 자동 처리</li>
-                                            <li>
-                                                <strong>Skill Keywords</strong>
-                                                <div>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JSP</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div><hr>
-                                <div class="row">
-                                    <div class="text-md-right col-sm-12 col-md-3">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h4 style="color:gray">2025. 02 ~ 2025. 05</h4>
+                                        <h4>신사업 연계 신규 서비스 런칭 및 API 파이프라인 구축</h4>
+                                        <i style="color:gray">비즈니스 확장에 따른 다수 신규 서비스 설계 및 런칭</i>
+                                        <div class="exp-item pt-2">
+                                            <div><em class="exp-label">WHY</em><span class="exp-body">사내 신사업 확장 및 비즈니스 요구사항에 따라, 단기간 내에 새로운 도메인의 서비스들을 연달아 추가하고 외부 인프라와 안정적으로 연동해야 하는 과제 직면</span></div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">HOW</em>
+                                                <ul class="exp-how">
+                                                    <li><span class="exp-key">[공통 아키텍처]</span>MSA 및 모듈러 구조를 고려하여 확장성 있는 데이터 모델링(ERD) 수행 및 신규 API 파이프라인 설계 및 구축</li>
+                                                    <li><span class="exp-key">[마음검진 서비스]</span>외부 전문 심리 평가 기관 연계 REST API 기반 부가 서비스 설계 및 다양한 문항을 지원하는 동적 설문 시스템 구축 (SFTP 결과지 연동 및 신규 검사 항목 유연 대응)</li>                                                    
+                                                    <li><span class="exp-key">[설문평가 서비스]</span>사내 자체 기준의 검진 항목을 B2C 고객에게 제공하기 위해, 내부 요구사항에 맞춰 문항이 유연하게 렌더링되는 자체 동적 설문 시스템 구축</li>
+                                                    <li><span class="exp-key">[국가건강검진 조회]</span>CODEF API 기반 10년치 검진 기록 조회 서비스 및 TXID 기반 2단계 인증 처리 구조 구축 (토큰 재사용 캐싱 도입으로 API 호출 비용 절감 및 Chart.js를 활용화여 데이터 시각화)</li>
+                                                    <li><span class="exp-key">[건강검진 리포트]</span>수집된 건강 데이터를 기반으로 외부 AI 추천 시스템과 연계하는 데이터 파이프라인을 구축하여, 초개인화 맞춤형 헬스케어 리포트 제공 기반 마련</li>
+                                                </ul>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">OUTPUT</em>
+                                                <ul class="exp-how">
+                                                    <li>단기간 내 다수의 신규 서비스를 성공적으로 런칭하며, 서비스 확장성 증명 및 데이터 기반(AI 연동) 비즈니스 기술 대응력 입증</li>
+                                                    <li>마음검진 및 설문평가 서비스에 이용 인원수 기반의 과금(청구) 모델을 연동하여, B2B 고객사 대상의 실질적인 신규 영업 이익(매출) 창출에 기여</li>
+                                                </ul>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-9">
-                                        <h4>SSO (Single-Sign-On) 연동</h4>
-                                        <i style="color:gray">통합 SSO 구축 및 외부 인증 연동</i>
-                                        <ul class="pt-2">
-                                            <li>Keycloak / Microsoft Azure AD 기반 통합 SSO 구축 (신규 가입자 73%, 약 120만 명 전환)</li>
-                                            <li>해외 협력사 Azure AD 연동 및 기술 커뮤니케이션 수행</li>
-                                            <li>OIDC, OAuth2.0, PKCE 기반 인증 체계 설계 및 구현</li>
-                                            <li>state, nonce 검증을 통한 인증 보안 강화 및 CSRF 대응</li>
-                                            <li>
-                                                <strong>Skill Keywords</strong>
-                                                <div>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Microsoft Azure AD</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Keycloak</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">PKCE</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">OAuth2.0</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div><hr>
-                                <div class="row">
-                                    <div class="text-md-right col-sm-12 col-md-3">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h4 style="color:gray">2024. 09 ~ 2025. 02</h4>
+                                        <div class="pt-2">
+                                            <strong>Skill Keywords</strong>
+                                            <div>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Chart.js</span>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-9">
-                                        <h4>국가건강검진 조회</h4>
-                                        <i style="color:gray">10년치 건강검진 기록 조회 및 표시</i>
-                                        <ul class="pt-2">
-                                            <li>CODEF API 기반 국가건강검진 조회 서비스 개발</li>
-                                            <li>TXID 기반 2단계 인증 및 비동기 데이터 처리 구조 구축</li>
-                                            <li>10년치 건강검진 데이터 모델링 및 DB 설계</li>
-                                            <li>토큰 재사용 구조 도입으로 API 호출 비용 절감 및 응답 성능 개선</li>
-                                            <li>Chart.js 기반 건강검진 데이터 시각화 모듈 개발</li>
-                                            <li>
-                                                <strong>Skill Keywords</strong>
-                                                <div>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Chart.js</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div><hr>
-                                <div class="row">
-                                    <div class="text-md-right col-sm-12 col-md-3">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h4 style="color:gray">2024. 04 ~ 2024. 09</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12 col-md-9">
-                                        <h4>마음검진 서비스</h4>
-                                        <i style="color:gray">외부 전문 심리 평가 기관 API 연동 및 마음검진 서비스 설계/개발</i>
-                                        <ul class="pt-2">
-                                            <li>외부 전문 심리 평가 기관 연계 REST API 기반 부가 서비스 설계 및 개발</li>
-                                            <li>다양한 문항 유형을 지원하는 동적 설문 시스템 구축</li>
-                                            <li>확장 가능한 데이터 모델링 및 ERD 설계로 신규 검사 항목 유연 대응</li>
-                                            <li>SFTP 기반 결과지 관리 기능 및 대상자 관리 관리자 페이지 구축</li>
-                                            <li>
-                                                <strong>Skill Keywords</strong>
-                                                <div>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
-                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
-                                                </div>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
