@@ -284,7 +284,60 @@ order: 4
                     <p>
                         특히 AI 기술에 관심을 가지고 있으며, 새로운 기술과 오픈소스를 탐색하고 실무에 적용할 수 있는 방안을 연구하는 것을 즐깁니다. 빠르게 변화하는 IT 환경 속에서 지속적으로 새로운 기술을 학습하고 검증하며 성장하는 개발자가 되고자 노력하고 있습니다.
                     </p>
-                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 10. 02</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- AI-DRIVEN DEVELOPMENT 섹션 -->
+        <div class="mt-5" style="margin-top: 3rem !important;">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <h2 style="color:#3c78d8">AI-DRIVEN DEVELOPMENT</h2>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <p>
+                        "AI를 단순한 코드 생성 도구가 아닌 기술적 문제 해결을 위한 협업 파트너로 활용하며,
+                        설계부터 구현 및 검증까지 개발 전 과정의 생산성과 완성도를 높입니다."
+                    </p>
+                    <ul class="pt-2">
+                        <li class="exp-item">
+                            <div class="exp-title">AI 기반 코드 분석 및 개발 생산성 향상</div>
+                            <div>
+                                <span class="exp-body">
+                                    Cursor, ChatGPT, Gemini 등을 활용하여 레거시 코드 분석,
+                                    복잡한 비즈니스 로직 파악, API 연동 구조 설계 및 반복적인
+                                    코드 작성 등 개발 전반의 생산성을 향상합니다.
+                                    특히 기존 Spring MVC/JSP 기반 시스템을 Spring Boot,
+                                    Vue, TypeScript 기반으로 전환하는 과정에서 코드 구조 분석과
+                                    구현 방향 검토에 적극 활용했습니다.
+                                </span>
+                            </div>
+                        </li>
+                        <li class="exp-item">
+                            <div class="exp-title">아키텍처 및 비즈니스 로직 검증</div>
+                            <div>
+                                <span class="exp-body">
+                                    AI가 제안한 코드를 그대로 수용하지 않고, 실제 서비스 요구사항과
+                                    데이터 흐름을 기준으로 로직의 정합성을 검증합니다.
+                                    결제 상태 동기화, Redis 세션 관리, OAuth2 기반 인증·인가 등
+                                    복잡한 도메인 로직에 대해 다양한 구현 방식과 예외 처리 시나리오를
+                                    비교 및 검토하고, 보안성 및 유지보수성을 고려하여 직접 개선합니다.
+                                </span>
+                            </div>
+                        </li>
+                        <li class="exp-item">
+                            <div class="exp-title">반복적인 피드백을 통한 기술적 의사결정 고도화</div>
+                            <div>
+                                <span class="exp-body">
+                                    단순한 코드 생성을 넘어 문제 상황과 기술적 제약 조건을 구체적으로
+                                    정의하고, AI와 반복적인 질의 및 피드백을 통해 최적의 구현 대안을
+                                    도출합니다. 제안된 결과물은 직접 테스트하고 검증하며,
+                                    최종적인 기술적 판단과 구현 책임은 개발자가 주도하는
+                                    AI 협업 개발 방식을 지향합니다.
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 11. 09</span></p>
                 </div>
             </div>
         </div>
