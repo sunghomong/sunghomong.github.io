@@ -50,12 +50,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Dependencies (Ruby + Node.js)  # 🔧 추가
-        run: |
-          bundle install
-
       - name: Install Dependencies
-        run: npm install  # 🛠 SCSS 관련 패키지 설치
+        run: npm install
 
       - name: Build Static Assets
         run: npm run build
