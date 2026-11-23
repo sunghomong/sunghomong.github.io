@@ -204,10 +204,84 @@ order: 4
         font-weight: bold;
     }
 
+    .resume {
+        font-family: Pretendard, sans-serif;
+        font-weight: 300;
+        word-wrap: break-word;
+        line-height: 1.8;
+    }
+
+    .lang-panel[lang="ko"] {
+        word-break: keep-all;
+    }
+
+    .lang-panel[lang="en"] {
+        word-break: normal;
+    }
+
+    .lang-switch {
+        display: flex;
+        justify-content: flex-end;
+        gap: 8px;
+        margin-top: 12px;
+    }
+
+    .lang-tab {
+        border: 1px solid #3c78d8;
+        background: #fff;
+        color: #3c78d8;
+        border-radius: 999px;
+        padding: 0.2rem 0.9rem;
+        font-family: Pretendard, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+    }
+
+    .lang-tab.is-active,
+    html[data-about-lang="ko"] .lang-tab[data-lang="ko"],
+    html[data-about-lang="en"] .lang-tab[data-lang="en"] {
+        background: #3c78d8;
+        color: #fff;
+    }
+
+    html[data-about-lang="en"] .lang-tab[data-lang="ko"],
+    html[data-about-lang="ko"] .lang-tab[data-lang="en"] {
+        background: #fff;
+        color: #3c78d8;
+    }
+
+    html[data-about-lang="ko"] .lang-panel[data-lang="en"],
+    html[data-about-lang="en"] .lang-panel[data-lang="ko"],
+    html:not([data-about-lang]) .lang-panel[data-lang="en"] {
+        display: none;
+    }
+
 </style>
 
+<script>
+    (function () {
+        var lang = (location.hash || "").toLowerCase();
+        if (lang !== "#en" && lang !== "#ko") {
+            try {
+                lang = localStorage.getItem("about-lang") === "en" ? "#en" : "#ko";
+            } catch (e) {
+                lang = "#ko";
+            }
+        }
+        document.documentElement.setAttribute("data-about-lang", lang === "#en" ? "en" : "ko");
+        document.documentElement.lang = lang === "#en" ? "en" : "ko-KR";
+    })();
+</script>
+
 <div id="__next">
-    <div style="font-family:Pretendard, sans-serif;font-weight:300;word-wrap:break-word;word-break:keep-all; line-height:1.8" class="container">
+    <div class="container resume">
+        <div class="lang-switch" role="tablist" aria-label="Language">
+            <button type="button" class="lang-tab is-active" data-lang="ko" role="tab" aria-selected="true">KO</button>
+            <button type="button" class="lang-tab" data-lang="en" role="tab" aria-selected="false">EN</button>
+        </div>
+        <div class="lang-panel" data-lang="ko" lang="ko">
         <!-- 프로필 섹션 -->
         <div class="mt-5">
             <div class="row">
@@ -337,7 +411,7 @@ order: 4
                             </div>
                         </li>
                     </ul>
-                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 11. 09</span></p>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 11. 23</span></p>
                 </div>
             </div>
         </div>
@@ -521,7 +595,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8">WORK EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 4개월</span></span></h2>
+                            <h2 style="color:#3c78d8">WORK EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 9개월</span></span></h2>
                         </div>
                     </div>
                     <div>
@@ -530,7 +604,7 @@ order: 4
                                 <h4 style="color:gray">2024. 03 ~</h4>
                             </div>
                             <div class="col-sm-12 col-md-9">
-                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 7개월</span></span></h4>
+                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 9개월</span></span></h4>
                             </div>
                         </div>
                         <div class="mt-2 row">
@@ -1151,13 +1225,958 @@ order: 4
                 </div>
             </div>
         </div>
+        </div>
+        <div class="lang-panel" data-lang="en" lang="en" hidden>
+        <!-- Profile -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="pb-3 text-md-right text-center">
+                        <img style="max-height:320px" class="img-fluid rounded" src="/assets/img/logo_images/profile.jpg" alt="Profile">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <div class="row">
+                        <div class="text-center text-md-left col">
+                            <h1 style="color:#3c78d8">Cho Sung Ho <small>(조성호)</small></h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="pt-3 col">
+                            <div class="pb-2 row">
+                                <div class="text-right col-1">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="mailto:kidcojsh@gmail.com" target="_blank" rel="noreferrer noopener">kidcojsh@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="pb-2 row">
+                                <div class="text-right col-1">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <span style="color:black;">Please contact me by email</span>
+                                </div>
+                            </div>
+                            <div class="pb-2 row">
+                                <div class="text-right col-1">
+                                    <i class="fas fa-pen"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://sunghomong.github.io/" target="_blank" rel="noreferrer noopener">https://sunghomong.github.io/</a>
+                                </div>
+                            </div>
+                            <div class="pb-2 row">
+                                <div class="text-right col-1">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">https://github.com/sunghomong</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mt-3 alert alert-secondary fade show" role="alert">
+                                <i class="far fa-bell mr-2"></i> Please reach me by email.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- INTRODUCE -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <h2 style="color:#3c78d8">INTRODUCE</h2>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <p>
+                        "I am Cho Sung Ho, a backend-focused full-stack developer who aligns business requirements through direct communication and proves the result in numbers."
+                    </p>
+                    <p>
+                        I develop and operate web and app services for a healthcare product. Across payment systems, SSO integration, and legacy migration, I have covered architecture, operations, incident response, and improvement.
+                    </p>
+                    <p>
+                        I am especially interested in AI. I enjoy looking through new technology and open source and finding what can be used in production. I keep learning and checking new tools so I can grow with a fast-moving industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- AI-DRIVEN DEVELOPMENT -->
+        <div class="mt-5" style="margin-top: 3rem !important;">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <h2 style="color:#3c78d8">AI-DRIVEN DEVELOPMENT</h2>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <p>
+                        "I use AI as a partner for technical problem solving, beyond code generation, and raise both productivity and quality from design through implementation and verification."
+                    </p>
+                    <ul class="pt-2">
+                        <li class="exp-item">
+                            <div class="exp-title">AI-assisted code analysis and higher output</div>
+                            <div>
+                                <span class="exp-body">
+                                    I use Cursor, ChatGPT, and Gemini to analyze legacy code,
+                                    understand complex business logic, design API integration,
+                                    and speed up repetitive coding.
+                                    I relied on them while moving a Spring MVC/JSP system to
+                                    Spring Boot, Vue, and TypeScript, for structure analysis and
+                                    implementation review.
+                                </span>
+                            </div>
+                        </li>
+                        <li class="exp-item">
+                            <div class="exp-title">Checking architecture and business logic</div>
+                            <div>
+                                <span class="exp-body">
+                                    I check AI-suggested code against the real requirements and
+                                    data flow before adopting it.
+                                    For payment-status sync, Redis session handling, and OAuth2
+                                    authentication and authorization, I compare approaches and
+                                    exception cases, then revise the result myself for security
+                                    and maintainability.
+                                </span>
+                            </div>
+                        </li>
+                        <li class="exp-item">
+                            <div class="exp-title">Sharper technical decisions through feedback</div>
+                            <div>
+                                <span class="exp-body">
+                                    I define the problem and the constraints, then iterate with
+                                    AI until a workable approach appears. I test the result myself.
+                                    The developer owns the final technical judgment and the
+                                    implementation.
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 11. 23</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- SKILL -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2><span style="color:#3c78d8">SKILL</span></h2>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Languages</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Java</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>TypeScript</li>
+                                            <li>HTML/CSS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Frameworks & Libraries</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Spring Boot</li>
+                                            <li>JPA</li>
+                                            <li>Node.js</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Thymeleaf</li>
+                                            <li>Vue</li>
+                                            <li>REST API</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>JSP</li>
+                                            <li>WebSocket</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Infrastructure & Databases</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>MySQL</li>
+                                            <li>Oracle</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Docker</li>
+                                            <li>Redis</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>SFTP</li>
+                                            <li>MongoDB</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Security</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>OAuth2</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Keycloak</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Microsoft Azure AD</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">AI Tools</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Cursor</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>ChatGPT</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Gemini</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><hr>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">Collaboration</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <div class="mt-2 mt-md-0 row">
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Notion</li>
+                                            <li>Slack</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Git</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <ul>
+                                            <li>Redmine</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- EXPERIENCE -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">WORK EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">2 years 9 months</span></span></h2>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <h4 style="color:gray">2024. 03 ~</h4>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <h4 style="display:inline-flex;align-items:center">Omni D&C - Omnicare <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2 years 9 months</span></span></h4>
+                            </div>
+                        </div>
+                        <div class="mt-2 row">
+                            <div class="text-md-right col-sm-12 col-md-3">
+                                <span style="color:gray">2024. 03 ~ Present</span>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <i style="color:gray">Healthcare product / full-stack developer, health checkup platform</i>
+                                <ul class="pt-2">
+                                    <li class="exp-item">
+                                        <div class="exp-title">Payment pipeline redesign and automation (about KRW 1.2 billion a year brought back into a healthy state)</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">Built a Redis TTL flow for deposit expiry and an automated payment pipeline, to cut a high failure rate and the bottleneck of checking deposits by hand.</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">Stabilized payment processing, normalized about KRW 1.2 billion or more of annual payment data, and improved member conversion by 5% after the payment-module change.</span></div>
+                                    </li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">External API cost control and data modeling (held off KRW 200 million+ a year in infrastructure cost)</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">Analyzed a partner API that cost KRW 10–20 per call, redesigned the ERD, added a 50-minute TTL database cache for token refresh, and switched lookups to on-demand.</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">Stopped unnecessary calls for 1.5 million+ members and cut about KRW 200 million a year in partner API operating cost.</span></div>
+                                    </li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">SSO for global, mid-size, and enterprise customers</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">Designed a Keycloak and Microsoft Azure AD SSO to meet growing B2B requirements for security and easier sign-in.</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">Earned trust with enterprise customers and shortened multi-domain authentication.</span></div>
+                                    </li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">Next-generation checkup platform and a new API pipeline</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">Rebuilt aging backend logic and the user interface end to end.</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">In six months, shipped a Vue web and app UI and a Spring Boot/JPA API, and restored day-to-day usability.</span></div>
+                                    </li>
+                                    <li class="exp-item">
+                                        <div class="exp-title">Four new services for new business, with API pipelines</div>
+                                        <div><em class="exp-label">HOW</em><span class="exp-body">Designed data models and API pipelines that can grow with an MSA and modular structure, following in-house business needs.</span></div>
+                                        <div><em class="exp-label">OUTPUT</em><span class="exp-body">Launched four services in a short time and showed the platform can extend with the business.</span></div>
+                                    </li>
+                                    <li>
+                                        <strong>Skill Keywords</strong>
+                                        <div>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">MongoDB</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Keycloak</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Microsoft Azure AD</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
+                                            <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROJECT -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">PROJECT</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 02 ~ Present</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>SSO (Single Sign-On) integration</h4>
+                                        <i style="color:gray">Integrated SSO and external identity providers</i>
+                                        <div class="exp-item pt-2">
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">WHY</em>
+                                                <ul class="exp-how">
+                                                    <li>B2B customers and overseas partners asked for SSO that meets global security standards</li>
+                                                    <li>Fragmented auth sessions across third-party domains had to be connected cleanly</li>
+                                                </ul>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">HOW</em>
+                                                <ul class="exp-how">
+                                                    <li>Designed an integrated SSO architecture on Keycloak and Microsoft Azure AD</li>
+                                                    <li>Designed SSO for SK affiliates and a commerce partner on Okta</li>
+                                                    <li>Worked directly with overseas partner and customer engineering teams on role mapping and auth exception cases</li>
+                                                    <li>Built cross-domain SSO with CORS and security policy in mind</li>
+                                                    <li>Added state and nonce checks to block CSRF and harden the auth session</li>
+                                                </ul>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">OUTPUT</em>
+                                                <ul class="exp-how">
+                                                    <li>Moved about 1.38 million people (92% of new sign-ups) onto the new SSO</li>
+                                                    <li>Shortened multi-domain sign-in for enterprise customers and third-party domains, with a security posture those customers can trust</li>
+                                                    <li>Okta let B2B customers administer their own access, which removed in-house manual work and cut operating cost</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <strong>Skill Keywords</strong>
+                                            <div>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Microsoft Azure AD</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Keycloak</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Okta</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">PKCE</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">OAuth 2.0</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">SAML</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">OIDC</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><hr>
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 10 ~ 2026. 06</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Payment architecture upgrade and an in-house payment system</h4>
+                                        <i style="color:gray">Owned the payment service, from improvement through the upgrade</i>
+                                        <div class="exp-item pt-2">
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">WHY</em>
+                                                <div class="exp-body">
+                                                    The payment stack had structural limits that showed up as four problems
+                                                    <ul class="exp-points">
+                                                        <li><span class="exp-key">(Stability)</span>A fragmented BFF and lost session data on mobile made payments unreliable</li>
+                                                        <li><span class="exp-key">(Consistency)</span>Payment status drifted between the PG and internal systems, so data went missing and sync stayed manual</li>
+                                                        <li><span class="exp-key">(Usability)</span>External payment links were inconvenient, and more users dropped off</li>
+                                                        <li><span class="exp-key">(Operations)</span>Manual refunds and payment checks became a serious bottleneck</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">HOW</em>
+                                                <ul class="exp-how">
+                                                    <li>Led the payment system 2.0 design and introduced Redis-based session management</li>
+                                                    <li>Connected PG payment notifications and built an automatic status sync with the internal database</li>
+                                                    <li>Built an admin payment page and an automatic refund process</li>
+                                                    <li>Merged BFF APIs and migrated the payment service onto the new structure</li>
+                                                    <li>Built an in-house payment page in Vue and TypeScript, and connected Kakao Alimtalk and groupware mail</li>
+                                                    <li>Designed Redis TTL automation for virtual-account deposit expiry and reservation cancellation</li>
+                                                </ul>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">OUTPUT</em>
+                                                <ul class="exp-how">
+                                                    <li>Stopped missing payment status and automatically synced about KRW 1.2 billion a year of payment data</li>
+                                                    <li>Improved member conversion by 5% and cut repetitive manual work by more than 80%</li>
+                                                    <li>Handled more than 1,699 abnormal payments automatically and made the payment flow much more stable</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <strong>Skill Keywords</strong>
+                                            <div>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 09 ~ 2026.05</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Renewal and the next-generation system</h4>
+                                        <i style="color:gray">Health checkup platform renewal</i>
+                                        <div class="exp-item pt-2">
+                                            <div><em class="exp-label">WHY</em><span class="exp-body">The legacy JSTL/Spring system was tightly coupled and fragmented, so adding features and maintaining it had become slow</span></div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">HOW</em>
+                                                <ul class="exp-how">
+                                                    <li>Split the frontend and backend, and migrated the legacy system to Vue, TypeScript, Spring Boot, and JPA</li>
+                                                    <li>Customized Spring Security for JWT authentication and authorization</li>
+                                                    <li>Owned the member and payment migration and applied ISMS security requirements</li>
+                                                    <li>Set up the development deployment process</li>
+                                                </ul>
+                                            </div>
+                                            <div><em class="exp-label">OUTPUT</em><span class="exp-body">Helped <a href="https://www.docdocdoc.co.kr/news/articleView.html?idxno=3032565" target="_blank" rel="noreferrer noopener">launch the next-generation service</a>, and a stable deploy process made operations and maintenance much more efficient</span></div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <strong>Skill Keywords</strong>
+                                            <div>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Vue</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">TypeScript</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">JPA</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Security</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Redis</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">MongoDB</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Linux</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Node.js</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 04 ~ 2026. 06</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>New services for new business, and API pipelines</h4>
+                                        <i style="color:gray">Designed and launched several services as the business expanded</i>
+                                        <div class="exp-item pt-2">
+                                            <div><em class="exp-label">WHY</em><span class="exp-body">New business required several new domains in a short time, each connected stably to outside systems</span></div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">HOW</em>
+                                                <ul class="exp-how">
+                                                    <li><span class="exp-key">[Shared architecture]</span>Modeled data (ERD) and built API pipelines with MSA and modular growth in mind</li>
+                                                    <li><span class="exp-key">[Mind checkup]</span>Designed an add-on service on REST APIs with an external psychology provider, and a dynamic questionnaire that can take many item types (SFTP result files, and room for new tests)</li>
+                                                    <li><span class="exp-key">[Survey assessment]</span>Built an in-house dynamic survey so B2C customers receive checkup items under internal rules, with questions rendered to match those rules</li>
+                                                    <li><span class="exp-key">[National health checkup lookup]</span>Built a CODEF API lookup for 10 years of records and a TXID two-step auth flow (a token-reuse cache cut API cost, and Chart.js visualizes the data)</li>
+                                                    <li><span class="exp-key">[Health checkup report]</span>Built a data pipeline from collected health data to an external AI recommendation system, as the base for a personalized healthcare report</li>
+                                                </ul>
+                                            </div>
+                                            <div class="exp-how-row">
+                                                <em class="exp-label">OUTPUT</em>
+                                                <ul class="exp-how">
+                                                    <li>Launched several new services quickly, and showed the platform can extend and work with AI-backed data</li>
+                                                    <li>Tied mind checkup and survey assessment to usage-based billing, which contributed new B2B revenue</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <strong>Skill Keywords</strong>
+                                            <div>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">REST API</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">MySQL</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">SFTP</span>
+                                                <span style="font-weight:400" class="mr-1 badge badge-secondary">Chart.js</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SIDE PROJECT -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">SIDE PROJECT</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2023. 10 ~ 2023.11</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Social Meeting Service (요즘 뭐해?)</h4>
+                                        <i style="color:gray">A hobby-based social meetup platform</i>
+                                        <ul class="pt-2">
+                                            <li>Led planning, build, and development as team lead, and the project placed 1st in the course</li>
+                                            <li>Replaced HTTP polling with WebSocket for real-time two-way communication</li>
+                                            <li>Supported 50 concurrent users, with message latency under 100ms</li>
+                                            <li>Built posts, comments, notices, chat, and admin, and designed the ERD</li>
+                                            <li><strong>Open Source : </strong><a href="https://github.com/sunghomong/social_meeting_site" target="_blank" rel="noreferrer noopener">https://github.com/sunghomong/social_meeting_site</a></li>
+                                            <li><strong>Retrospective : </strong><a href="https://sunghomong.github.io/posts/Project_Meeting_project" target="_blank" rel="noreferrer noopener">https://sunghomong.github.io/posts/Project_Meeting_project</a></li>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Java</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Spring Boot</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Thymeleaf</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">WebSocket</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Oracle</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- OPEN SOURCE -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">OPEN SOURCE</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">NICE PAY integration module</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <ul class="">
+                                            <li>A Java/Spring Boot module for integrating the NICE PAY payment system</li>
+                                            <li>Java & Spring Boot</li>
+                                            <li><a href="https://github.com/sunghomong/NICEPAY_JAVA" target="_blank" rel="noreferrer noopener">https://github.com/sunghomong/NICEPAY_JAVA</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">SSO integration module</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <ul class="">
+                                            <li>A Java/Spring Boot module for SSO with Microsoft Azure AD and Keycloak</li>
+                                            <li>Microsoft Azure AD & Keycloak</li>
+                                            <li>Java & Spring Boot</li>
+                                            <li><a href="https://github.com/sunghomong/SSO_PROJECT" target="_blank" rel="noreferrer noopener">https://github.com/sunghomong/SSO_PROJECT</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">Jekyll Blog</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <ul class="">
+                                            <li>A personal blog built by forking and customizing the Chirpy Jekyll theme</li>
+                                            <li>JavaScript bundling and transpiling with Rollup and Babel</li>
+                                            <li>Automatic build and deploy with GitHub Actions</li>
+                                            <li><a href="https://github.com/sunghomong/sunghomong.github.io" target="_blank" rel="noreferrer noopener">Repository</a> / <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noreferrer noopener">Original Theme</a></li>
+                                            <li>
+                                                <strong>Skill Keywords</strong>
+                                                <div>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Jekyll</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Ruby</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">JavaScript</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">SCSS</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Bootstrap</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Rollup</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Babel</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">GitHub Actions</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Markdown</span>
+                                                    <span style="font-weight:400" class="mr-1 badge badge-secondary">Liquid</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- EDUCATION -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">EDUCATION</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 04 ~ 2025. 05</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Docker, Kubernetes study</h4>
+                                        <i style="color:gray">Study group</i>
+                                        <ul class="pt-2">
+                                            <li>Practiced continuous delivery and automation with GitOps and Argo CD</li>
+                                            <li>Joined to understand infrastructure automation and operations, and to build a working sense of cloud-native and MSA environments</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 03 ~ 2025. 08</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Growth Log - Cohort 3</h4>
+                                        <i style="color:gray">University community</i>
+                                        <ul class="pt-2">
+                                            <li>Joined a university developer community to share knowledge and work on team projects</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2025. 03 ~ Present</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Korea National Open University</h4>
+                                        <i style="color:gray">Department of Computer Science, currently enrolled</i>
+                                        <ul class="pt-2">
+                                            <li>Studying core computer science: computer architecture, data structures, and operating systems</li>
+                                            <li>Pairing on-the-job work with theory to get better at solving problems from first principles</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2024. 03 ~ 2024. 10</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Docker & Kubernetes: Practical Guide</h4>
+                                        <i style="color:gray">Udemy course, completed</i>
+                                        <ul class="pt-2">
+                                            <li>Hands-on Docker containers and Kubernetes orchestration</li>
+                                            <li>Completed a beginner-to-advanced video course to learn the shape of CI/CD and how a build-to-deploy pipeline is automated</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2023. 12</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Industrial Engineer Information Processing</h4>
+                                        <i style="color:gray">Certificate</i>
+                                        <ul class="pt-2">
+                                            <li>Earned to confirm core theory and practical skill for software development</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2023. 05 ~ 2023. 11</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Java full-stack development course</h4>
+                                        <i style="color:gray">Frontend and backend training</i>
+                                        <ul class="pt-2">
+                                            <li>A six-month course from object-oriented programming through practical Java web development</li>
+                                            <li>Built a web system that connects frontend and backend, and the project placed 1st</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ETC -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="pb-5 row">
+                        <div class="col">
+                            <h2 style="color:#3c78d8">ETC</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2020. 04 ~ 2023. 03</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Construction work</h4>
+                                        <i style="color:gray">Drawings and site management</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2022. 11</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Waterproofing Craftsman</h4>
+                                        <i style="color:gray">Certificate, Human Resources Development Service of Korea</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2020. 07</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Architectural Painting Craftsman</h4>
+                                        <i style="color:gray">Certificate, Human Resources Development Service of Korea</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div><hr>
+                                <div class="row">
+                                    <div class="text-md-right col-sm-12 col-md-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 style="color:gray">2018. 08 ~ 2020. 03</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <h4>Republic of Korea Marine Corps, Sergeant, full term of service</h4>
+                                        <i style="color:gray">Completed military service</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         <!-- Footer -->
         <div class="row">
             <div style="background-color:#f5f5f5;padding-left:0;padding-right:0;margin-top:50px;height:80px" class="col">
                 <div class="text-center mt-4">
                     <div class="row">
                         <div class="col">
-                            <small>v.1.0.4 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
+                            <small>v.1.0.5 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
                         </div>
                     </div>
                 </div>
@@ -1165,3 +2184,36 @@ order: 4
         </div>
     </div>
 </div>
+<script>
+    (function () {
+        var tabs = document.querySelectorAll(".lang-tab");
+        var panels = document.querySelectorAll(".lang-panel");
+        function apply(lang, updateHash) {
+            if (lang !== "en" && lang !== "ko") lang = "ko";
+            panels.forEach(function (panel) {
+                panel.hidden = panel.getAttribute("data-lang") !== lang;
+            });
+            tabs.forEach(function (tab) {
+                var on = tab.getAttribute("data-lang") === lang;
+                tab.classList.toggle("is-active", on);
+                tab.setAttribute("aria-selected", on ? "true" : "false");
+            });
+            document.documentElement.setAttribute("data-about-lang", lang);
+            document.documentElement.lang = lang === "en" ? "en" : "ko-KR";
+            try { localStorage.setItem("about-lang", lang); } catch (e) {}
+            if (updateHash) {
+                var next = "#" + lang;
+                if (location.hash !== next) history.replaceState(null, "", next);
+            }
+        }
+        tabs.forEach(function (tab) {
+            tab.addEventListener("click", function () {
+                apply(tab.getAttribute("data-lang"), true);
+            });
+        });
+        window.addEventListener("hashchange", function () {
+            var hash = (location.hash || "").replace("#", "").toLowerCase();
+            if (hash === "en" || hash === "ko") apply(hash, false);
+        });
+    })();
+</script>
