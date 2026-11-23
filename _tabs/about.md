@@ -337,7 +337,7 @@ order: 4
                             </div>
                         </li>
                     </ul>
-                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 11. 09</span></p>
+                    <p class="text-right"><small>Latest Updated</small> <span class="badge badge-secondary">2026. 11. 23</span></p>
                 </div>
             </div>
         </div>
@@ -521,7 +521,7 @@ order: 4
                 <div class="col">
                     <div class="pb-5 row">
                         <div class="col">
-                            <h2 style="color:#3c78d8">WORK EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 4개월</span></span></h2>
+                            <h2 style="color:#3c78d8">WORK EXPERIENCE   <span style="font-size:50%"><span class="badge badge-secondary">총 2년 9개월</span></span></h2>
                         </div>
                     </div>
                     <div>
@@ -530,7 +530,7 @@ order: 4
                                 <h4 style="color:gray">2024. 03 ~</h4>
                             </div>
                             <div class="col-sm-12 col-md-9">
-                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 7개월</span></span></h4>
+                                <h4 style="display:inline-flex;align-items:center">옴니 D&C - 옴니케어 (omnicare) <span style="font-size:65%;display:inline-flex;align-items:center"><span class="ml-1 badge badge-info" style="margin-left: 3px;">2년 9개월</span></span></h4>
                             </div>
                         </div>
                         <div class="mt-2 row">
@@ -1157,7 +1157,7 @@ order: 4
                 <div class="text-center mt-4">
                     <div class="row">
                         <div class="col">
-                            <small>v.1.0.4 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
+                            <small>v.1.0.5 / <a href="https://github.com/sunghomong" target="_blank" rel="noreferrer noopener">Github</a></small>
                         </div>
                     </div>
                 </div>
